@@ -1,0 +1,223 @@
+\changetocdepth {4}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {brazil}{}
+\defcounter {refsection}{0}\relax 
+\addvspace {-5\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {-5\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {1}\bfseries \MakeTextUppercase {INTRODU\IeC {\c C}\IeC {\~A}O}}{10}{chapter.1}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Acur\IeC {\'a}cia Num\IeC {\'e}rica}{11}{section.1.1}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}OBJETIVOS}{12}{section.1.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}IMPORT\IeC {\^A}NCIA DO TRABALHO}{12}{section.1.3}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}ORGANIZA\IeC {\c C}\IeC {\~A}O DO TRABALHO}{13}{section.1.4}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {-5\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {2}\bfseries \MakeTextUppercase {VOLUMES FINITOS}}{14}{chapter.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Introdu\IeC {\c c}\IeC {\~a}o}{14}{section.2.1}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Conceitos de elementos e volumes de controle}{15}{section.2.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}M\IeC {\'e}todo dos Volumes Finitos para o problema da difus\IeC {\~a}o 2D}{15}{section.2.3}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}An\IeC {\'a}lise de erros no m\IeC {\'e}todo dos volumes finitos}{23}{section.2.4}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Termo de Difus\IeC {\~a}o}{25}{section.2.5}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {-5\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {3}\bfseries \MakeTextUppercase {TRANSFORMA\IeC {\c C}\IeC {\~A}O DE COORDENADAS}}{27}{chapter.3}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Tensor m\IeC {\'e}trico 2D}{30}{section.3.1}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Vetores de base covariantes}{32}{section.3.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {-5\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {4}\bfseries \MakeTextUppercase {MALHAS N\IeC {\~A}O ESTRUTURADAS}}{33}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Generalidades}{33}{section.4.1}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Gera\IeC {\c c}\IeC {\~a}o de malhas triangulares}{37}{section.4.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}M\IeC {\'e}todos de triangula\IeC {\c c}\IeC {\~a}o}{38}{section.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Triangula\IeC {\c c}\IeC {\~a}o de Delaunay}{38}{subsection.4.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}M\IeC {\'e}todos de triangula\IeC {\c c}\IeC {\~a}o geral}{39}{subsection.4.3.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Melhoramento da malha e adaptabilidade}{40}{section.4.4}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Gera\IeC {\c c}\IeC {\~a}o de malhas n\IeC {\~a}o estruturadas}{40}{section.4.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Malhas}{41}{subsection.4.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Elementos desejados}{42}{subsection.4.5.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {-5\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {5}\bfseries \MakeTextUppercase {SUAVIZA\IeC {\c C}\IeC {\~A}O DE MALHAS N\IeC {\~A}O ESTRUTURADAS}}{43}{chapter.5}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Suaviza\IeC {\c c}\IeC {\~a}o Centroidal Voronoi Tessellation}{43}{section.5.1}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Suaviza\IeC {\c c}\IeC {\~a}o de Laplace}{44}{section.5.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Suaviza\IeC {\c c}\IeC {\~a}o baseada em otimiza\IeC {\c c}\IeC {\~a}o}{46}{section.5.3}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Suaviza\IeC {\c c}\IeC {\~a}o baseada na otimiza\IeC {\c c}\IeC {\~a}o de \IeC {\^a}ngulos}{47}{section.5.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Algoritmo}{47}{subsection.5.4.1}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Suaviza\IeC {\c c}\IeC {\~a}o Optimal Delaunay Tesselation}{50}{section.5.5}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {-5\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {6}\bfseries \MakeTextUppercase {DIFUS\IeC {\~A}O DE CALOR 2D EM REGIME PERMANENTE}}{51}{chapter.6}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Algoritmo}{58}{section.6.1}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Condi\IeC {\c c}\IeC {\~o}es de contorno}{59}{section.6.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}Volume espelhado}{59}{subsection.6.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}Volume antissim\IeC {\'e}trico}{59}{subsection.6.2.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {-5\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {7}\bfseries \MakeTextUppercase {ALGOR\IeC {\'I}TMO GEN\IeC {\'E}TICO}}{61}{chapter.7}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Princ\IeC {\'\i }pios B\IeC {\'a}sicos}{62}{section.7.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.1}Codifica\IeC {\c c}\IeC {\~a}o}{63}{subsection.7.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.2}Fun\IeC {\c c}\IeC {\~a}o Fitness}{63}{subsection.7.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.3}Reprodu\IeC {\c c}\IeC {\~a}o}{63}{subsection.7.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.4}Metodologia}{64}{subsection.7.1.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.4.1}Inicializa\IeC {\c c}\IeC {\~a}o}{64}{subsubsection.7.1.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.4.2}Sele\IeC {\c c}\IeC {\~a}o}{64}{subsubsection.7.1.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.4.3}Reprodu\IeC {\c c}\IeC {\~a}o}{65}{subsubsection.7.1.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.4.4}T\IeC {\'e}rmino}{65}{subsubsection.7.1.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1.5}Converg\IeC {\^e}ncia}{66}{subsection.7.1.5}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {-5\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {8}\bfseries \MakeTextUppercase {DESENVOLVIMENTO}}{67}{chapter.8}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Metodologia}{67}{section.8.1}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Problema Proposto}{67}{section.8.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Implementa\IeC {\c c}\IeC {\~a}o}{68}{section.8.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {8.3.0.1}Classe No}{68}{subsubsection.8.3.0.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.1}Classe Volume}{68}{subsection.8.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {8.3.1.1}Malha}{69}{subsubsection.8.3.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {8.3.1.2}Programa Principal}{69}{subsubsection.8.3.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\partnumberline {I}Prepara\IeC {\c c}\IeC {\~a}o da pesquisa}{70}{part.1}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {-5\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {9}\bfseries \MakeTextUppercase {REVIS\IeC {\~A}O TE\IeC {\'O}RICA}}{71}{chapter.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\partnumberline {II}Resultados}{72}{part.2}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {-5\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {10}\bfseries \MakeTextUppercase {RESULTADOS}}{73}{chapter.10}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}Malha em formato 'L'}{73}{section.10.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.1}Malha Inicial}{74}{subsection.10.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.2}Malha Distorcida}{75}{subsection.10.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.3}Centroidal Path Tesselation}{76}{subsection.10.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.4}Optimal Delaunay Tesselation}{77}{subsection.10.1.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.5}Centroidal Voronoi Tesselation}{78}{subsection.10.1.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.6}Angle Based Tesselation}{79}{subsection.10.1.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.7}Gurobi Optimization Based Tesselation}{80}{subsection.10.1.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.8}Genetic Algorithm Based Tesselation}{81}{subsection.10.1.8}% 
+\defcounter {refsection}{0}\relax 
+\vspace {\cftbeforepartskip }
+\defcounter {refsection}{0}\relax 
+\addvspace {-5\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {}{REFER\^ENCIAS}}{82}{chapter*.52}% 

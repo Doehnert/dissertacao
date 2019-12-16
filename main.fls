@@ -1,0 +1,907 @@
+PWD c:\Users\elton\Google Drive\dissertacao\dissertacao
+INPUT C:\Users\elton\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\elton\Google Drive\dissertacao\dissertacao\main.tex
+OUTPUT main.log
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\abntex2\abntex2.cls
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\abntex2\abntex2.cls
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\memoir.cls
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\memoir.cls
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifetex\ifetex.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifetex\ifetex.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\plain\ifetex\ifetex.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\mem12.clo
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\mem12.clo
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\dcolumn.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\dcolumn.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\delarray.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\delarray.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textcase.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textcase.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\memhfixc.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\memhfixc.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel-french\french.ldf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\english.ldf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel-french\french.ldf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel-french\french.ldf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-portuges\portuges.ldf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-portuges\portuges.ldf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT UFPR.sty
+INPUT UFPR.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\helvet.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\helvet.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xfor\xfor.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xfor\xfor.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\substr\substr.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\substr\substr.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-base.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-base.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\defpattern.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\defpattern.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-basic.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-basic.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-addons.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-addons.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-snap.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-snap.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-exp.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-exp.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-pas.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-pas.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-random.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-random.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-upn.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-upn.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eval.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eval.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\physics\physics.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\physics\physics.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT nul:.tex
+INPUT nul:.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def
+INPUT 00-pacotes.tex
+INPUT 00-pacotes.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1200.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\indentfirst.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\indentfirst.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cancel\cancel.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cancel\cancel.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\smartdiagram\smartdiagram.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\smartdiagram\smartdiagram.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfint.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarybackgrounds.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarycalc.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryfadings.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.tex
+OUTPUT main.pdf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshadows.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshadows.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.arrows.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.arrows.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.arrows.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.arrows.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.symbols.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryshapes.symbols.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.symbols.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes.symbols.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\smartdiagram\smartdiagramlibrarycore.definitions.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\smartdiagram\smartdiagramlibrarycore.definitions.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\smartdiagram\smartdiagramlibrarycore.styles.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\smartdiagram\smartdiagramlibrarycore.styles.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\smartdiagram\smartdiagramlibrarycore.commands.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\smartdiagram\smartdiagramlibrarycore.commands.code.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\newfloat.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\newfloat.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.def
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\bbx\abnt.bbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\bbx\abnt.bbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xpatch\xpatch.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xpatch\xpatch.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazil.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\cbx\abnt.cbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\cbx\abnt.cbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\authoryear-comp.cbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\authoryear-comp.cbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazil.lbx
+INPUT 00-dados.tex
+INPUT 00-dados.tex
+OUTPUT main.idx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazil-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazil-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazil-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazilian.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazilian.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazilian.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazilian.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazil.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazil.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazilian.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazilian.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazil.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazil.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazilian-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazilian.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazilian.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazil.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazil.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazilian.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\brazilian.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\spanish-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\spanish-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\spanish-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\spanish.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\spanish.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\spanish.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\spanish.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\spanish.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\spanish.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\french.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\french.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\english-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\english-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\english-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazil-abnt.lbx
+INPUT main.aux
+INPUT main.aux
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazil-abnt.lbx
+OUTPUT main.aux
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazil-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty
+OUTPUT main.bcf
+INPUT main.bbl
+INPUT main.bbl
+INPUT main.bbl
+INPUT 00-pretextual.tex
+INPUT 00-pretextual.tex
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\elton\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ts1phv.fd
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ts1phv.fd
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvr8c.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\helvetic\phvr8c.vf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT main.lof
+INPUT main.lof
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazil-abnt.lbx
+INPUT main.lot
+INPUT main.lot
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazil-abnt.lbx
+INPUT main.sig
+INPUT main.sig
+INPUT main.sbl
+INPUT main.sbl
+INPUT main.toc
+INPUT main.toc
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazil-abnt.lbx
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT cap01.tex
+INPUT cap01.tex
+INPUT fig\semicilindro.png
+INPUT .\fig\semicilindro.png
+INPUT .\fig\semicilindro.png
+INPUT .\fig\semicilindro.png
+INPUT .\fig\semicilindro.png
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvr8c.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\helvetic\phvr8c.vf
+INPUT fig\volume_centrado.eps
+INPUT .\fig\volume_centrado.eps
+INPUT .\fig\volume_centrado.eps
+INPUT .\fig\volume_centrado-eps-converted-to.pdf
+INPUT .\fig\volume_centrado-eps-converted-to.pdf
+INPUT .\fig\volume_centrado.eps
+INPUT .\fig\volume_centrado-eps-converted-to.pdf
+INPUT .\fig\volume_centrado-eps-converted-to.pdf
+INPUT .\fig\volume_centrado-eps-converted-to.pdf
+INPUT .\fig\volume_centrado-eps-converted-to.pdf
+INPUT fig\volume_vertice.eps
+INPUT .\fig\volume_vertice.eps
+INPUT .\fig\volume_vertice.eps
+INPUT .\fig\volume_vertice-eps-converted-to.pdf
+INPUT .\fig\volume_vertice-eps-converted-to.pdf
+INPUT .\fig\volume_vertice.eps
+INPUT .\fig\volume_vertice-eps-converted-to.pdf
+INPUT .\fig\volume_vertice-eps-converted-to.pdf
+INPUT .\fig\volume_vertice-eps-converted-to.pdf
+INPUT .\fig\volume_vertice-eps-converted-to.pdf
+INPUT fig\figura1.eps
+INPUT .\fig\figura1.eps
+INPUT .\fig\figura1.eps
+INPUT .\fig\figura1-eps-converted-to.pdf
+INPUT .\fig\figura1-eps-converted-to.pdf
+INPUT .\fig\figura1.eps
+INPUT .\fig\figura1-eps-converted-to.pdf
+INPUT .\fig\figura1-eps-converted-to.pdf
+INPUT .\fig\figura1-eps-converted-to.pdf
+INPUT .\fig\figura1-eps-converted-to.pdf
+INPUT fig\figura2.eps
+INPUT .\fig\figura2.eps
+INPUT .\fig\figura2.eps
+INPUT .\fig\figura2-eps-converted-to.pdf
+INPUT .\fig\figura2-eps-converted-to.pdf
+INPUT .\fig\figura2.eps
+INPUT .\fig\figura2-eps-converted-to.pdf
+INPUT .\fig\figura2-eps-converted-to.pdf
+INPUT .\fig\figura2-eps-converted-to.pdf
+INPUT .\fig\figura2-eps-converted-to.pdf
+INPUT fig\nao-ortogo.eps
+INPUT .\fig\nao-ortogo.eps
+INPUT .\fig\nao-ortogo.eps
+INPUT .\fig\nao-ortogo-eps-converted-to.pdf
+INPUT .\fig\nao-ortogo-eps-converted-to.pdf
+INPUT .\fig\nao-ortogo.eps
+INPUT .\fig\nao-ortogo-eps-converted-to.pdf
+INPUT .\fig\nao-ortogo-eps-converted-to.pdf
+INPUT .\fig\nao-ortogo-eps-converted-to.pdf
+INPUT .\fig\nao-ortogo-eps-converted-to.pdf
+INPUT fig\assimetria.eps
+INPUT .\fig\assimetria.eps
+INPUT .\fig\assimetria.eps
+INPUT .\fig\assimetria-eps-converted-to.pdf
+INPUT .\fig\assimetria-eps-converted-to.pdf
+INPUT .\fig\assimetria.eps
+INPUT .\fig\assimetria-eps-converted-to.pdf
+INPUT .\fig\assimetria-eps-converted-to.pdf
+INPUT .\fig\assimetria-eps-converted-to.pdf
+INPUT .\fig\assimetria-eps-converted-to.pdf
+INPUT fig\non-orthogonality.eps
+INPUT .\fig\non-orthogonality.eps
+INPUT .\fig\non-orthogonality.eps
+INPUT .\fig\non-orthogonality-eps-converted-to.pdf
+INPUT .\fig\non-orthogonality-eps-converted-to.pdf
+INPUT .\fig\non-orthogonality.eps
+INPUT .\fig\non-orthogonality-eps-converted-to.pdf
+INPUT .\fig\non-orthogonality-eps-converted-to.pdf
+INPUT .\fig\non-orthogonality-eps-converted-to.pdf
+INPUT .\fig\non-orthogonality-eps-converted-to.pdf
+INPUT fig\transformacao.eps
+INPUT .\fig\transformacao.eps
+INPUT .\fig\transformacao.eps
+INPUT .\fig\transformacao-eps-converted-to.pdf
+INPUT .\fig\transformacao-eps-converted-to.pdf
+INPUT .\fig\transformacao.eps
+INPUT .\fig\transformacao-eps-converted-to.pdf
+INPUT .\fig\transformacao-eps-converted-to.pdf
+INPUT .\fig\transformacao-eps-converted-to.pdf
+INPUT .\fig\transformacao-eps-converted-to.pdf
+INPUT fig\area.eps
+INPUT .\fig\area.eps
+INPUT .\fig\area.eps
+INPUT .\fig\area-eps-converted-to.pdf
+INPUT .\fig\area-eps-converted-to.pdf
+INPUT .\fig\area.eps
+INPUT .\fig\area-eps-converted-to.pdf
+INPUT .\fig\area-eps-converted-to.pdf
+INPUT .\fig\area-eps-converted-to.pdf
+INPUT .\fig\area-eps-converted-to.pdf
+INPUT fig\e_xi.eps
+INPUT .\fig\e_xi.eps
+INPUT .\fig\e_xi.eps
+INPUT .\fig\e_xi-eps-converted-to.pdf
+INPUT .\fig\e_xi-eps-converted-to.pdf
+INPUT .\fig\e_xi.eps
+INPUT .\fig\e_xi-eps-converted-to.pdf
+INPUT .\fig\e_xi-eps-converted-to.pdf
+INPUT .\fig\e_xi-eps-converted-to.pdf
+INPUT .\fig\e_xi-eps-converted-to.pdf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT fig\geometrias.eps
+INPUT .\fig\geometrias.eps
+INPUT .\fig\geometrias.eps
+INPUT .\fig\geometrias-eps-converted-to.pdf
+INPUT .\fig\geometrias-eps-converted-to.pdf
+INPUT .\fig\geometrias.eps
+INPUT .\fig\geometrias-eps-converted-to.pdf
+INPUT .\fig\geometrias-eps-converted-to.pdf
+INPUT .\fig\geometrias-eps-converted-to.pdf
+INPUT .\fig\geometrias-eps-converted-to.pdf
+INPUT fig\face-i.eps
+INPUT .\fig\face-i.eps
+INPUT .\fig\face-i.eps
+INPUT .\fig\face-i-eps-converted-to.pdf
+INPUT .\fig\face-i-eps-converted-to.pdf
+INPUT .\fig\face-i.eps
+INPUT .\fig\face-i-eps-converted-to.pdf
+INPUT .\fig\face-i-eps-converted-to.pdf
+INPUT .\fig\face-i-eps-converted-to.pdf
+INPUT .\fig\face-i-eps-converted-to.pdf
+INPUT fig\escaleno.eps
+INPUT .\fig\escaleno.eps
+INPUT .\fig\escaleno.eps
+INPUT .\fig\escaleno-eps-converted-to.pdf
+INPUT .\fig\escaleno-eps-converted-to.pdf
+INPUT .\fig\escaleno.eps
+INPUT .\fig\escaleno-eps-converted-to.pdf
+INPUT .\fig\escaleno-eps-converted-to.pdf
+INPUT .\fig\escaleno-eps-converted-to.pdf
+INPUT .\fig\escaleno-eps-converted-to.pdf
+INPUT fig\equilatero.eps
+INPUT .\fig\equilatero.eps
+INPUT .\fig\equilatero.eps
+INPUT .\fig\equilatero-eps-converted-to.pdf
+INPUT .\fig\equilatero-eps-converted-to.pdf
+INPUT .\fig\equilatero.eps
+INPUT .\fig\equilatero-eps-converted-to.pdf
+INPUT .\fig\equilatero-eps-converted-to.pdf
+INPUT .\fig\equilatero-eps-converted-to.pdf
+INPUT .\fig\equilatero-eps-converted-to.pdf
+INPUT fig\variacao_brusca.eps
+INPUT .\fig\variacao_brusca.eps
+INPUT .\fig\variacao_brusca.eps
+INPUT .\fig\variacao_brusca-eps-converted-to.pdf
+INPUT .\fig\variacao_brusca-eps-converted-to.pdf
+INPUT .\fig\variacao_brusca.eps
+INPUT .\fig\variacao_brusca-eps-converted-to.pdf
+INPUT .\fig\variacao_brusca-eps-converted-to.pdf
+INPUT .\fig\variacao_brusca-eps-converted-to.pdf
+INPUT .\fig\variacao_brusca-eps-converted-to.pdf
+INPUT fig\variacao_suave.eps
+INPUT .\fig\variacao_suave.eps
+INPUT .\fig\variacao_suave.eps
+INPUT .\fig\variacao_suave-eps-converted-to.pdf
+INPUT .\fig\variacao_suave-eps-converted-to.pdf
+INPUT .\fig\variacao_suave.eps
+INPUT .\fig\variacao_suave-eps-converted-to.pdf
+INPUT .\fig\variacao_suave-eps-converted-to.pdf
+INPUT .\fig\variacao_suave-eps-converted-to.pdf
+INPUT .\fig\variacao_suave-eps-converted-to.pdf
+INPUT fig\celula_correta.eps
+INPUT .\fig\celula_correta.eps
+INPUT .\fig\celula_correta.eps
+INPUT .\fig\celula_correta-eps-converted-to.pdf
+INPUT .\fig\celula_correta-eps-converted-to.pdf
+INPUT .\fig\celula_correta.eps
+INPUT .\fig\celula_correta-eps-converted-to.pdf
+INPUT .\fig\celula_correta-eps-converted-to.pdf
+INPUT .\fig\celula_correta-eps-converted-to.pdf
+INPUT .\fig\celula_correta-eps-converted-to.pdf
+INPUT fig\celula_errada.eps
+INPUT .\fig\celula_errada.eps
+INPUT .\fig\celula_errada.eps
+INPUT .\fig\celula_errada-eps-converted-to.pdf
+INPUT .\fig\celula_errada-eps-converted-to.pdf
+INPUT .\fig\celula_errada.eps
+INPUT .\fig\celula_errada-eps-converted-to.pdf
+INPUT .\fig\celula_errada-eps-converted-to.pdf
+INPUT .\fig\celula_errada-eps-converted-to.pdf
+INPUT .\fig\celula_errada-eps-converted-to.pdf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\adobe\helvetic\phvro8r.tfm
+INPUT fig\voronoi_tessellation.eps
+INPUT .\fig\voronoi_tessellation.eps
+INPUT .\fig\voronoi_tessellation.eps
+INPUT .\fig\voronoi_tessellation-eps-converted-to.pdf
+INPUT .\fig\voronoi_tessellation-eps-converted-to.pdf
+INPUT .\fig\voronoi_tessellation.eps
+INPUT .\fig\voronoi_tessellation-eps-converted-to.pdf
+INPUT .\fig\voronoi_tessellation-eps-converted-to.pdf
+INPUT .\fig\voronoi_tessellation-eps-converted-to.pdf
+INPUT .\fig\voronoi_tessellation-eps-converted-to.pdf
+INPUT fig\contorno-mola-torcao.png
+INPUT .\fig\contorno-mola-torcao.png
+INPUT .\fig\contorno-mola-torcao.png
+INPUT .\fig\contorno-mola-torcao.png
+INPUT .\fig\contorno-mola-torcao.png
+INPUT fig\angle-based.png
+INPUT .\fig\angle-based.png
+INPUT .\fig\angle-based.png
+INPUT .\fig\angle-based.png
+INPUT .\fig\angle-based.png
+INPUT fig\difusao-cruzada-a.eps
+INPUT .\fig\difusao-cruzada-a.eps
+INPUT .\fig\difusao-cruzada-a.eps
+INPUT .\fig\difusao-cruzada-a-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-a-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-a.eps
+INPUT .\fig\difusao-cruzada-a-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-a-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-a-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-a-eps-converted-to.pdf
+INPUT fig\difusao-cruzada-b.eps
+INPUT .\fig\difusao-cruzada-b.eps
+INPUT .\fig\difusao-cruzada-b.eps
+INPUT .\fig\difusao-cruzada-b-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-b-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-b.eps
+INPUT .\fig\difusao-cruzada-b-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-b-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-b-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-b-eps-converted-to.pdf
+INPUT fig\difusao-cruzada-c.eps
+INPUT .\fig\difusao-cruzada-c.eps
+INPUT .\fig\difusao-cruzada-c.eps
+INPUT .\fig\difusao-cruzada-c-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-c-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-c.eps
+INPUT .\fig\difusao-cruzada-c-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-c-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-c-eps-converted-to.pdf
+INPUT .\fig\difusao-cruzada-c-eps-converted-to.pdf
+INPUT fig\contorno-1.eps
+INPUT .\fig\contorno-1.eps
+INPUT .\fig\contorno-1.eps
+INPUT .\fig\contorno-1-eps-converted-to.pdf
+INPUT .\fig\contorno-1-eps-converted-to.pdf
+INPUT .\fig\contorno-1.eps
+INPUT .\fig\contorno-1-eps-converted-to.pdf
+INPUT .\fig\contorno-1-eps-converted-to.pdf
+INPUT .\fig\contorno-1-eps-converted-to.pdf
+INPUT .\fig\contorno-1-eps-converted-to.pdf
+INPUT fig\contorno-2.eps
+INPUT .\fig\contorno-2.eps
+INPUT .\fig\contorno-2.eps
+INPUT .\fig\contorno-2-eps-converted-to.pdf
+INPUT .\fig\contorno-2-eps-converted-to.pdf
+INPUT .\fig\contorno-2.eps
+INPUT .\fig\contorno-2-eps-converted-to.pdf
+INPUT .\fig\contorno-2-eps-converted-to.pdf
+INPUT .\fig\contorno-2-eps-converted-to.pdf
+INPUT .\fig\contorno-2-eps-converted-to.pdf
+INPUT cap02.tex
+INPUT cap02.tex
+INPUT cap05.tex
+INPUT cap05.tex
+INPUT fig\malha_inicial.png
+INPUT .\fig\malha_inicial.png
+INPUT .\fig\malha_inicial.png
+INPUT .\fig\malha_inicial.png
+INPUT .\fig\malha_inicial.png
+INPUT fig\malha-ruim.png
+INPUT .\fig\malha-ruim.png
+INPUT .\fig\malha-ruim.png
+INPUT .\fig\malha-ruim.png
+INPUT .\fig\malha-ruim.png
+INPUT fig\malha-cpt.png
+INPUT .\fig\malha-cpt.png
+INPUT .\fig\malha-cpt.png
+INPUT .\fig\malha-cpt.png
+INPUT .\fig\malha-cpt.png
+INPUT fig\malha-odt.png
+INPUT .\fig\malha-odt.png
+INPUT .\fig\malha-odt.png
+INPUT .\fig\malha-odt.png
+INPUT .\fig\malha-odt.png
+INPUT fig\malha-cvt.png
+INPUT .\fig\malha-cvt.png
+INPUT .\fig\malha-cvt.png
+INPUT .\fig\malha-cvt.png
+INPUT .\fig\malha-cvt.png
+INPUT fig\malha-angulos.png
+INPUT .\fig\malha-angulos.png
+INPUT .\fig\malha-angulos.png
+INPUT .\fig\malha-angulos.png
+INPUT .\fig\malha-angulos.png
+INPUT fig\malha-gurobi.png
+INPUT .\fig\malha-gurobi.png
+INPUT .\fig\malha-gurobi.png
+INPUT .\fig\malha-gurobi.png
+INPUT .\fig\malha-gurobi.png
+INPUT fig\malha-ga.png
+INPUT .\fig\malha-ga.png
+INPUT .\fig\malha-ga.png
+INPUT .\fig\malha-ga.png
+INPUT .\fig\malha-ga.png
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ectt1200.tfm
+OUTPUT main.lof
+OUTPUT main.lot
+OUTPUT main.sig
+OUTPUT main.sbl
+OUTPUT main.toc
+INPUT main.aux
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex-abnt\lbx\brazil-abnt.lbx
+INPUT main.run.xml
+OUTPUT main.run.xml
+INPUT C:\Users\elton\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
+INPUT C:\Users\elton\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\helvetic\uhvb8a.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\helvetic\uhvb8a.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\helvetic\uhvr8a.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\helvetic\uhvr8a.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\helvetic\uhvro8a.pfb
+INPUT C:\Users\elton\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\urw\helvetic\uhvro8a.pfb
