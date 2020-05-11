@@ -3,76 +3,76 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Grade cartesiana para prever o fluxo em um semi cilindro\relax }}{10}{figure.caption.5}% 
+\contentsline {figure}{\numberline {1}{\ignorespaces Grade cartesiana para prever o fluxo em um semi cilindro\relax }}{10}{figure.caption.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2}{\ignorespaces Elemento conforme}}{16}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3}{\ignorespaces Elemento n\IeC {\~a}o conforme}}{16}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Cria\IeC {\c c}\IeC {\~a}o de Volumes de Controle\relax }}{16}{figure.caption.6}% 
+\contentsline {figure}{\numberline {4}{\ignorespaces Cria\IeC {\c c}\IeC {\~a}o de Volumes de Controle\relax }}{21}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Grade para o FVM\relax }}{20}{figure.caption.7}% 
+\contentsline {figure}{\numberline {5}{\ignorespaces Grade para o FVM\relax }}{25}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Condi\IeC {\c c}\IeC {\~o}es de contorno\relax }}{22}{figure.caption.8}% 
+\contentsline {figure}{\numberline {6}{\ignorespaces Condi\IeC {\c c}\IeC {\~o}es de contorno\relax }}{27}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces Erros no volume finito\relax }}{25}{figure.caption.9}% 
+\contentsline {figure}{\numberline {7}{\ignorespaces Erros no volume finito\relax }}{30}{figure.caption.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces Erro do termo difusivo em malha n\IeC {\~a}o ortogonal\relax }}{25}{figure.caption.10}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Transforma\IeC {\c c}\IeC {\~a}o de Coordenadas\relax }}{28}{figure.caption.11}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces \IeC {\'A}rea\relax }}{30}{figure.caption.12}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces Defini\IeC {\c c}\IeC {\~a}o de $e_\xi $\relax }}{32}{figure.caption.13}% 
+\contentsline {figure}{\numberline {8}{\ignorespaces Erro do termo difusivo em malha n\IeC {\~a}o ortogonal\relax }}{30}{figure.caption.13}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10}{\ignorespaces Geometrias para c\IeC {\'a}lculos das express\IeC {\~o}es\relax }}{36}{figure.caption.14}% 
+\contentsline {figure}{\numberline {9}{\ignorespaces Transforma\IeC {\c c}\IeC {\~a}o de Coordenadas\relax }}{33}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11}{\ignorespaces Face i\relax }}{36}{figure.caption.15}% 
+\contentsline {figure}{\numberline {10}{\ignorespaces \IeC {\'A}rea\relax }}{35}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o de elementos desej\IeC {\'a}veis/indesej\IeC {\'a}veis\relax }}{38}{figure.caption.16}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13}{\ignorespaces Elemento conforme}}{41}{figure.caption.17}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {14}{\ignorespaces Elemento n\IeC {\~a}o conforme}}{42}{figure.caption.18}% 
+\contentsline {figure}{\numberline {11}{\ignorespaces Defini\IeC {\c c}\IeC {\~a}o de $e_\xi $\relax }}{37}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces Tessela\IeC {\c c}\IeC {\~a}o de Voronoi}}{44}{figure.caption.19}% 
+\contentsline {figure}{\numberline {12}{\ignorespaces Geometrias para c\IeC {\'a}lculos das express\IeC {\~o}es\relax }}{41}{figure.caption.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces Energia do sistema de molas de tor\IeC {\c c}\IeC {\~a}o\relax }}{48}{figure.caption.20}% 
+\contentsline {figure}{\numberline {13}{\ignorespaces Face i\relax }}{41}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces M\IeC {\'e}todo de suaviza\IeC {\c c}\IeC {\~a}o baseado em \IeC {\^a}ngulos\relax }}{49}{figure.caption.21}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces Esquemas para defini\IeC {\c c}\IeC {\~a}o do termo de difus\IeC {\~a}o cruzada\relax }}{52}{figure.caption.22}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces Volume Espelhado\relax }}{59}{figure.caption.23}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {20}{\ignorespaces Volume Antissim\IeC {\'e}trico\relax }}{60}{figure.caption.24}% 
+\contentsline {figure}{\numberline {14}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o de elementos desej\IeC {\'a}veis/indesej\IeC {\'a}veis\relax }}{43}{figure.caption.19}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {15}{\ignorespaces Tessela\IeC {\c c}\IeC {\~a}o de Voronoi}}{45}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {16}{\ignorespaces Energia do sistema de molas de tor\IeC {\c c}\IeC {\~a}o\relax }}{49}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {17}{\ignorespaces M\IeC {\'e}todo de suaviza\IeC {\c c}\IeC {\~a}o baseado em \IeC {\^a}ngulos\relax }}{50}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {18}{\ignorespaces Esquemas para defini\IeC {\c c}\IeC {\~a}o do termo de difus\IeC {\~a}o cruzada\relax }}{53}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {19}{\ignorespaces Volume Espelhado\relax }}{60}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {20}{\ignorespaces Volume Antissim\IeC {\'e}trico\relax }}{61}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {21}{\ignorespaces Malha Inicial\relax }}{74}{figure.caption.27}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {22}{\ignorespaces Malha Inicial ap\IeC {\'o}s Deforma\IeC {\c c}\IeC {\~o}es\relax }}{75}{figure.caption.30}% 
+\contentsline {figure}{\numberline {21}{\ignorespaces Malha Inicial\relax }}{73}{figure.caption.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {23}{\ignorespaces Melhoramento CPT\relax }}{76}{figure.caption.33}% 
+\contentsline {figure}{\numberline {22}{\ignorespaces Malha Inicial ap\IeC {\'o}s Deforma\IeC {\c c}\IeC {\~o}es\relax }}{74}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {24}{\ignorespaces Melhoramento ODT\relax }}{77}{figure.caption.36}% 
+\contentsline {figure}{\numberline {23}{\ignorespaces Melhoramento CPT\relax }}{75}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {25}{\ignorespaces Melhoramento CVT\relax }}{78}{figure.caption.39}% 
+\contentsline {figure}{\numberline {24}{\ignorespaces Melhoramento ODT\relax }}{76}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {26}{\ignorespaces Melhoramento \IeC {\^A}ngulos\relax }}{79}{figure.caption.42}% 
+\contentsline {figure}{\numberline {25}{\ignorespaces Melhoramento CVT\relax }}{77}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {27}{\ignorespaces Melhoramento Gurobi\relax }}{80}{figure.caption.45}% 
+\contentsline {figure}{\numberline {26}{\ignorespaces Melhoramento \IeC {\^A}ngulos\relax }}{78}{figure.caption.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {28}{\ignorespaces Melhoramento GA\relax }}{81}{figure.caption.48}% 
+\contentsline {figure}{\numberline {27}{\ignorespaces Melhoramento Gurobi\relax }}{79}{figure.caption.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {28}{\ignorespaces Melhoramento GA\relax }}{80}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

@@ -1,0 +1,116 @@
+\chapter[DESENVOLVIMENTO]{}
+
+\section{Metodologia}
+O objetivo principal do trabalho é a geração de uma malha não estruturada triangular e posterior suavização da malha de modo a se comparar a solução de um problema de exemplo com o método dos volumes finitos em tais malhas. Dessa forma é possível a comparação entre os métodos implementados com a solução analítica.
+
+\section{Problema Proposto}
+
+O problema proposto consiste na implementação computacional da seguinte equação de Poisson 2D em regime permanente:
+
+\begin{equation*}
+    \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} = S^\phi
+\end{equation*}
+
+cujo domínio é definido como:
+
+\begin{equation*}
+\begin{split}
+    0\leq x \leq 1, \text{se } 0 \leq y \leq 0.5 \text{ e}\\
+    0 \leq x \leq 0.5, \text{ se } 0.5 \leq y \leq 1.
+\end{split}
+\end{equation*}
+e
+\begin{equation*}
+\begin{split}
+    0\leq y \leq 1, \text{se } 0 \leq x \leq 0.5 \text{ e}\\
+    0 \leq y \leq 0.5, \text{ se } 0.5 \leq x \leq 1.
+\end{split}
+\end{equation*}
+
+e termo-fonte $S^\phi = -\frac{\pi^2}{2}\sin{\frac{\pi x}{2}}\sin{\frac{\pi y}{2}}$. Deste modo, têm-se as seguinte condições de contorno:
+
+\begin{equation*}
+\begin{split}
+    T(x,0)&=T(0,x)=0\\
+    T(x,1)&=\sin(\frac{\pi x}{2}), \text{ se } 0 \leq x \leq \frac{1}{2};\\
+    T(x,\frac{1}{2})&=\frac{\sqrt{2}}{2} \sin{\frac{\pi x}{2}}, \text{ se } \frac{1}{2} \leq x \leq 1;
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+    T(1,y)&=\sin{\frac{\pi y}{2}}, \text{ se } 0 \leq y \leq \frac{1}{2}\\
+    T(\frac{1}{2},1)&=\frac{\sqrt{2}}{2}\sin{\frac{\pi y}{2}}, \text{ se } \frac{1}{2} \leq y \leq 1.
+\end{split}
+\end{equation*}
+    
+\section{Implementação}
+Para a implementação do projeto foi usado a linhagem de programação Python com o uso do paradigma de programação orientado a objetos. A malha é criada como uma classe que possui propriedades como os volumes (triangulações) que a compõe e também os seus vértices. Os volumes e vértices por sua vez também são objetos que possuem métodos e atributos. Começando pelos objetos mais básicos e aumentando a complexidade pode-se resumir o projeto da seguinte forma:
+
+
+\subsubsection{Classe No}
+Representa um vértice dentro da malha a ser criada.
+
+\begin{itemize}
+    \item \textbf{Propriedades}
+    \begin{itemize}
+        \item \textbf{Nome:} O nome do vértice como um número 1,2,3...
+        \item \textbf{Valor:} Um vetor 2D com o valor de x e y
+        \item \textbf{Fronteira:} Booleano que diz se o vértice é de fronteira ou não
+        \item \textbf{Volumes:} Objetos volume que compartilham esse vértice e podem ser considerados seus Vizinhos
+        \item \textbf{Vizinhos:} Outros objetos No que possuem alguma ligação direta com o nó atual
+    \end{itemize}
+    \item \textbf{Métodos}
+    \begin{itemize}
+        \item \textbf{Calcula Fitness:} retorna o fitness desse nó usado para o algoritmo genético
+    \end{itemize}
+\end{itemize}
+
+\subsection{Classe Volume}
+Representa os volumes (triangulações) presentes na malha.
+
+\begin{itemize}
+    \item \textbf{Propriedades}
+    \begin{itemize}
+        \item \textbf{p1,p2,p3:} Os três pontos x,y que criam esse volume
+        \item \textbf{faces:} Três faces criadas com os pontos desse triângulo
+        \item \textbf{vizinhos:} Os objetos volume, vizinhos a este volume atual
+        \item \textbf{ficticio:} Booleano que informa se este é um volume fictício, usado para condições de contorno, ou não.
+        \item \textbf{temp:} A temperatura numérica calculada para o centróide desse volume
+        \item \textbf{P:} um vetor x,y com o centróide calculado do volume atual
+    \end{itemize}
+    \item \textbf{Métodos}
+    \begin{itemize}
+        \item \textbf{qualidade:} Retorna 2 vezes a razão entre o raio do circulo inscrito pelo raio do circulo circunscrito
+        \item \textbf{angulos:} Retorna o maior angulo e o menor angulo
+        \item \textbf{centroide:} retorna o x,y do centroide
+        \item \textbf{normal:} recebe a face do volume e retorna sua normal
+        \item \textbf{eeta:} calcula $\hat{e_\eta}$ conforme \ref{eq:8.10}
+        \item \textbf{exi:} calcula $\hat{e_\xi}$ conforme \ref{eq:8.9}
+        \item \textbf{Difusao Direta:} Retorna o termo de difusão direta referente a esse volume de controle, recebe como parâmetro o volume vizinho $A$.
+        \item \textbf{area:} Retorna a área desse volume
+        \item \textbf{Difusao Cruzada:} Retorna o termo de difusão cruzada do volume
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Malha}
+Representa a malha não estruturada triangular gerada.
+
+\begin{itemize}
+    \item \textbf{Propriedades}
+    \begin{itemize}
+        \item \textbf{volumes:} Possui todos os volumes que compõe essa malha
+        \item \textbf{nos:} Possui todos os vértices que compõe essa malha
+    \end{itemize}
+    \item \textbf{Métodos}
+    \begin{itemize}
+        \item \textbf{Melhora Malha:} Realiza algum algoritmo de suavização da malha atual
+        \item \textbf{Carrega Malha:} Abre um arquivo de extensão .vtk e cria os objetos correspondentes a partir dele definindo volumes, seus vizinhos etc.
+        \item \textbf{Plotar:} Plota a malha atual
+        \item \textbf{Resolve:} Usa a teoria do capítulo \ref{Difusão de calor 2D em regime permanente} para resolver a equação proposta
+        \item \textbf{Salva Malha:} Salva a malha atual no formato .vtk
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Programa Principal}
+O programa principal tem a função de criar um objeto de malha, chamar a função de suavização de malha e opcionalmente também a função para a solução do problema proposto. Também é feito a comparação com os valores analíticos e plotagem da malha. A qualidade da malha é calculado como a média da qualidade dos seus volumes, sendo que a qualidade de um volume é calculado como $2\frac{r}{R}$ em que $r$ é o raio do círculo inscrito e $R$ o raio do círculo circunscrito.

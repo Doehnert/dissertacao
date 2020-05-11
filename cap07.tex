@@ -1,0 +1,75 @@
+\chapter[ALGORÍTMO GENÉTICO]{ALGORÍTMO GENÉTICO}
+
+Algoritmos Genéticos (GAs) são métodos adaptativos que podem ser usados para resolver problemas envolvendo procura e otimização. Eles são baseados nos processos genéticos de organismos biológicos. Ao longo de muitas gerações, populações naturais evoluem de acordo com os princípios da seleção natural e "sobrevivência do mais apto", primeiramente pronunciados por Charles Darwin no livro \textit{A Origem das Espécies}. Imitando este processo, o algoritmo genético é capaz de "evoluir" soluções para problemas do mundo real, desde que tenham sido corretamente codificados. Por exemplo, GAs podem ser usados para desenhar estruturas de pontes, para a maior proporção de força/peso, ou para determinar a menor quantidade de sobras no corte de tecidos. Ele também pode ser usado para o controle de processos online, tais como em uma fábrica química, ou balanceando sistemas de computadores de multi processadores. \cite{Beasley1993}
+
+Os princípios básicos de GAs foram primeiro rigorozamente estabelecidos por Holland \cite{Holland1992}, e são bem descritos em muitos textos. GAs simulam aqueles processos em populações naturais que são essenciais para a evolução. Exatamente quais processos biológicos são \text{essenciais} para a evolução, e quais processos tem pouco ou nenhum papel no processo ainda é material para pesquisa; mas as fundações são claras.
+
+Na natureza, indivíduos na população competem entre si por recursos tais como comida, água e abrigo. Membros da mesma espécie também competem para atrair um parceiro. Aqueles indivíduos mais bem sucedidos em sobreviver e atrair parceiros teram um número relativamente maior de descendentes. Indivíduos com baixa performance irão produzir menos ou mesmo nenhum descendente. Isto significa que os genes de indivíduos altamente adaptados irão se espalhar de modo maior para um número maior de indivíduos nas gerações sucessivas. A combinação de boas características de diferentes ancestrais pode, algumas vezes, produzir descentendes "super aptos", cuja adaptabilidade é maior do que aquela de seus ancestrais. Dessa forma, espécies evoluem para se tornar mais e mais bem adaptadas ao seu meio ambiente. \cite{Beasley1993}
+
+GAs usam uma analogia direta do ambiente natural. Ele trabalha com uma \textit{população} de "indivíduos", cada um representando uma possível solução para um dado problema. Cada indivíduos recebe um "nível de adaptabilidade" de acordo com quão boa é a sua solução para o problema. Por exemplo, o nível pode ser a proporção de força/peso para um dado desenho de uma ponte. (Na natureza isso é o equivalente a determinar o quão efetivo um organizmo é em competir por recursos.) Os indivíduos altamente adaptados recebem uma maior oportunidade para "reproduzir", por "cruzamento" com outro indivíduos na população. Isso produz novos indivíduos como "descendentes", os quais compartilham algumas características de cada um dos seus "pais". Os membros menos adaptados da população irão ter menor chance de reprodução, de modo que eles "desaparecem".
+
+Uma nova população de possíveis soluções é, portanto, produzida por seleção dos melhores indivíduos da população atual, e por cruzamente eles produzem um novo conjunto de indivíduos. Essa nova geração contém uma maior proporção de características dos melhores membros da geração anterior. Dessa maneira, ao longo de muitas gerações, aos boas características são espalhadas através da população, sendo misturadas e trocadas com outras boas características ao longo do tempo. Favorecendo o cruzamente de indivíduos mais adaptados, as áreas mais promissoras de procura são exploradas. Se o GA for bem desenhado, a população irá \textit{convergir} para uma solução ótima do problema.
+
+GA não é o único algoritmo baseado em uma analogia com a natureza. \text{Redes neuras} são baseados no comportamento de neurônios no cérebro. Eles podem ser usados para uma grande variedade de problemas de classificação, tais como reconhecimento de padrões, aprendizado de máquinas, processamento de imagens etc. A sua área de aplicação sobrepõe-se em parte com o GA. O usa de GAs para o desenho de redes neurais é atualmente uma área de pesquisa \cite{Harp1991}
+
+O poder de GAs vem do fato de que esta técnica é robusta, e pode lidar de modo satisfatório com uma grande variedade de problemas, incluindo aqueles em que outro método seria muito difícil de resolver. GAs não garantem que encontrarão a solução global ótima, mas eles são geralmente bons em encontrar "razoavelmente boas" soluções para problemas "razoavelmente rapidamente". Existindo técnicas especializadas para resolver problemas em particular, normalmente elas terão uma melhor performance em relação aos GAs tanto em velocidade quanto em acurácia.O principal uso de GAs, então, é em áreas difíceis em que tais técnicas não existem. Mesmo onde tais técnicas funcionam bem, é possível uma melhora de tais técnicas com o auxílios de GA.
+
+\section{Princípios Básicos}
+Antes que um GA possa rodar, é necessário uma \textit{codificação} (ou \textit{representação}) do problema. Também é necessário uma \textit{função fitness}, que nos permite verificar o mérito de cada solução codificada. Durante o processo, pais precisam ser \textit{selecionados} para reprodução, e \textit{recombinados} para gerar os descendentes. Tais processos são descritos a seguir.
+
+\subsection{Codificação}
+É assumido que uma solução em potencial para o problema pode ser representado por um conjunto de parâmetros (por exemplo, a dimensão dos feixes no desenho de uma ponte). Esses parâmetros (conhecidos como \textit{genes}) são unidos juntos para formar uma cadeia de valores (frequentemente chamados de \textit{cromossomos}). (\cite{Holland1992} foi o primeiro a mostrar e muitos ainda acreditam que o ideal é o uso de um alfabeto binário para essa cadeia de valores.) Por exemplo, se nosso problema for o de maximizar uma função de três variáveis, $F(x,y,z)$, nós podemos representar cada variável por um número binário de 10-bits. Nossos cromossomos, portanto, conteriam três genes, e possuiriam 30 números binários.
+
+Em termos genéticos, o conjunto de parâmetros representados por um dado cromossomo é chamado de \textit{genótipo}. O genótipo contém informações necessárias para construir um organizmo - que é chamado de \textit{fenótipo}. Os mesmos termos são usados em GAs. Por exemplo, na tarefa de desenhar uma ponte, o conjunto de parâmetros especificando um desenho em particular é o \textit{genótipo}, enquanto que a construção finalizada é o \textit{fenótipo}. A adaptação de cada indivíduo depende da performance do seu fenótipo. Isso pode ser inferido do seu \textit{genótipo} - i.e. pode ser computado do seu cromossomo usando a função fitness.
+
+\subsection{Função Fitness}
+A função fitness deve ser desenvolvida para cada problema a ser resolvido. Dado um cromossomo em particular, a função fitness retorna um único número "fitness", que é supostamente proporcional à sua "utilidade" ou "adaptabilidade" como indivíduo representado por esse cromossomo. Para muitos problemas, particularmente funções de otimização, é óbvio o que a função fitness deve medir - ela deve ser apenas o valor da função. Mas em outros casos, por exemplo na otimização combinatorial esse não é o caso. No problema realístico de desenho de uma ponte, existem muitas medidas de performance que nós queremos otimizar: proporção força/peso, comprimento, carga máxima, custo, tempo de construção, ou mais provavelmente, uma combinação desses. \cite{Beasley1993}
+
+\subsection{Reprodução}
+Durante a fase de reprodução do GA, indivíduos são selecionados da população e recombinados, produzindo descendentes que irão constituir a próxima geração. Pais devem ser selecionado aleatoriamente da população usando um esquema que favoreça mais os mais aptos. Bons indivíduos irão provavelmente ser selecionados diversas vezes na geração, enquanto maus indivíduos podem nunca serem selecionados.
+
+Tendo selecionado dois pais, seus cromossomos são \textit{recombinados}, tipicamente usando-se o mecanismo de \textit{crossover} e \textit{mutação}. A forma mais básica dessas operações são:
+
+\textbf{Crossover}: seleciona-se dois indivíduos, e corta-se seus cromossomos em alguma posição aleatória para produzir dois segmentos "head"e dois segmentos "tail". Os segmentos "tail" são trocados para produzir dois novos cromossomos inteiros. Os dois descendentes irão herdar alguns genes de cada pai. Isso é conhecido como crossover \textit{single point}.
+
+Crossover não é usualmente aplicado em todos os pares de indivíduos selecionado para reprodução. Uma escolha aleatória é feita, onde a chance de crossover ser usado é tipicamente entre 0.6 e 1.0. Se o crossover não for aplicado, os descendentes são produzidos simplesmente como uma duplicata dos pais. Isso dá a cada indivíduo a chance de passar seus genes sem a distorção do crossover. \cite{Beasley1993}
+
+\textbf{Mutação} é normalmente aplicada a cada criança individualmente após o crossover. Isso irá, com uma pequena probabilidade, alterar aleatoriamente cada gene.
+
+A visão tradicional é que o crossover é a técnica mais importante entre essas duas e pode explorar rapidamente o espaço de procura. Mutação provém uma pequena aleatoriedade na procura, e ajuda a que em nenhum ponto da procura tenha uma probabilidade zero de ser examinada. \cite{Beasley1993}
+
+\subsection{Metodologia}
+
+Segundo \cite{Kumar2010} a metodologia usada para se trabalhar com GAs é a seguinte:
+
+\subsubsection{Inicialização}
+Inicialmente muitas soluções representando indivíduos são geradas aleatoriamente de modo a se formar a população inicial. O tamanho dessa população depende da natureza do problema, mas tipicamente contém muitas centenas de milhares de possíveis soluções. Tradicionalmente, a população é gerada aleatoriamente, cobrindo-se todo o possível espaço de soluções. Ocasionalmente, pode-se priorizar determinada área desse espaço entendido como tendo uma maior probabilidade de ter a solução ideal.
+
+\subsubsection{Seleção}
+A cada nova geração, um conjunto da população atual é selecionada de alguma forma de modo a gerarem a nova geração. Tais indivíduos são selecionados pela sua função \textit{fitness}. Alguns métodos calculam o fitness de toda a geração enquanto outros selecionam apenas alguns indivíduos aleatórios, no entanto este último método pode ser muito mais custoso com relação ao tempo.
+
+Normalmente a função fitness escolhida é estocástica e feita de tal forma que mesmo soluções com baixo fitness tem uma pequena chance de serem selecionadas, tal estratégia ajuda a manter a diversidade genética da população alta, prevenindo o surgimento prematuro de soluções ruins. As formas de seleção mais estudadas e usadas incluem seleção \textit{roulette whell} e \textit{tournament selecion}.
+
+\subsubsection{Reprodução}
+O próximo passo é a geração dos novos indivíduos que irão fazer parte da nova população, que irá substituir a população antiga. Tal reprodução é feita usando-se o \textit{genótipo} dos pais selecionados e os recombinando através do processo de \textit{crossover} e \textit{mutation}.
+
+Como a "criança" gerada nesse processo possui genótipos dos dois pais, ela compartilhará muitas características com seus "pais". Novos pais são selecionados para cada nova criança e esse processo continua até toda a nova população ser gerada. Embora tipicamente escolham-se apenas dois pais para cada criança, alguns pesquisadores \cite{Eiben2012} sugerem que mais de dois pais podem produzir uma criança com um melhor genótipo.
+
+Este procedimento irá, geralmente, aumentar a média do \textit{fitness} da população.
+
+\subsubsection{Término}
+O processo de evolução de novas soluções(indivíduos) continua até que algum critério de parada seja estabelecido, que pode ser:
+\begin{itemize}
+    \item Uma solução é encontrada satisfazendo um critério mínimo;
+    \item Um número de gerações fixado é alcançado;
+    \item Um tempo computacional é alcançado;
+    \item A solução com o maior fitness da população atinge um platô tal que novas gerações não conseguem melhorar o resultado;
+    \item Inspeção Manual;
+    \item Uma combinação das anteriores.
+\end{itemize}
+
+
+
+
+\subsection{Convergência}
+Se o GA for corretamente implementado, a população irá evoluir ao longo de sucessivas gerações de modo que o fitness do melhor e do indivíduos médio de cada geração melhore através da otimização global. \textit{Convergência} é a progressão para a uniformidade. Um gene é dito convergente quando $95\%$ da população compartilha o mesmo valor \cite{DeJong1975}. A população é dita convergente quando todos os seus genes forem convergentes.
