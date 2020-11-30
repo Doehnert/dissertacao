@@ -26,8 +26,8 @@ Os elementos são sempre definidos em função da malha criada pelo gerador de m
 Os volumes de controle são criados tendo-se por base os elementos criados. Existem duas classes básicas de métodos de determinação dos volumes de controle, baseadas na relatividade geométrica entre volumes e elementos:
 
 \begin{itemize}
-    \item Volumes centrado ou célula centrada (cell-centered): as informações (variáveis de interesse) são determinadas no centro (geométrico) do volume de controle, que coincide com o elemento de malha. Esta é a construção clássica de volumes finitos, em que os pontos de integração se localizam no centro das faces. \ref{fig:volume_centrado}
-    \item Volume de controle baseado no vértice (vertex-based control volumes): o volume de controle é construído com seu centro coincidente a um nó da malha, ou seja, a um vértice do elemento de malha. Cada volume de controle é constituído por partes (subvolumes de controle) dos elementos vizinhos, aos quais pertence o nó empregado como centro do volume, onde são armazanadas as informações. Uma metodologia para geração dos volumes, conhecida como método das medianas, consiste em ligar os centroides dos elementos aos pontos médios de suas faces. \ref{fig:volume_vertice}
+    \item Volumes centrado ou célula centrada (cell-centered): as informações (variáveis de interesse) são determinadas no centro (geométrico) do volume de controle, que coincide com o elemento de malha. Esta é a construção clássica de volumes finitos, em que os pontos de integração se localizam no centro das faces como na figura \ref{fig:volume_centrado}
+    \item Volume de controle baseado no vértice (vertex-based control volumes): o volume de controle é construído com seu centro coincidente a um nó da malha, ou seja, a um vértice do elemento de malha. Cada volume de controle é constituído por partes (subvolumes de controle) dos elementos vizinhos, aos quais pertence o nó empregado como centro do volume, onde são armazanadas as informações. Uma metodologia para geração dos volumes, conhecida como método das medianas, consiste em ligar os centroides dos elementos aos pontos médios de suas faces como na figura \ref{fig:volume_vertice}
 \end{itemize}
 
 \begin{figure}[ht]
@@ -167,6 +167,12 @@ Portanto, a equação inicial, em coordenadas cartesianas, pode ser escrita como
 
 \begin{equation}
     \frac{\partial}{\partial x} \left( \Gamma \frac{\partial \phi}{\partial x} \right) + \frac{\partial}{\partial y} \left( \Gamma \frac{\partial \phi}{\partial y} \right) + \frac{\partial}{\partial z} \left( \Gamma \frac{\partial \phi}{\partial z} \right) = S_\phi
+\end{equation}
+
+Ou de forma resumida voltando para o exemplo da transferência de calor:
+
+\begin{equation}
+    \nabla^2 T= -\frac{\dot{q}_{gen}}{k}
 \end{equation}
 
 No método dos volumes finitos, deve-se integrar a equação governante sobre um volume de controle antes de se fazer as aproximações das derivadas. Desse modo temos:
@@ -319,7 +325,7 @@ Cujos coeficientes são:
     b_P =& S_{\phi,0} \Delta x \Delta y
 \end{eqnarray}
 
-Se for considerado uma condição de contorno de Dirichlet, teremos, conforme a seguinte figura onde $w$ é conhecido:
+Se for considerado uma condição de contorno de Dirichlet, teremos, conforme a figura  \ref{fig:fig2} onde $w$ é conhecido:
 
 \begin{figure}[h!]
     \centering
@@ -383,9 +389,9 @@ Nese trabalho é considerado apenas as malhas 2D com o formato de célula triang
 Conforme foi mostrado, a partir da equação \ref{eq:2.29}, as derivadas dessa equação são aproximadas usando-se a geometria da malha, no caso com uma célula quadrada. Logo tem-se que o formato da célula influencia na acurácia da solução. A partir da geometria da malha, pode-se gerar as seguintes propriedades:
 
 \begin{itemize}
-    \item \textbf{Não Ortogonalidade:} Conforme a figura \ref{nao-ortogo} pode-se definir a não Ortogonalidade como o angulo $\theta$ entre o vetor $d=\vec{PA}$ e o vetor normal a face ab $\hat{n}$. Esse angulo deve ser o menor possível. A razão será discutida posteriormente.
+    \item \textbf{Não Ortogonalidade:} Conforme a figura \ref{nao-ortogo} pode-se definir a não Ortogonalidade como o angulo $\theta$ entre o vetor $\vec{d}=\vec{PA}$ e o vetor normal a face ab $\hat{n}$. Esse angulo deve ser o menor possível. A razão será discutida posteriormente.
     \item \textbf{Assimetria de malha:} Quando o vetor d não intercepta a face ab no seu centro, a célula de malha é definida como assimétria conforme a figura \ref{fig:assimetria}. O grau de assimetria pode ser definido como $\Psi = \frac{|m|}{|d|}$
-    \item \textbf{Uniformidade:}  Uma malha é uniforme quando o vetor $\vec{d}$ intercepta a face no meio entre os nós $P$ e $N$. A uniformidade pode ser medida como:
+    \item \textbf{Uniformidade:}  Uma malha é uniforme quando o vetor $\vec{d}$ intercepta a face no meio entre os nós $P$ e $A$. A uniformidade pode ser medida como:
     \begin{equation*}
         f_x = \frac{|x_{fi}-x_N|}{|d|}
     \end{equation*}
@@ -411,7 +417,7 @@ Conforme foi mostrado, a partir da equação \ref{eq:2.29}, as derivadas dessa e
 
 \section{Termo de Difusão}
 
-A partir da equação \ref{eq:2.1} considerando-se o termo de difusão, aplicando-se o teorema da divergência de Gauss e a aproximação de que os gradientes nas faces são constantes (assumindo-se uma variação linear da propriedade $\phi$) chega-se a:
+A partir da equação \ref{eq:2.29} considerando-se o termo de difusão, aplicando-se o teorema da divergência de Gauss e a aproximação de que os gradientes nas faces são constantes (assumindo-se uma variação linear da propriedade $\phi$) chega-se a:
 
 \begin{equation}
     \int_{V_P} \nabla \cdot (\rho \Gamma_\phi \nabla\phi)dV = \sum_f \vec{S} \cdot (\rho \Gamma_\phi \nabla \phi)_f = \sum (\rho \Gamma_\phi)_f (\vec{S} \cdot \nabla \phi)_f
@@ -451,4 +457,4 @@ Segundo a dedução encontrada em \cite{Juretic2004} a ordem do erro do termo de
     \label{eq:2.50}
 \end{equation}
 
-Onde $\hat{d}$ e $\hat{k}$ são vetores unitários nas direções de $\vec{d}$ e $\vec{k}$ respectivamente. Verifica-se da equação \ref{eq:2.50} que essa será de primeira-ordem com exceto para o falor de $f_x=0.5$, ou seja, para uma malha uniforme. Logo para uma malha uniforme a aproximação se torna de segunda-ordem. O erro também depende do ângulo $\alpha_N$ e será mínimo quando $\alpha_N=0$, ou seja, quando a malha for ortogonal.
+Onde $\hat{d}$ e $\hat{k}$ são vetores unitários nas direções de $\vec{d}$ e $\vec{k}$ respectivamente. Verifica-se da equação \ref{eq:2.50} que essa será de primeira-ordem exceto para o valor de $f_x=0.5$, ou seja, para uma malha uniforme. Logo para uma malha uniforme a aproximação se torna de segunda-ordem. O erro também depende do ângulo $\alpha_N$ e será mínimo quando $\alpha_N=0$, ou seja, quando a malha for ortogonal.

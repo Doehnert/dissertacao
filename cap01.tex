@@ -9,10 +9,10 @@ Esse trabalho verifica o erro de discretização que ocorre nas soluções do FV
 Muitos problemas de engenharia estão relacionados a geometrias complexas, em que o uso de um sistema de coordenadas cartesianas, cilíndricas ou esféricas não se mostra prático ou adequado. No cálculo numérico do fluxo sobre um semi cilindro, conforme a figura \ref{fig:semicilindro} temos que a fronteira da figura não coincide com as linhas coordenadas da malha estruturada, de modo que essa malha não é adequada para esse problema. \cite{Versteeg2007}
 
 \begin{figure}[]
-    \centering
-    \includegraphics[width=.6\linewidth]{fig/semicilindro.png}
-    \caption{Grade cartesiana para prever o fluxo em um semi cilindro}
-    \label{fig:semicilindro}
+\centering
+\includegraphics[width=.6\linewidth]{fig/semicilindro.png}
+ \caption{Grade cartesiana para prever o fluxo em um semi cilindro}
+   \label{fig:semicilindro}
 \end{figure}
 
 Malhas cartesianas são exemplos de um método estruturado. Como características de uma malha estruturada, tem-se:
@@ -25,13 +25,13 @@ Malhas cartesianas são exemplos de um método estruturado. Como característica
 
 Os métodos em CFD para geometrias complexas podem ser classificados em malhas não-ortogonais (malhas curvilíneas) estruturadas e em malhas não-estruturadas.
 
-Malhas não-ortogonais estruturadas (ou malhas coincidentes com o corpo / com a fronteira do domínio) são baseadas no mapeamento do "domínio de escoamento" sobre o "domínio computacional" com um formato simples, nota-se contudo, que encontrar um mapeamento viável pode se tornar complicado para geometrias complexas. Neste caso, pode-se recorrer à subdivisão do domínio em diferentes subregiões ou blocos, cada qual apresentando uma malha em separado que deverá ser unida corretamente aos seus vizinhos. Tem-se neste caso as malhas estruturadas por blocos.
+Malhas não-ortogonais estruturadas (ou malhas coincidentes com o corpo / com a fronteira do domínio) são baseadas no mapeamento do "domínio de escoamento" sobre o "domínio computacional" com um formato simples, nota-se contudo, que encontrar um mapeamento viável pode se tornar complicado para geometrias complexas. Neste caso, pode-se recorrer à subdivisão do domínio em diferentes subregiões ou blocos, cada qual apresentando uma malha em separado que deverá ser unida corretamente aos seus vizinhos. Tem-se neste caso as malhas estruturadas por blocos. sdf.
 
 Uma generalização da técnica de malhas estruturadas por blocos é o caso de malhas não-estruturadas, para as quais cada bloco é formado por um único elemento (ou célula). Malhas não-estruturadas garantem uma flexibilidade geométrica ilimitada e são empregadas para escoamentos em geometrias complexas, sendo atualmente a mais empregada técnica em CFD industrial.
 
 Nessas malhas não-estruturadas deve-se, de alguma forma, guardar todos os vizinhos de cada vértice ou elementos. \cite{Shewchuk1992}
 
-Malhas estruturadas possuem como vantagens a obtenção de matrizes diagonais (devido à ordenação), solvers mais fáceis de serem desenvolvidos e mais eficientes e suas equações governantes são descritas de modo mais simples. Já a sua desvantagens é a adaptabilidade para geometrias mais complexas.
+Malhas estruturadas possuem como vantagens a obtenção de matrizes diagonais (devido à ordenação), solvers mais fáceis de serem desenvolvidos e mais eficientes e suas equações governantes são descritas de modo mais simples. Já as sua desvantagen é a adaptabilidade para geometrias mais complexas.
 
 No caso de uma malha estruturada mas não-ortogonal, tem-se como vantagens uma maior adaptabilidade para geometrias mais complexas, também se obtém matrizes diagonais com solvers disponíveis e eficientes. Como desvantagens se tem a obtenção de equações governantes de forma mais complexa, maior tempo de geração (devido ao mapeamento que deve ser realizado) e em alguns casos, esse mapeamento é impossível devido a complexidades geométricas.
 
@@ -52,11 +52,11 @@ O capítulo 2 apresenta o método dos volumes finitos (FVM) e a dedução para o
 
 De modo a se escrever as equações em um novo sistema de coordenadas é apresentado a teoria necessária para tal conversão começando no capítulo de Transformação de Coordenadas e depois, com a malha gerada, no capítulo Difusão de calor 2D em regime permanente.
 
-A geração de malhas não estruturadas é mostrada no capítulo Malhas não estruturadas.
+A geração de malhas não estruturadas é mostrada no capítulo \ref{MALHAS NAO ESTRUTURADAS}.
 
 \section{OBJETIVOS}
 
-Comparar a acurácia da solução numérica em relação a solução analítica para um problema de transmissão de calor 2D em uma malha em formato 'L' sendo essa malha suavizada usando-se diferentes técnicas, dessa forma comparando-se os métodos de suavização com relação a acurácia da solução e também com relação a um parâmetro de qualidade das malhas que será discutido posteriormente.
+Comparar a acurácia da solução numérica em relação a solução analítica para um problema de transmissão de calor 2D em uma malha em formato 'L' sendo essa malha suavizada usando-se diferentes técnicas, dessa forma comparando-se os métodos de suavização com relação a acurácia da solução analítica e também com relação a um parâmetro de qualidade das malhas que será discutido posteriormente.
 Também desenvolver um método de suavização de malhas baseado no algoritmo genético.
 
 \section{IMPORTÂNCIA DO TRABALHO}
@@ -83,7 +83,7 @@ O trabalho finaliza com as conclusões da pesquisa no capítulo 10.
 %  \item para inserir uma sigla: 
 %     \verb|\criarsigla|\{ABNT\}{Associa\c{c}\~ao Brasileira de Normas T\'ecnicas}:
 
-\criarsigla{ABNT}{teste}
+% \criarsigla{ABNT}{teste}
 
 % \item para inserir s\'imbolo: 
 %     \verb|\criarsimbolo{$ \Gamma $}{Letra grega Gama}|
@@ -187,7 +187,7 @@ Algoritmos mais conhecidos para a triangulação de Delaunay:
 
 \subsection{Métodos de triangulação geral}
 
-Entre os métodos de triangulação geral, o mais empregado é o de avanço de frentes. A etapa inicial é a divisão do domínio em partes simplesmente conexas feita, em geral, pelo próprio usuário, com base na geometria e no problema físico a ser simulado. Definidos os subdomínios, camadas de pontos são adicionadas, uma a uma, partidno-se da fronteira em direção ao centro. Com a adição dos pontos, qualquer método de triangulação pode ser aplicado. Essa metodologia cria elementos de boa qualidade perto das fronteiras, mas enfrenta dificuldades quando duas frentes com grandes diferenças de tamanhos de elementos se encontram, posi dificilmente será possível criar elementos de qualidade aceitável nessa região. O método é, portanto, muito sensível à escolha das frentes e do tamanho dos elementos.
+Entre os métodos de triangulação geral, o mais empregado é o de avanço de frentes. A etapa inicial é a divisão do domínio em partes simplesmente conexas feita, em geral, pelo próprio usuário, com base na geometria e no problema físico a ser simulado. Definidos os subdomínios, camadas de pontos são adicionadas, uma a uma, partindo-se da fronteira em direção ao centro. Com a adição dos pontos, qualquer método de triangulação pode ser aplicado. Essa metodologia cria elementos de boa qualidade perto das fronteiras, mas enfrenta dificuldades quando duas frentes com grandes diferenças de tamanhos de elementos se encontram, pois dificilmente será possível criar elementos de qualidade aceitável nessa região. O método é, portanto, muito sensível à escolha das frentes e do tamanho dos elementos.
 
 \section{Melhoramento da malha e adaptabilidade}
 Os métodos de melhoramento são aplicados a uma malha após o processo de geração e baseiam-se fundamentalmente, no movimento dos nós da malha, procurando melhorar ângulos, formas e áreas dos elementos. Não existe consenso na área sobre a definição de quais operações são classificadas como de melhoramento de uma malha. Na área numérica, por exemplo, o melhoramento é interpretado como operações que suavizam a malha e melhoram sua qualidade sem a alteração do número de elementos. Por outro lado, em geometria computacional, como sempre existe uma primeira malha, sempre grosseira, gerada com os pontos de fronteira, a obtenção da malha final é interpretada como uma operação de melhoramento, quando na realidade é o próprio processo de geração feita através do refino de uma malha inicial.
@@ -212,7 +212,7 @@ Algumas aplicações podem usar malhas formadas principalmente de hexágonos em 
 
 Os elementos que formam a malha devem cobrir todo o domínio mas sem sobreporem-se. Para a maior parte das aplicações suas faces devem se interceptar de modo que se dois elementos se interceptam, sua interseção é um vértice ou uma face inteira. (Formalmente, uma malha deve ser um complexo celular.) conforme a figura \ref{fig:celula_correta}.
 
-O problema da geração da malha se torna mais fácil se nós permitíssemos elementos não conformes como a figura \ref{fig:celula_errada}. No entanto esses elementos normalmente pioram a solução numérica dos problemas, logo raramente são usados.
+O problema da geração da malha se tornaria mais fácil se nós permitíssemos elementos não conformes como a figura \ref{fig:celula_errada}. No entanto esses elementos normalmente pioram a solução numérica dos problemas, logo raramente são usados.
 
 \begin{figure}
     \centering
@@ -234,8 +234,7 @@ O objetivo da geração de malhas é criar elementos que se conformam com o form
 Nas malhas, tem-se que as fronteiras existem de modo a se poder aplicar as condições de contorno para a equação diferencial parcial e para permitir a descontinuidade nas propriedades físicas, como por exemplo diferenças na condutividade de calor. Uma fronteira, deve ser representada pela união de duas faces na malha. Elementos não podem cruzar essa fronteira, e no local onde dois materiais se encontram, suas malhas devem ter faces equivalentes. Esse requisito faz com que a geração de malhas seja mais difícil se o domínio possuir ângulos pequenos.
 
 \subsection{Elementos desejados}
-Um bom elemento de malha deve seguir várias restrições de modo a produzir um bom resultado numérico. Essas restrições possuem várias origens. Primeiramente, ângulos grandes causam um grande erro de interpolação. Segundamente, ângulos pequenos 
-
+Um bom elemento de malha deve seguir várias restrições de modo a produzir um bom resultado numérico. Entre essas restrições está o formato dos elementos, que no caso de elemntos triangulares deve ser o mais equilátero possível de modo a diminuir erros de interpolação.
 
 A triangulação de Delaunay para um conjunto de pontos discretos P em um plano é uma triangularização que faz com que nenhum ponto em P esteja dentro do circuncirculo de qualquer triangulo formado pelo algoritmo.
 

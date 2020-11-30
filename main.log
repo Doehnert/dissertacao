@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.22)  23 MAR 2020 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.16)  20 NOV 2020 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **/home/elton/Documentos/dissertacao/main.tex
 (/home/elton/Documentos/dissertacao/main.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 8 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -456,62 +456,34 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
  (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count151
 )
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-) (/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
-Language: french 2018/02/04 v3.4b French support from the babel system
-\l@acadian = a dialect from \language\l@french 
-\FB@nonchar=\count152
-Package babel Info: Making : an active character on input line 411.
-Package babel Info: Making ; an active character on input line 412.
-Package babel Info: Making ! an active character on input line 413.
-Package babel Info: Making ? an active character on input line 414.
-\FBguill@level=\count153
-\FB@everypar=\toks23
-\FB@Mht=\dimen152
-\mc@charclass=\count154
-\mc@charfam=\count155
-\mc@charslot=\count156
-\std@mcc=\count157
-\dec@mcc=\count158
-\c@FBcaption@count=\count159
-\listindentFB=\skip186
-\descindentFB=\skip187
-\labelwidthFB=\skip188
-\leftmarginFB=\skip189
-\parindentFFN=\dimen153
-\FBfnindent=\skip190
-) (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-\es@quottoks=\toks24
-\es@quotdepth=\count160
-Package babel Info: Making " an active character on input line 561.
-Package babel Info: Making . an active character on input line 662.
-Package babel Info: Making < an active character on input line 707.
-Package babel Info: Making > an active character on input line 707.
 ) (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazil = a dialect from \language\l@portuges 
-)) (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package babel Info: Making " an active character on input line 145.
+)) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip191
-\enit@outerparindent=\dimen154
-\enit@toks=\toks25
+\labelindent=\skip186
+\enit@outerparindent=\dimen152
+\enit@toks=\toks23
 \enit@inbox=\box29
-\enitdp@description=\count161
+\enitdp@description=\count152
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count162
-\calc@Bcount=\count163
-\calc@Adimen=\dimen155
-\calc@Bdimen=\dimen156
-\calc@Askip=\skip192
-\calc@Bskip=\skip193
+\calc@Acount=\count153
+\calc@Bcount=\count154
+\calc@Adimen=\dimen153
+\calc@Bdimen=\dimen154
+\calc@Askip=\skip187
+\calc@Bskip=\skip188
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count164
-\calc@Cskip=\skip194
+\calc@Ccount=\count155
+\calc@Cskip=\skip189
 )
 
 ******************************************************
@@ -533,20 +505,20 @@ Sidefoothsep and sidefootwidth: 7pt and 42pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\c@abntex@bookmarkcounter=\count165
-\cftlastnumwidth=\skip256
-\chapternamenumlength=\skip257
-\ABNTEXcitacaorecuo=\skip258
-\c@alineasi=\count166
-\c@alineasii=\count167
-\enitdp@alineas=\count168
-\c@subalineasi=\count169
-\enitdp@subalineas=\count170
-\c@incisosi=\count171
-\enitdp@incisos=\count172
-\ABNTEXsignwidth=\skip259
-\ABNTEXsignthickness=\skip260
-\ABNTEXsignskip=\skip261
+\c@abntex@bookmarkcounter=\count156
+\cftlastnumwidth=\skip190
+\chapternamenumlength=\skip191
+\ABNTEXcitacaorecuo=\skip192
+\c@alineasi=\count157
+\c@alineasii=\count158
+\enitdp@alineas=\count159
+\c@subalineasi=\count160
+\enitdp@subalineas=\count161
+\c@incisosi=\count162
+\enitdp@incisos=\count163
+\ABNTEXsignwidth=\skip193
+\ABNTEXsignthickness=\skip194
+\ABNTEXsignskip=\skip256
 ) (/home/elton/Documentos/dissertacao/UFPR.sty
 Package: UFPR 2017/12/04 Criacao desta customizacao do abnTeX2 para UFPR
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
@@ -556,73 +528,73 @@ Package: datatool 2017/11/12 v2.29 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
 )
-\XKV@depth=\count173
+\XKV@depth=\count164
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 ) (/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count174
+\c@su@anzahl=\count165
 ) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count175
+\etb@tempcnta=\count166
 ) (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
 Package: datatool-base 2017/11/12 v2.29 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip262
+\@mathmargin=\skip257
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks28
-\ex@=\dimen157
+\@emptytoks=\toks26
+\ex@=\dimen155
 )) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen158
+\pmbraise@=\dimen156
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count176
+\inf@bad=\count167
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count177
-\leftroot@=\count178
+\uproot@=\count168
+\leftroot@=\count169
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count179
-\DOTSCASE@=\count180
+\classnum@=\count170
+\DOTSCASE@=\count171
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box30
 \strutbox@=\box31
-\big@size=\dimen159
+\big@size=\dimen157
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count181
-\c@MaxMatrixCols=\count182
+\macc@depth=\count172
+\c@MaxMatrixCols=\count173
 \dotsspace@=\muskip11
-\c@parentequation=\count183
-\dspbrk@lvl=\count184
-\tag@help=\toks29
-\row@=\count185
-\column@=\count186
-\maxfields@=\count187
-\andhelp@=\toks30
-\eqnshift@=\dimen160
-\alignsep@=\dimen161
-\tagshift@=\dimen162
-\tagwidth@=\dimen163
-\totwidth@=\dimen164
-\lineht@=\dimen165
-\@envbody=\toks31
-\multlinegap=\skip263
-\multlinetaggap=\skip264
-\mathdisplay@stack=\toks32
+\c@parentequation=\count174
+\dspbrk@lvl=\count175
+\tag@help=\toks27
+\row@=\count176
+\column@=\count177
+\maxfields@=\count178
+\andhelp@=\toks28
+\eqnshift@=\dimen158
+\alignsep@=\dimen159
+\tagshift@=\dimen160
+\tagwidth@=\dimen161
+\totwidth@=\dimen162
+\lineht@=\dimen163
+\@envbody=\toks29
+\multlinegap=\skip258
+\multlinetaggap=\skip259
+\mathdisplay@stack=\toks30
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 ) (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
@@ -631,18 +603,18 @@ Package: datatool-fp 2017/11/12 v2.29 (NLCT)
 Package: fp 1995/04/02
  `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count188
+\actioncount=\count179
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count189
-\FP@xia=\count190
-\FP@xib=\count191
-\FP@xfa=\count192
-\FP@xfb=\count193
-\FP@rega=\count194
-\FP@regb=\count266
-\FP@regs=\count267
-\FP@times=\count268
+\FP@xs=\count180
+\FP@xia=\count181
+\FP@xib=\count182
+\FP@xfa=\count183
+\FP@xfb=\count184
+\FP@rega=\count185
+\FP@regb=\count186
+\FP@regs=\count187
+\FP@times=\count188
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
@@ -655,7 +627,7 @@ Package: fp-trigo 1995/04/14
 Package: fp-pas 1994/08/29
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count269
+\FPseed=\count189
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
@@ -663,55 +635,55 @@ Package: fp-upn 1996/10/21
 ) (/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks33
-\@dtl@tmpcount=\count270
-\dtl@tmplength=\skip265
-\dtl@sortresult=\count271
-\@dtl@numgrpsepcount=\count272
-\@dtl@datatype=\count273
-\dtl@codeA=\count274
-\dtl@codeB=\count275
-\@dtl@foreach@level=\count276
+\@dtl@toks=\toks31
+\@dtl@tmpcount=\count190
+\dtl@tmplength=\skip260
+\dtl@sortresult=\count191
+\@dtl@numgrpsepcount=\count192
+\@dtl@datatype=\count193
+\dtl@codeA=\count194
+\dtl@codeB=\count266
+\@dtl@foreach@level=\count267
 )
-\dtlcolumnnum=\count277
-\dtlrownum=\count278
-\@dtl@before=\toks34
-\@dtl@after=\toks35
-\@dtl@colhead=\toks36
-\dtlcurrentrow=\toks37
-\dtlbeforerow=\toks38
-\dtlafterrow=\toks39
-\dtlforeachlevel=\count279
-\c@DTLrowi=\count280
-\c@DTLrowii=\count281
-\c@DTLrowiii=\count282
-\c@DTLrow=\count283
-\dtl@rowi=\count284
-\dtl@rowii=\count285
-\dtl@rowiii=\count286
-\@dtl@curi=\toks40
-\@dtl@previ=\toks41
-\@dtl@nexti=\toks42
-\@dtl@curii=\toks43
-\@dtl@previi=\toks44
-\@dtl@nextii=\toks45
-\@dtl@curiii=\toks46
-\@dtl@previii=\toks47
-\@dtl@nextiii=\toks48
-\@dtl@elements=\count287
-\@dtl@list=\toks49
-\@dtl@rowa=\toks50
-\@dtl@rowb=\toks51
-\@dtl@toksA=\toks52
-\@dtl@toksB=\toks53
+\dtlcolumnnum=\count268
+\dtlrownum=\count269
+\@dtl@before=\toks32
+\@dtl@after=\toks33
+\@dtl@colhead=\toks34
+\dtlcurrentrow=\toks35
+\dtlbeforerow=\toks36
+\dtlafterrow=\toks37
+\dtlforeachlevel=\count270
+\c@DTLrowi=\count271
+\c@DTLrowii=\count272
+\c@DTLrowiii=\count273
+\c@DTLrow=\count274
+\dtl@rowi=\count275
+\dtl@rowii=\count276
+\dtl@rowiii=\count277
+\@dtl@curi=\toks38
+\@dtl@previ=\toks39
+\@dtl@nexti=\toks40
+\@dtl@curii=\toks41
+\@dtl@previi=\toks42
+\@dtl@nextii=\toks43
+\@dtl@curiii=\toks44
+\@dtl@previii=\toks45
+\@dtl@nextiii=\toks46
+\@dtl@elements=\count278
+\@dtl@list=\toks47
+\@dtl@rowa=\toks48
+\@dtl@rowb=\toks49
+\@dtl@toksA=\toks50
+\@dtl@toksB=\toks51
 \@dtl@write=\write4
 \@dtl@read=\read2
-\dtl@entrycr=\count288
-\dtl@omitlines=\count289
+\dtl@entrycr=\count279
+\dtl@omitlines=\count280
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 462.
 \mybox=\box32
-\myboxlen=\skip266
+\myboxlen=\skip261
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 
@@ -725,148 +697,148 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen166
-\captionmargin@=\dimen167
-\captionwidth=\dimen168
-\caption@tempdima=\dimen169
-\caption@indent=\dimen170
-\caption@parindent=\dimen171
-\caption@hangindent=\dimen172
+\captionmargin=\dimen164
+\captionmargin@=\dimen165
+\captionwidth=\dimen166
+\caption@tempdima=\dimen167
+\caption@indent=\dimen168
+\caption@parindent=\dimen169
+\caption@hangindent=\dimen170
 )
-\c@ContinuedFloat=\count290
+\c@ContinuedFloat=\count281
 Package caption Info: hyperref package is loaded.
 )
-\c@subfigure=\count291
-\c@subtable=\count292
+\c@subfigure=\count282
+\c@subtable=\count283
 ) (/usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
  (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2018/02/21 L3 programming layer (loader) 
  (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2018/02/21 L3 programming layer (code)
-\c_max_int=\count293
-\l_tmpa_int=\count294
-\l_tmpb_int=\count295
-\g_tmpa_int=\count296
-\g_tmpb_int=\count297
-\g__intarray_font_int=\count298
-\g__prg_map_int=\count299
-\c_log_iow=\count300
-\l_iow_line_count_int=\count301
-\l__iow_line_target_int=\count302
-\l__iow_one_indent_int=\count303
-\l__iow_indent_int=\count304
-\c_zero_dim=\dimen173
-\c_max_dim=\dimen174
-\l_tmpa_dim=\dimen175
-\l_tmpb_dim=\dimen176
-\g_tmpa_dim=\dimen177
-\g_tmpb_dim=\dimen178
-\c_zero_skip=\skip267
-\c_max_skip=\skip268
-\l_tmpa_skip=\skip269
-\l_tmpb_skip=\skip270
-\g_tmpa_skip=\skip271
-\g_tmpb_skip=\skip272
+\c_max_int=\count284
+\l_tmpa_int=\count285
+\l_tmpb_int=\count286
+\g_tmpa_int=\count287
+\g_tmpb_int=\count288
+\g__intarray_font_int=\count289
+\g__prg_map_int=\count290
+\c_log_iow=\count291
+\l_iow_line_count_int=\count292
+\l__iow_line_target_int=\count293
+\l__iow_one_indent_int=\count294
+\l__iow_indent_int=\count295
+\c_zero_dim=\dimen171
+\c_max_dim=\dimen172
+\l_tmpa_dim=\dimen173
+\l_tmpb_dim=\dimen174
+\g_tmpa_dim=\dimen175
+\g_tmpb_dim=\dimen176
+\c_zero_skip=\skip262
+\c_max_skip=\skip263
+\l_tmpa_skip=\skip264
+\l_tmpb_skip=\skip265
+\g_tmpa_skip=\skip266
+\g_tmpb_skip=\skip267
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count305
-\c__fp_leading_shift_int=\count306
-\c__fp_middle_shift_int=\count307
-\c__fp_trailing_shift_int=\count308
-\c__fp_big_leading_shift_int=\count309
-\c__fp_big_middle_shift_int=\count310
-\c__fp_big_trailing_shift_int=\count311
-\c__fp_Bigg_leading_shift_int=\count312
-\c__fp_Bigg_middle_shift_int=\count313
-\c__fp_Bigg_trailing_shift_int=\count314
-\c__fp_rand_size_int=\count315
-\c__fp_rand_four_int=\count316
-\c__fp_rand_eight_int=\count317
-\l__sort_length_int=\count318
-\l__sort_min_int=\count319
-\l__sort_top_int=\count320
-\l__sort_max_int=\count321
-\l__sort_true_max_int=\count322
-\l__sort_block_int=\count323
-\l__sort_begin_int=\count324
-\l__sort_end_int=\count325
-\l__sort_A_int=\count326
-\l__sort_B_int=\count327
-\l__sort_C_int=\count328
-\l__tl_build_start_index_int=\count329
-\l__tl_build_index_int=\count330
-\l__tl_analysis_normal_int=\count331
-\l__tl_analysis_index_int=\count332
-\l__tl_analysis_nesting_int=\count333
-\l__tl_analysis_type_int=\count334
-\l__regex_internal_a_int=\count335
-\l__regex_internal_b_int=\count336
-\l__regex_internal_c_int=\count337
-\l__regex_balance_int=\count338
-\l__regex_group_level_int=\count339
-\l__regex_mode_int=\count340
-\c__regex_cs_in_class_mode_int=\count341
-\c__regex_cs_mode_int=\count342
-\l__regex_catcodes_int=\count343
-\l__regex_default_catcodes_int=\count344
-\c__regex_catcode_D_int=\count345
-\c__regex_catcode_S_int=\count346
-\c__regex_catcode_L_int=\count347
-\c__regex_catcode_O_int=\count348
-\c__regex_catcode_A_int=\count349
-\c__regex_all_catcodes_int=\count350
-\l__regex_show_lines_int=\count351
-\l__regex_min_state_int=\count352
-\l__regex_max_state_int=\count353
-\l__regex_left_state_int=\count354
-\l__regex_right_state_int=\count355
-\l__regex_capturing_group_int=\count356
-\l__regex_min_pos_int=\count357
-\l__regex_max_pos_int=\count358
-\l__regex_curr_pos_int=\count359
-\l__regex_start_pos_int=\count360
-\l__regex_success_pos_int=\count361
-\l__regex_curr_char_int=\count362
-\l__regex_curr_catcode_int=\count363
-\l__regex_last_char_int=\count364
-\l__regex_case_changed_char_int=\count365
-\l__regex_curr_state_int=\count366
-\l__regex_step_int=\count367
-\l__regex_min_active_int=\count368
-\l__regex_max_active_int=\count369
-\l__regex_replacement_csnames_int=\count370
-\l__regex_match_count_int=\count371
-\l__regex_min_submatch_int=\count372
-\l__regex_submatch_int=\count373
-\l__regex_zeroth_submatch_int=\count374
-\g__regex_trace_regex_int=\count375
+\l_keys_choice_int=\count296
+\c__fp_leading_shift_int=\count297
+\c__fp_middle_shift_int=\count298
+\c__fp_trailing_shift_int=\count299
+\c__fp_big_leading_shift_int=\count300
+\c__fp_big_middle_shift_int=\count301
+\c__fp_big_trailing_shift_int=\count302
+\c__fp_Bigg_leading_shift_int=\count303
+\c__fp_Bigg_middle_shift_int=\count304
+\c__fp_Bigg_trailing_shift_int=\count305
+\c__fp_rand_size_int=\count306
+\c__fp_rand_four_int=\count307
+\c__fp_rand_eight_int=\count308
+\l__sort_length_int=\count309
+\l__sort_min_int=\count310
+\l__sort_top_int=\count311
+\l__sort_max_int=\count312
+\l__sort_true_max_int=\count313
+\l__sort_block_int=\count314
+\l__sort_begin_int=\count315
+\l__sort_end_int=\count316
+\l__sort_A_int=\count317
+\l__sort_B_int=\count318
+\l__sort_C_int=\count319
+\l__tl_build_start_index_int=\count320
+\l__tl_build_index_int=\count321
+\l__tl_analysis_normal_int=\count322
+\l__tl_analysis_index_int=\count323
+\l__tl_analysis_nesting_int=\count324
+\l__tl_analysis_type_int=\count325
+\l__regex_internal_a_int=\count326
+\l__regex_internal_b_int=\count327
+\l__regex_internal_c_int=\count328
+\l__regex_balance_int=\count329
+\l__regex_group_level_int=\count330
+\l__regex_mode_int=\count331
+\c__regex_cs_in_class_mode_int=\count332
+\c__regex_cs_mode_int=\count333
+\l__regex_catcodes_int=\count334
+\l__regex_default_catcodes_int=\count335
+\c__regex_catcode_D_int=\count336
+\c__regex_catcode_S_int=\count337
+\c__regex_catcode_L_int=\count338
+\c__regex_catcode_O_int=\count339
+\c__regex_catcode_A_int=\count340
+\c__regex_all_catcodes_int=\count341
+\l__regex_show_lines_int=\count342
+\l__regex_min_state_int=\count343
+\l__regex_max_state_int=\count344
+\l__regex_left_state_int=\count345
+\l__regex_right_state_int=\count346
+\l__regex_capturing_group_int=\count347
+\l__regex_min_pos_int=\count348
+\l__regex_max_pos_int=\count349
+\l__regex_curr_pos_int=\count350
+\l__regex_start_pos_int=\count351
+\l__regex_success_pos_int=\count352
+\l__regex_curr_char_int=\count353
+\l__regex_curr_catcode_int=\count354
+\l__regex_last_char_int=\count355
+\l__regex_case_changed_char_int=\count356
+\l__regex_curr_state_int=\count357
+\l__regex_step_int=\count358
+\l__regex_min_active_int=\count359
+\l__regex_max_active_int=\count360
+\l__regex_replacement_csnames_int=\count361
+\l__regex_match_count_int=\count362
+\l__regex_min_submatch_int=\count363
+\l__regex_submatch_int=\count364
+\l__regex_zeroth_submatch_int=\count365
+\g__regex_trace_regex_int=\count366
 \c_empty_box=\box33
 \l_tmpa_box=\box34
 \l_tmpb_box=\box35
 \g_tmpa_box=\box36
 \g_tmpb_box=\box37
-\l__box_top_dim=\dimen179
-\l__box_bottom_dim=\dimen180
-\l__box_left_dim=\dimen181
-\l__box_right_dim=\dimen182
-\l__box_top_new_dim=\dimen183
-\l__box_bottom_new_dim=\dimen184
-\l__box_left_new_dim=\dimen185
-\l__box_right_new_dim=\dimen186
+\l__box_top_dim=\dimen177
+\l__box_bottom_dim=\dimen178
+\l__box_left_dim=\dimen179
+\l__box_right_dim=\dimen180
+\l__box_top_new_dim=\dimen181
+\l__box_bottom_new_dim=\dimen182
+\l__box_left_new_dim=\dimen183
+\l__box_right_new_dim=\dimen184
 \l__box_internal_box=\box38
 \l__coffin_internal_box=\box39
-\l__coffin_internal_dim=\dimen187
-\l__coffin_offset_x_dim=\dimen188
-\l__coffin_offset_y_dim=\dimen189
-\l__coffin_x_dim=\dimen190
-\l__coffin_y_dim=\dimen191
-\l__coffin_x_prime_dim=\dimen192
-\l__coffin_y_prime_dim=\dimen193
+\l__coffin_internal_dim=\dimen185
+\l__coffin_offset_x_dim=\dimen186
+\l__coffin_offset_y_dim=\dimen187
+\l__coffin_x_dim=\dimen188
+\l__coffin_y_dim=\dimen189
+\l__coffin_x_prime_dim=\dimen190
+\l__coffin_y_prime_dim=\dimen191
 \c_empty_coffin=\box40
 \l__coffin_aligned_coffin=\box41
 \l__coffin_aligned_internal_coffin=\box42
@@ -875,27 +847,27 @@ Package: expl3 2018/02/21 L3 programming layer (code)
 \l__coffin_display_coffin=\box45
 \l__coffin_display_coord_coffin=\box46
 \l__coffin_display_pole_coffin=\box47
-\l__coffin_display_offset_dim=\dimen194
-\l__coffin_display_x_dim=\dimen256
-\l__coffin_display_y_dim=\dimen257
-\l__coffin_bounding_shift_dim=\dimen258
-\l__coffin_left_corner_dim=\dimen259
-\l__coffin_right_corner_dim=\dimen260
-\l__coffin_bottom_corner_dim=\dimen261
-\l__coffin_top_corner_dim=\dimen262
-\l__coffin_scaled_total_height_dim=\dimen263
-\l__coffin_scaled_width_dim=\dimen264
+\l__coffin_display_offset_dim=\dimen192
+\l__coffin_display_x_dim=\dimen193
+\l__coffin_display_y_dim=\dimen194
+\l__coffin_bounding_shift_dim=\dimen256
+\l__coffin_left_corner_dim=\dimen257
+\l__coffin_right_corner_dim=\dimen258
+\l__coffin_bottom_corner_dim=\dimen259
+\l__coffin_top_corner_dim=\dimen260
+\l__coffin_scaled_total_height_dim=\dimen261
+\l__coffin_scaled_width_dim=\dimen262
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count376
+\l__driver_color_stack_int=\count367
 \l__driver_tmp_box=\box48
 ))
 Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count377
-\g__xparse_grabber_int=\count378
-\l__xparse_m_args_int=\count379
-\l__xparse_mandatory_args_int=\count380
-\l__xparse_v_nesting_int=\count381
+\l__xparse_current_arg_int=\count368
+\g__xparse_grabber_int=\count369
+\l__xparse_m_args_int=\count370
+\l__xparse_mandatory_args_int=\count371
+\l__xparse_v_nesting_int=\count372
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1860,8 +1832,8 @@ File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks54
-\inpenc@posthook=\toks55
+\inpenc@prehook=\toks52
+\inpenc@posthook=\toks53
  (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
@@ -2196,21 +2168,21 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
-\Gin@req@height=\dimen265
-\Gin@req@width=\dimen266
+\Gin@req@height=\dimen263
+\Gin@req@width=\dimen264
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks56
-\MT@count=\count382
+\MT@toks=\toks54
+\MT@count=\count373
 LaTeX Info: Redefining \textls on input line 793.
-\MT@outer@kern=\dimen267
+\MT@outer@kern=\dimen265
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count383
+\MT@listname@count=\count374
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 913.
 LaTeX Info: Redefining \lslig on input line 913.
-\MT@outer@space=\skip273
+\MT@outer@space=\skip268
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
@@ -2220,28 +2192,28 @@ Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
  (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
-\AM@pagewidth=\dimen268
-\AM@pageheight=\dimen269
+\AM@pagewidth=\dimen266
+\AM@pageheight=\dimen267
  (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box49
-\AM@global@opts=\toks57
-\AM@toc@title=\toks58
-\c@AM@survey=\count384
+\AM@global@opts=\toks55
+\AM@toc@title=\toks56
+\c@AM@survey=\count375
 \AM@templatesizebox=\box50
 ) (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count385
+\c@lips@count=\count376
 ) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2018/02/11 v5.2c context-sensitive quotations (JAW)
-\csq@reset=\count386
-\csq@gtype=\count387
-\csq@glevel=\count388
-\csq@qlevel=\count389
-\csq@maxlvl=\count390
-\csq@tshold=\count391
-\csq@ltx@everypar=\toks59
+\csq@reset=\count377
+\csq@gtype=\count378
+\csq@glevel=\count379
+\csq@qlevel=\count380
+\csq@maxlvl=\count381
+\csq@tshold=\count382
+\csq@ltx@everypar=\toks57
  (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2018/02/11 v5.2c csquotes generic definitions (JAW)
 )
@@ -2270,9 +2242,9 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (/usr/share/texlive/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
 Package: smartdiagram 2016/12/23 v0.3b Automatic creation of smart diagrams from lists of items.
  (/home/elton/texmf/tex/latex/pgf/frontendlayer/tikz.sty (/home/elton/texmf/tex/latex/pgf/basiclayer/pgf.sty (/home/elton/texmf/tex/latex/pgf/utilities/pgfrcs.sty (/home/elton/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks60
-\pgfutil@tempdima=\dimen270
-\pgfutil@tempdimb=\dimen271
+\pgfutil@everybye=\toks58
+\pgfutil@tempdima=\dimen268
+\pgfutil@tempdimb=\dimen269
  (/home/elton/texmf/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/home/elton/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box51
  (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
@@ -2284,28 +2256,28 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
  (/home/elton/texmf/tex/latex/pgf/basiclayer/pgfcore.sty (/home/elton/texmf/tex/latex/pgf/systemlayer/pgfsys.sty (/home/elton/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
  (/home/elton/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks61
-\pgfkeys@temptoks=\toks62
+\pgfkeys@pathtoks=\toks59
+\pgfkeys@temptoks=\toks60
  (/home/elton/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks63
+\pgfkeys@tmptoks=\toks61
 ))
-\pgf@x=\dimen272
-\pgf@y=\dimen273
-\pgf@xa=\dimen274
-\pgf@ya=\dimen275
-\pgf@xb=\dimen276
-\pgf@yb=\dimen277
-\pgf@xc=\dimen278
-\pgf@yc=\dimen279
+\pgf@x=\dimen270
+\pgf@y=\dimen271
+\pgf@xa=\dimen272
+\pgf@ya=\dimen273
+\pgf@xb=\dimen274
+\pgf@yb=\dimen275
+\pgf@xc=\dimen276
+\pgf@yc=\dimen277
 \w@pgf@writea=\write5
 \r@pgf@reada=\read3
-\c@pgf@counta=\count392
-\c@pgf@countb=\count393
-\c@pgf@countc=\count394
-\c@pgf@countd=\count395
-\t@pgf@toka=\toks64
-\t@pgf@tokb=\toks65
-\t@pgf@tokc=\toks66
+\c@pgf@counta=\count383
+\c@pgf@countb=\count384
+\c@pgf@countc=\count385
+\c@pgf@countd=\count386
+\t@pgf@toka=\toks62
+\t@pgf@tokb=\toks63
+\t@pgf@tokc=\toks64
  (/home/elton/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -2316,59 +2288,59 @@ File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ))) (/home/elton/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count396
-\pgfsyssoftpath@bigbuffer@items=\count397
+\pgfsyssoftpath@smallbuffer@items=\count387
+\pgfsyssoftpath@bigbuffer@items=\count388
 ) (/home/elton/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 )) (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
  (/home/elton/texmf/tex/generic/pgf/math/pgfmath.code.tex (/home/elton/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex (/home/elton/texmf/tex/generic/pgf/math/pgfmathutil.code.tex) (/home/elton/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen280
-\pgfmath@count=\count398
+\pgfmath@dimen=\dimen278
+\pgfmath@count=\count389
 \pgfmath@box=\box52
-\pgfmath@toks=\toks67
-\pgfmath@stack@operand=\toks68
-\pgfmath@stack@operation=\toks69
+\pgfmath@toks=\toks65
+\pgfmath@stack@operand=\toks66
+\pgfmath@stack@operation=\toks67
 ) (/home/elton/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex (/home/elton/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/elton/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/home/elton/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/elton/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/elton/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/elton/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/elton/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/elton/texmf/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/home/elton/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count399
+\c@pgfmathroundto@lastzeros=\count390
 )) (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen281
-\pgf@picmaxx=\dimen282
-\pgf@picminy=\dimen283
-\pgf@picmaxy=\dimen284
-\pgf@pathminx=\dimen285
-\pgf@pathmaxx=\dimen286
-\pgf@pathminy=\dimen287
-\pgf@pathmaxy=\dimen288
-\pgf@xx=\dimen289
-\pgf@xy=\dimen290
-\pgf@yx=\dimen291
-\pgf@yy=\dimen292
-\pgf@zx=\dimen293
-\pgf@zy=\dimen294
+\pgf@picminx=\dimen279
+\pgf@picmaxx=\dimen280
+\pgf@picminy=\dimen281
+\pgf@picmaxy=\dimen282
+\pgf@pathminx=\dimen283
+\pgf@pathmaxx=\dimen284
+\pgf@pathminy=\dimen285
+\pgf@pathmaxy=\dimen286
+\pgf@xx=\dimen287
+\pgf@xy=\dimen288
+\pgf@yx=\dimen289
+\pgf@yy=\dimen290
+\pgf@zx=\dimen291
+\pgf@zy=\dimen292
 ) (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen295
-\pgf@path@lasty=\dimen296
+\pgf@path@lastx=\dimen293
+\pgf@path@lasty=\dimen294
 ) (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen297
-\pgf@shorten@start@additional=\dimen298
+\pgf@shorten@end@additional=\dimen295
+\pgf@shorten@start@additional=\dimen296
 ) (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box53
 \pgf@hbox=\box54
 \pgf@layerbox@main=\box55
-\pgf@picture@serial@count=\count400
+\pgf@picture@serial@count=\count391
 ) (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen299
+\pgflinewidth=\dimen297
 ) (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen300
-\pgf@pt@y=\dimen301
-\pgf@pt@temp=\dimen302
+\pgf@pt@x=\dimen298
+\pgf@pt@y=\dimen299
+\pgf@pt@temp=\dimen300
 ) (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 ) (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -2377,11 +2349,11 @@ File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ) (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen303
+\pgfarrowsep=\dimen301
 ) (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen304
-\pgf@sys@shading@range@num=\count401
+\pgf@max=\dimen302
+\pgf@sys@shading@range@num=\count392
 ) (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
  (/home/elton/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -2400,51 +2372,51 @@ File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 ) (/home/elton/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen305
-\pgf@nodesepend=\dimen306
+\pgf@nodesepstart=\dimen303
+\pgf@nodesepend=\dimen304
 ) (/home/elton/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 )) (/home/elton/texmf/tex/latex/pgf/utilities/pgffor.sty (/home/elton/texmf/tex/latex/pgf/utilities/pgfkeys.sty (/home/elton/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/home/elton/texmf/tex/latex/pgf/math/pgfmath.sty (/home/elton/texmf/tex/generic/pgf/math/pgfmath.code.tex)) (/home/elton/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
  (/home/elton/texmf/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen307
-\pgffor@skip=\dimen308
-\pgffor@stack=\toks70
-\pgffor@toks=\toks71
+\pgffor@iter=\dimen305
+\pgffor@skip=\dimen306
+\pgffor@stack=\toks68
+\pgffor@toks=\toks69
 )) (/home/elton/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
  (/home/elton/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count402
-\pgfplotmarksize=\dimen309
+\pgf@plot@mark@count=\count393
+\pgfplotmarksize=\dimen307
 )
-\tikz@lastx=\dimen310
-\tikz@lasty=\dimen311
-\tikz@lastxsaved=\dimen312
-\tikz@lastysaved=\dimen313
-\tikzleveldistance=\dimen314
-\tikzsiblingdistance=\dimen315
+\tikz@lastx=\dimen308
+\tikz@lasty=\dimen309
+\tikz@lastxsaved=\dimen310
+\tikz@lastysaved=\dimen311
+\tikzleveldistance=\dimen312
+\tikzsiblingdistance=\dimen313
 \tikz@figbox=\box58
 \tikz@figbox@bg=\box59
 \tikz@tempbox=\box60
 \tikz@tempbox@bg=\box61
-\tikztreelevel=\count403
-\tikznumberofchildren=\count404
-\tikznumberofcurrentchild=\count405
-\tikz@fig@count=\count406
+\tikztreelevel=\count394
+\tikznumberofchildren=\count395
+\tikznumberofcurrentchild=\count396
+\tikz@fig@count=\count397
  (/home/elton/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count407
-\pgfmatrixcurrentcolumn=\count408
-\pgf@matrix@numberofcolumns=\count409
+\pgfmatrixcurrentrow=\count398
+\pgfmatrixcurrentcolumn=\count399
+\pgf@matrix@numberofcolumns=\count400
 )
-\tikz@expandcount=\count410
+\tikz@expandcount=\count401
  (/home/elton/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write6
-\integerpart=\count411
-\decimalpart=\count412
+\integerpart=\count402
+\decimalpart=\count403
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 ) (/home/elton/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
@@ -2489,10 +2461,10 @@ File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
 .................................................
 )) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count413
-\float@exts=\toks72
+\c@float@type=\count404
+\float@exts=\toks70
 \float@box=\box66
-\@float@everytoks=\toks73
+\@float@everytoks=\toks71
 \@floatcapt=\box67
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
@@ -2648,42 +2620,42 @@ Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip274
-\LTright=\skip275
-\LTpre=\skip276
-\LTpost=\skip277
-\LTchunksize=\count414
-\LTcapwidth=\dimen316
+\LTleft=\skip269
+\LTright=\skip270
+\LTpre=\skip271
+\LTpost=\skip272
+\LTchunksize=\count405
+\LTcapwidth=\dimen314
 \LT@head=\box68
 \LT@firsthead=\box69
 \LT@foot=\box70
 \LT@lastfoot=\box71
-\LT@cols=\count415
-\LT@rows=\count416
-\c@LT@tables=\count417
-\c@LT@chunks=\count418
-\LT@p@ftn=\toks74
+\LT@cols=\count406
+\LT@rows=\count407
+\c@LT@tables=\count408
+\c@LT@chunks=\count409
+\LT@p@ftn=\toks72
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
-\c@tracingmulticols=\count419
+\c@tracingmulticols=\count410
 \mult@box=\box72
-\multicol@leftmargin=\dimen317
-\c@unbalance=\count420
-\c@collectmore=\count421
-\doublecol@number=\count422
-\multicoltolerance=\count423
-\multicolpretolerance=\count424
-\full@width=\dimen318
-\page@free=\dimen319
-\premulticols=\dimen320
-\postmulticols=\dimen321
-\multicolsep=\skip278
-\multicolbaselineskip=\skip279
+\multicol@leftmargin=\dimen315
+\c@unbalance=\count411
+\c@collectmore=\count412
+\doublecol@number=\count413
+\multicoltolerance=\count414
+\multicolpretolerance=\count415
+\full@width=\dimen316
+\page@free=\dimen317
+\premulticols=\dimen318
+\postmulticols=\dimen319
+\multicolsep=\skip273
+\multicolbaselineskip=\skip274
 \partial@page=\box73
 \last@line=\box74
-\maxbalancingoverflow=\dimen322
+\maxbalancingoverflow=\dimen320
 \mult@rightbox=\box75
 \mult@grightbox=\box76
 \mult@gfirstbox=\box77
@@ -2705,20 +2677,20 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box93
 \@tempa=\box94
 \@tempa=\box95
-\c@columnbadness=\count425
-\c@finalcolumnbadness=\count426
-\last@try=\dimen323
-\multicolovershoot=\dimen324
-\multicolundershoot=\dimen325
+\c@columnbadness=\count416
+\c@finalcolumnbadness=\count417
+\last@try=\dimen321
+\multicolovershoot=\dimen322
+\multicolundershoot=\dimen323
 \mult@nat@firstbox=\box96
 \colbreak@box=\box97
-\mc@col@check@num=\count427
+\mc@col@check@num=\count418
 ) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip280
-\multirow@cntb=\count428
-\multirow@dima=\skip281
-\bigstrutjot=\dimen326
+\multirow@colwidth=\skip275
+\multirow@cntb=\count419
+\multirow@dima=\skip276
+\bigstrutjot=\dimen324
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/newfloat.sty
 Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -2731,60 +2703,60 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count429
+\lrq@indent=\count420
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count430
-\c@listtotal=\count431
-\c@listcount=\count432
-\c@liststart=\count433
-\c@liststop=\count434
-\c@citecount=\count435
-\c@citetotal=\count436
-\c@multicitecount=\count437
-\c@multicitetotal=\count438
-\c@instcount=\count439
-\c@maxnames=\count440
-\c@minnames=\count441
-\c@maxitems=\count442
-\c@minitems=\count443
-\c@citecounter=\count444
-\c@savedcitecounter=\count445
-\c@uniquelist=\count446
-\c@uniquename=\count447
-\c@refsection=\count448
-\c@refsegment=\count449
-\c@maxextratitle=\count450
-\c@maxextratitleyear=\count451
-\c@maxextradate=\count452
-\c@maxextraalpha=\count453
-\c@abbrvpenalty=\count454
-\c@highnamepenalty=\count455
-\c@lownamepenalty=\count456
-\c@maxparens=\count457
-\c@parenlevel=\count458
-\blx@tempcnta=\count459
-\blx@tempcntb=\count460
-\blx@tempcntc=\count461
-\blx@maxsection=\count462
-\blx@maxsegment@0=\count463
-\blx@notetype=\count464
-\blx@parenlevel@text=\count465
-\blx@parenlevel@foot=\count466
-\blx@sectionciteorder@0=\count467
-\labelnumberwidth=\skip282
-\labelalphawidth=\skip283
-\biblabelsep=\skip284
-\bibnamesep=\skip285
-\bibinitsep=\skip286
-\bibparsep=\skip287
-\bibhang=\skip288
+\c@tabx@nest=\count421
+\c@listtotal=\count422
+\c@listcount=\count423
+\c@liststart=\count424
+\c@liststop=\count425
+\c@citecount=\count426
+\c@citetotal=\count427
+\c@multicitecount=\count428
+\c@multicitetotal=\count429
+\c@instcount=\count430
+\c@maxnames=\count431
+\c@minnames=\count432
+\c@maxitems=\count433
+\c@minitems=\count434
+\c@citecounter=\count435
+\c@savedcitecounter=\count436
+\c@uniquelist=\count437
+\c@uniquename=\count438
+\c@refsection=\count439
+\c@refsegment=\count440
+\c@maxextratitle=\count441
+\c@maxextratitleyear=\count442
+\c@maxextradate=\count443
+\c@maxextraalpha=\count444
+\c@abbrvpenalty=\count445
+\c@highnamepenalty=\count446
+\c@lownamepenalty=\count447
+\c@maxparens=\count448
+\c@parenlevel=\count449
+\blx@tempcnta=\count450
+\blx@tempcntb=\count451
+\blx@tempcntc=\count452
+\blx@maxsection=\count453
+\blx@maxsegment@0=\count454
+\blx@notetype=\count455
+\blx@parenlevel@text=\count456
+\blx@parenlevel@foot=\count457
+\blx@sectionciteorder@0=\count458
+\labelnumberwidth=\skip277
+\labelalphawidth=\skip278
+\biblabelsep=\skip279
+\bibnamesep=\skip280
+\bibinitsep=\skip281
+\bibparsep=\skip282
+\bibhang=\skip283
 \blx@bcfin=\read4
 \blx@bcfout=\write7
-\c@mincomprange=\count468
-\c@maxcomprange=\count469
-\c@mincompwidth=\count470
+\c@mincomprange=\count459
+\c@maxcomprange=\count460
+\c@mincompwidth=\count461
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
@@ -2792,80 +2764,80 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'abnt.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count471
-\c@savedafterword=\count472
-\c@annotator=\count473
-\c@savedannotator=\count474
-\c@author=\count475
-\c@savedauthor=\count476
-\c@bookauthor=\count477
-\c@savedbookauthor=\count478
-\c@commentator=\count479
-\c@savedcommentator=\count480
-\c@editor=\count481
-\c@savededitor=\count482
-\c@editora=\count483
-\c@savededitora=\count484
-\c@editorb=\count485
-\c@savededitorb=\count486
-\c@editorc=\count487
-\c@savededitorc=\count488
-\c@foreword=\count489
-\c@savedforeword=\count490
-\c@holder=\count491
-\c@savedholder=\count492
-\c@introduction=\count493
-\c@savedintroduction=\count494
-\c@namea=\count495
-\c@savednamea=\count496
-\c@nameb=\count497
-\c@savednameb=\count498
-\c@namec=\count499
-\c@savednamec=\count500
-\c@translator=\count501
-\c@savedtranslator=\count502
-\c@shortauthor=\count503
-\c@savedshortauthor=\count504
-\c@shorteditor=\count505
-\c@savedshorteditor=\count506
-\c@labelname=\count507
-\c@savedlabelname=\count508
-\c@institution=\count509
-\c@savedinstitution=\count510
-\c@lista=\count511
-\c@savedlista=\count512
-\c@listb=\count513
-\c@savedlistb=\count514
-\c@listc=\count515
-\c@savedlistc=\count516
-\c@listd=\count517
-\c@savedlistd=\count518
-\c@liste=\count519
-\c@savedliste=\count520
-\c@listf=\count521
-\c@savedlistf=\count522
-\c@location=\count523
-\c@savedlocation=\count524
-\c@organization=\count525
-\c@savedorganization=\count526
-\c@origlocation=\count527
-\c@savedoriglocation=\count528
-\c@origpublisher=\count529
-\c@savedorigpublisher=\count530
-\c@publisher=\count531
-\c@savedpublisher=\count532
-\c@language=\count533
-\c@savedlanguage=\count534
-\c@origlanguage=\count535
-\c@savedoriglanguage=\count536
-\c@pageref=\count537
-\c@savedpageref=\count538
-\shorthandwidth=\skip289
-\shortjournalwidth=\skip290
-\shortserieswidth=\skip291
-\shorttitlewidth=\skip292
-\shortauthorwidth=\skip293
-\shorteditorwidth=\skip294
+\c@afterword=\count462
+\c@savedafterword=\count463
+\c@annotator=\count464
+\c@savedannotator=\count465
+\c@author=\count466
+\c@savedauthor=\count467
+\c@bookauthor=\count468
+\c@savedbookauthor=\count469
+\c@commentator=\count470
+\c@savedcommentator=\count471
+\c@editor=\count472
+\c@savededitor=\count473
+\c@editora=\count474
+\c@savededitora=\count475
+\c@editorb=\count476
+\c@savededitorb=\count477
+\c@editorc=\count478
+\c@savededitorc=\count479
+\c@foreword=\count480
+\c@savedforeword=\count481
+\c@holder=\count482
+\c@savedholder=\count483
+\c@introduction=\count484
+\c@savedintroduction=\count485
+\c@namea=\count486
+\c@savednamea=\count487
+\c@nameb=\count488
+\c@savednameb=\count489
+\c@namec=\count490
+\c@savednamec=\count491
+\c@translator=\count492
+\c@savedtranslator=\count493
+\c@shortauthor=\count494
+\c@savedshortauthor=\count495
+\c@shorteditor=\count496
+\c@savedshorteditor=\count497
+\c@labelname=\count498
+\c@savedlabelname=\count499
+\c@institution=\count500
+\c@savedinstitution=\count501
+\c@lista=\count502
+\c@savedlista=\count503
+\c@listb=\count504
+\c@savedlistb=\count505
+\c@listc=\count506
+\c@savedlistc=\count507
+\c@listd=\count508
+\c@savedlistd=\count509
+\c@liste=\count510
+\c@savedliste=\count511
+\c@listf=\count512
+\c@savedlistf=\count513
+\c@location=\count514
+\c@savedlocation=\count515
+\c@organization=\count516
+\c@savedorganization=\count517
+\c@origlocation=\count518
+\c@savedoriglocation=\count519
+\c@origpublisher=\count520
+\c@savedorigpublisher=\count521
+\c@publisher=\count522
+\c@savedpublisher=\count523
+\c@language=\count524
+\c@savedlanguage=\count525
+\c@origlanguage=\count526
+\c@savedoriglanguage=\count527
+\c@pageref=\count528
+\c@savedpageref=\count529
+\shorthandwidth=\skip284
+\shortjournalwidth=\skip285
+\shortserieswidth=\skip286
+\shorttitlewidth=\skip287
+\shortauthorwidth=\skip288
+\shorteditorwidth=\skip289
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -2875,13 +2847,13 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count539
-\c@textcitetotal=\count540
-\c@textcitemaxnames=\count541
-\c@biburlnumpenalty=\count542
-\c@biburlucpenalty=\count543
-\c@biburllcpenalty=\count544
-\c@smartand=\count545
+\c@textcitecount=\count530
+\c@textcitetotal=\count531
+\c@textcitemaxnames=\count532
+\c@biburlnumpenalty=\count533
+\c@biburlucpenalty=\count534
+\c@biburllcpenalty=\count535
+\c@smartand=\count536
 )
 Package biblatex Info: Trying to load bibliography style 'abnt'...
 Package biblatex Info: ... file 'abnt.bbx' found.
@@ -3074,8 +3046,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count546
-\c@bbx:relatedtotal=\count547
+\c@bbx:relatedcount=\count537
+\c@bbx:relatedtotal=\count538
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -3129,14 +3101,14 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 ))
 Package newfloat Info: New float `quadro' with options ` fileext=loq, listname={\textbf {LISTA DE QUADROS}}, name=Quadro, within= none, ' on input line 83.
-\c@quadro=\count548
+\c@quadro=\count539
 Package newfloat Info: float type `quadro'=4 on input line 83.
 Package newfloat Info: \newfloat@listofquadro@hook is already defined on input line 83.
-\c@loqdepth=\count549
-\c@subquadro=\count550
-\cftbeforequadroskip=\skip295
-\cftquadroindent=\skip296
-\cftquadronumwidth=\skip297
+\c@loqdepth=\count540
+\c@subquadro=\count541
+\cftbeforequadroskip=\skip290
+\cftquadroindent=\skip291
+\cftquadronumwidth=\skip292
 ) (/home/elton/Documentos/dissertacao/00-dados.tex)
 \main@idxfile=\write8
 \openout8 = `main.idx'.
@@ -3165,24 +3137,6 @@ Package biblatex Info: ... file 'brazil.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/brazil.lbx
 File: brazil.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 )))
-Package biblatex Info: Trying to load language 'spanish' -> 'spanish-abnt'...
-Package biblatex Info: ... file 'spanish-abnt.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex-abnt/spanish-abnt.lbx
-File: abnt-spanish.lbx 2017/11/09 v3.2 ABNT BibLaTeX citation style
-Package biblatex Info: Trying to load language 'spanish'...
-Package biblatex Info: ... file 'spanish.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
-File: spanish.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
-))
-
-Package biblatex Warning: File 'french-abnt.lbx' not found!
-(biblatex)                Ignoring mapping 'french' -> 'french-abnt'.
-
-Package biblatex Info: Trying to load language 'french'...
-Package biblatex Info: ... file 'french.lbx' found.
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/french.lbx
-File: french.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
-)
 Package biblatex Info: Trying to load language 'english' -> 'english-abnt'...
 Package biblatex Info: ... file 'english-abnt.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex-abnt/english-abnt.lbx
@@ -3234,7 +3188,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count551
+\c@section@level=\count542
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -3242,11 +3196,8 @@ LaTeX Info: Redefining \nameref on input line 82.
 LaTeX Info: Redefining \ref on input line 82.
 LaTeX Info: Redefining \pageref on input line 82.
 LaTeX Info: Redefining \nameref on input line 82.
-LaTeX Info: Redefining \degres on input line 82.
-LaTeX Info: Redefining \dots on input line 82.
-LaTeX Info: Redefining \up on input line 82.
 \myptabbox=\box99
-\myptabboxwidth=\skip298
+\myptabboxwidth=\skip293
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
@@ -3259,17 +3210,17 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             ! on input line 82.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count552
-\scratchdimen=\dimen327
+\scratchcounter=\count543
+\scratchdimen=\dimen325
 \scratchbox=\box100
-\nofMPsegments=\count553
-\nofMParguments=\count554
-\everyMPshowfont=\toks75
-\MPscratchCnt=\count555
-\MPscratchDim=\dimen328
-\MPnumerator=\count556
-\makeMPintoPDFobject=\count557
-\everyMPtoPDFconversion=\toks76
+\nofMPsegments=\count544
+\nofMParguments=\count545
+\everyMPshowfont=\toks73
+\MPscratchCnt=\count546
+\MPscratchDim=\dimen326
+\MPnumerator=\count547
+\makeMPintoPDFobject=\count548
+\everyMPtoPDFconversion=\toks74
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -3370,32 +3321,26 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 29.
  [2
 
-] (/home/elton/Documentos/dissertacao/main.lof) [3
-
-] (/home/elton/Documentos/dissertacao/main.lot) [4
-
 ]
-\dtldb@list=\toks77
-\dtlkeys@list=\toks78
-\dtlrows@list=\count558
-\dtlcols@list=\count559
- (/home/elton/Documentos/dissertacao/main.sig) [5
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 61.
+ [3
 
-] (/home/elton/Documentos/dissertacao/main.sbl) [6
+] (/home/elton/Documentos/dissertacao/main.lof) [4
 
+] (/home/elton/Documentos/dissertacao/main.lot) [5
 
 ] (/home/elton/Documentos/dissertacao/main.toc
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 47.
- [7
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 45.
+ [6
 
-
-] [8])) (/home/elton/Documentos/dissertacao/cap01.tex [9]
+] [7])) (/home/elton/Documentos/dissertacao/cap01.tex [8]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 11.
 
-<fig/semicilindro.png, id=321, 694.84593pt x 209.28188pt>
+<fig/semicilindro.png, id=313, 694.84593pt x 209.28188pt>
 File: fig/semicilindro.png Graphic file (type png)
 <use fig/semicilindro.png>
 Package pdftex.def Info: fig/semicilindro.png  used on input line 13.
@@ -3405,9 +3350,9 @@ Overfull \hbox (0.36513pt too wide) in paragraph at lines 26--27
 \T1/phv/m/n/12 (-20) ma-lhas não-ortogonais (ma-lhas cur-vi-lí-neas) es-tru-tu-ra-das e em ma-lhas não-estruturadas. 
  []
 
-[10
+[9
 
- </home/elton/Documentos/dissertacao/fig/semicilindro.png>] [11] [12] [13] [14] [15]
+ </home/elton/Documentos/dissertacao/fig/semicilindro.png>] [10] [11] [12] [13] [14]
 Package epstopdf Info: Source file: <fig/celula_correta.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 3722 bytes
@@ -3417,7 +3362,7 @@ Package epstopdf Info: Source file: <fig/celula_correta.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/celula_correta-eps-converted-to.pdf fig/celula_correta.eps>
 (epstopdf)             \includegraphics on input line 219.
 Package epstopdf Info: Output file is already uptodate.
-<fig/celula_correta-eps-converted-to.pdf, id=370, 135.50626pt x 103.38625pt>
+<fig/celula_correta-eps-converted-to.pdf, id=364, 135.50626pt x 103.38625pt>
 File: fig/celula_correta-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/celula_correta-eps-converted-to.pdf>
 Package pdftex.def Info: fig/celula_correta-eps-converted-to.pdf  used on input line 219.
@@ -3431,18 +3376,18 @@ Package epstopdf Info: Source file: <fig/celula_errada.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/celula_errada-eps-converted-to.pdf fig/celula_errada.eps>
 (epstopdf)             \includegraphics on input line 227.
 Package epstopdf Info: Output file is already uptodate.
-<fig/celula_errada-eps-converted-to.pdf, id=371, 199.74625pt x 135.50626pt>
+<fig/celula_errada-eps-converted-to.pdf, id=365, 199.74625pt x 135.50626pt>
 File: fig/celula_errada-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/celula_errada-eps-converted-to.pdf>
 Package pdftex.def Info: fig/celula_errada-eps-converted-to.pdf  used on input line 227.
 (pdftex.def)             Requested size: 199.74576pt x 135.5059pt.
- [16 </home/elton/Documentos/dissertacao/fig/celula_correta-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/celula_errada-eps-converted-to.pdf>]) [17] [18
+ [15 </home/elton/Documentos/dissertacao/fig/celula_correta-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/celula_errada-eps-converted-to.pdf>]) [16] [17
 
 ] (/home/elton/Documentos/dissertacao/cap02.tex
 
-LaTeX Warning: Citation 'NagleR.KentB.SaffEdwardDavidSnider2012' on page 19 undefined on input line 5.
+LaTeX Warning: Citation 'NagleR.KentB.SaffEdwardDavidSnider2012' on page 18 undefined on input line 5.
 
-[19
+[18
 
 ]
 Package epstopdf Info: Source file: <fig/volume_centrado.eps>
@@ -3454,7 +3399,7 @@ Package epstopdf Info: Source file: <fig/volume_centrado.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/volume_centrado-eps-converted-to.pdf fig/volume_centrado.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
-<fig/volume_centrado-eps-converted-to.pdf, id=403, 161.60374pt x 209.78375pt>
+<fig/volume_centrado-eps-converted-to.pdf, id=397, 161.60374pt x 209.78375pt>
 File: fig/volume_centrado-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/volume_centrado-eps-converted-to.pdf>
 Package pdftex.def Info: fig/volume_centrado-eps-converted-to.pdf  used on input line 36.
@@ -3468,7 +3413,7 @@ Package epstopdf Info: Source file: <fig/volume_vertice.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/volume_vertice-eps-converted-to.pdf fig/volume_vertice.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<fig/volume_vertice-eps-converted-to.pdf, id=404, 161.60374pt x 209.78375pt>
+<fig/volume_vertice-eps-converted-to.pdf, id=398, 161.60374pt x 209.78375pt>
 File: fig/volume_vertice-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/volume_vertice-eps-converted-to.pdf>
 Package pdftex.def Info: fig/volume_vertice-eps-converted-to.pdf  used on input line 42.
@@ -3478,7 +3423,7 @@ Overfull \hbox (2.54399pt too wide) in paragraph at lines 34--46
 []$[]$ $[]$ 
  []
 
-[20] [21 </home/elton/Documentos/dissertacao/fig/volume_centrado-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/volume_vertice-eps-converted-to.pdf>] [22] [23]
+[19] [20 </home/elton/Documentos/dissertacao/fig/volume_centrado-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/volume_vertice-eps-converted-to.pdf>] [21] [22] [23]
 Package epstopdf Info: Source file: <fig/figura1.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 21369 bytes
@@ -3486,14 +3431,14 @@ Package epstopdf Info: Source file: <fig/figura1.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 5012 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/figura1-eps-converted-to.pdf fig/figura1.eps>
-(epstopdf)             \includegraphics on input line 219.
+(epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
-<fig/figura1-eps-converted-to.pdf, id=454, 193.72375pt x 193.72375pt>
+<fig/figura1-eps-converted-to.pdf, id=455, 193.72375pt x 193.72375pt>
 File: fig/figura1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/figura1-eps-converted-to.pdf>
-Package pdftex.def Info: fig/figura1-eps-converted-to.pdf  used on input line 219.
+Package pdftex.def Info: fig/figura1-eps-converted-to.pdf  used on input line 225.
 (pdftex.def)             Requested size: 193.72327pt x 193.72327pt.
- [24] [25 </home/elton/Documentos/dissertacao/fig/figura1-eps-converted-to.pdf>] [26]
+ [24 </home/elton/Documentos/dissertacao/fig/figura1-eps-converted-to.pdf>] [25]
 Package epstopdf Info: Source file: <fig/figura2.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 20654 bytes
@@ -3501,19 +3446,23 @@ Package epstopdf Info: Source file: <fig/figura2.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 4814 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/figura2-eps-converted-to.pdf fig/figura2.eps>
-(epstopdf)             \includegraphics on input line 326.
+(epstopdf)             \includegraphics on input line 332.
 Package epstopdf Info: Output file is already uptodate.
-<fig/figura2-eps-converted-to.pdf, id=493, 129.48375pt x 192.72pt>
+<fig/figura2-eps-converted-to.pdf, id=487, 129.48375pt x 192.72pt>
 File: fig/figura2-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/figura2-eps-converted-to.pdf>
-Package pdftex.def Info: fig/figura2-eps-converted-to.pdf  used on input line 326.
+Package pdftex.def Info: fig/figura2-eps-converted-to.pdf  used on input line 332.
 (pdftex.def)             Requested size: 181.99722pt x 270.90889pt.
- [27 </home/elton/Documentos/dissertacao/fig/figura2-eps-converted-to.pdf>]
-Overfull \hbox (4.66806pt too wide) detected at line 350
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26]
+Overfull \hbox (4.66806pt too wide) detected at line 356
 [] \OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 y \OT1/cmr/m/n/12 + [] ^^A\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 S[]\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 y
  []
 
-[28]
+[27 </home/elton/Documentos/dissertacao/fig/figura2-eps-converted-to.pdf>] [28]
 Package epstopdf Info: Source file: <fig/nao-ortogo.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 63197 bytes
@@ -3521,12 +3470,12 @@ Package epstopdf Info: Source file: <fig/nao-ortogo.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 7872 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/nao-ortogo-eps-converted-to.pdf fig/nao-ortogo.eps>
-(epstopdf)             \includegraphics on input line 399.
+(epstopdf)             \includegraphics on input line 405.
 Package epstopdf Info: Output file is already uptodate.
 <fig/nao-ortogo-eps-converted-to.pdf, id=528, 257.96375pt x 201.75375pt>
 File: fig/nao-ortogo-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/nao-ortogo-eps-converted-to.pdf>
-Package pdftex.def Info: fig/nao-ortogo-eps-converted-to.pdf  used on input line 399.
+Package pdftex.def Info: fig/nao-ortogo-eps-converted-to.pdf  used on input line 405.
 (pdftex.def)             Requested size: 182.00069pt x 142.34723pt.
 Package epstopdf Info: Source file: <fig/assimetria.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
@@ -3535,22 +3484,21 @@ Package epstopdf Info: Source file: <fig/assimetria.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 6614 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/assimetria-eps-converted-to.pdf fig/assimetria.eps>
-(epstopdf)             \includegraphics on input line 405.
+(epstopdf)             \includegraphics on input line 411.
 Package epstopdf Info: Output file is already uptodate.
 <fig/assimetria-eps-converted-to.pdf, id=529, 450.68375pt x 322.20375pt>
 File: fig/assimetria-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/assimetria-eps-converted-to.pdf>
-Package pdftex.def Info: fig/assimetria-eps-converted-to.pdf  used on input line 405.
+Package pdftex.def Info: fig/assimetria-eps-converted-to.pdf  used on input line 411.
 (pdftex.def)             Requested size: 182.00069pt x 130.11815pt.
 
-Overfull \hbox (2.54399pt too wide) in paragraph at lines 396--408
+Overfull \hbox (2.54399pt too wide) in paragraph at lines 402--414
 []$[]$ $[]$ 
  []
 
-[29]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 422.
+               Default added (so using `tbp') on input line 428.
 
 Package epstopdf Info: Source file: <fig/non-orthogonality.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
@@ -3559,24 +3507,24 @@ Package epstopdf Info: Source file: <fig/non-orthogonality.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 8499 bytes
 (epstopdf)             Command: <repstopdf --outfile=fig/non-orthogonality-eps-converted-to.pdf fig/non-orthogonality.eps>
-(epstopdf)             \includegraphics on input line 424.
+(epstopdf)             \includegraphics on input line 430.
 Package epstopdf Info: Output file is already uptodate.
-<fig/non-orthogonality-eps-converted-to.pdf, id=537, 299.1175pt x 129.48375pt>
+<fig/non-orthogonality-eps-converted-to.pdf, id=532, 299.1175pt x 129.48375pt>
 File: fig/non-orthogonality-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/non-orthogonality-eps-converted-to.pdf>
-Package pdftex.def Info: fig/non-orthogonality-eps-converted-to.pdf  used on input line 424.
+Package pdftex.def Info: fig/non-orthogonality-eps-converted-to.pdf  used on input line 430.
 (pdftex.def)             Requested size: 299.11676pt x 129.48341pt.
 
-Overfull \hbox (28.38756pt too wide) detected at line 447
+Overfull \hbox (28.38756pt too wide) detected at line 453
 \OML/cmm/m/it/12 e[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@[]j[]j\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (1 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 )([] : (\OMS/cmsy/m/n/12 rr\OML/cmm/m/it/12 ^^^\OT1/cmr/m/n/12 )[] + \OML/cmm/m/it/12  \OMS/cmsy/m/n/12 j[]j[] ^^A \OT1/cmr/m/n/12 ([] : (\OMS/cmsy/m/n/12 rrr\OML/cmm/m/it/12 ^^^\OT1/cmr/m/n/12 )[])) + []\OMS/cmsy/m/n/12 j[]j\OT1/cmr/m/n/12 ([] : (\OMS/cmsy/m/n/12 rr\OML/cmm/m/it/12 ^^^\OT1/cmr/m/n/12 )[]))
  []
 
-
-Overfull \hbox (29.89589pt too wide) detected at line 452
+[29 </home/elton/Documentos/dissertacao/fig/nao-ortogo-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/assimetria-eps-converted-to.pdf>]
+Overfull \hbox (29.89589pt too wide) detected at line 458
 \OML/cmm/m/it/12 e[] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@[]j[]j\OT1/cmr/m/n/12 ((1 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 )[] + \OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 )[] :: (\OMS/cmsy/m/n/12 rrr\OML/cmm/m/it/12 ^^^\OT1/cmr/m/n/12 )[] \OMS/cmsy/m/n/12 ^^@ j[]j [] [][]\OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (1 \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 )[] \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 ([] : (\OMS/cmsy/m/n/12 rrr\OML/cmm/m/it/12 ^^^\OT1/cmr/m/n/12 )[])
  []
 
-[30 </home/elton/Documentos/dissertacao/fig/nao-ortogo-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/assimetria-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/non-orthogonality-eps-converted-to.pdf>]) (/home/elton/Documentos/dissertacao/cap03.tex [31] [32
+) (/home/elton/Documentos/dissertacao/cap03.tex [30 </home/elton/Documentos/dissertacao/fig/non-orthogonality-eps-converted-to.pdf>] [31
 
 ]
 
@@ -3584,7 +3532,7 @@ Package caption Warning: \label without proper reference on input line 104.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:transformacao' on page 33 undefined on input line 100.
+LaTeX Warning: Reference `fig:transformacao' on page 32 undefined on input line 100.
 
 
 LaTeX Warning: No positions in optional float specifier.
@@ -3599,12 +3547,12 @@ Package epstopdf Info: Source file: <fig/transformacao.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/transformacao-eps-converted-to.pdf fig/transformacao.eps>
 (epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
-<fig/transformacao-eps-converted-to.pdf, id=625, 344.28625pt x 187.70125pt>
+<fig/transformacao-eps-converted-to.pdf, id=621, 344.28625pt x 187.70125pt>
 File: fig/transformacao-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/transformacao-eps-converted-to.pdf>
 Package pdftex.def Info: fig/transformacao-eps-converted-to.pdf  used on input line 103.
 (pdftex.def)             Requested size: 344.2854pt x 187.70079pt.
-[33 </home/elton/Documentos/dissertacao/fig/transformacao-eps-converted-to.pdf>]
+[32 </home/elton/Documentos/dissertacao/fig/transformacao-eps-converted-to.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 169.
@@ -3618,12 +3566,12 @@ Package epstopdf Info: Source file: <fig/area.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/area-eps-converted-to.pdf fig/area.eps>
 (epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
-<fig/area-eps-converted-to.pdf, id=654, 193.72375pt x 84.315pt>
+<fig/area-eps-converted-to.pdf, id=650, 193.72375pt x 84.315pt>
 File: fig/area-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/area-eps-converted-to.pdf>
 Package pdftex.def Info: fig/area-eps-converted-to.pdf  used on input line 171.
 (pdftex.def)             Requested size: 193.72327pt x 84.31477pt.
-[34] [35 </home/elton/Documentos/dissertacao/fig/area-eps-converted-to.pdf>]
+[33] [34 </home/elton/Documentos/dissertacao/fig/area-eps-converted-to.pdf>]
 
 LaTeX Warning: Command \textordmasculine invalid in math mode on input line 300.
 
@@ -3631,7 +3579,7 @@ LaTeX Warning: Command \textordmasculine invalid in math mode on input line 300.
 LaTeX Warning: Command \textordmasculine invalid in math mode on input line 300.
 
 Missing character: There is no º in font cmr12!
-[36]
+[35]
 Package epstopdf Info: Source file: <fig/e_xi.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 54337 bytes
@@ -3641,19 +3589,19 @@ Package epstopdf Info: Source file: <fig/e_xi.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/e_xi-eps-converted-to.pdf fig/e_xi.eps>
 (epstopdf)             \includegraphics on input line 314.
 Package epstopdf Info: Output file is already uptodate.
-<fig/e_xi-eps-converted-to.pdf, id=696, 305.14pt x 82.3075pt>
+<fig/e_xi-eps-converted-to.pdf, id=691, 305.14pt x 82.3075pt>
 File: fig/e_xi-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/e_xi-eps-converted-to.pdf>
 Package pdftex.def Info: fig/e_xi-eps-converted-to.pdf  used on input line 314.
 (pdftex.def)             Requested size: 305.13924pt x 82.30728pt.
-) (/home/elton/Documentos/dissertacao/cap04.tex [37 </home/elton/Documentos/dissertacao/fig/e_xi-eps-converted-to.pdf>]
+) (/home/elton/Documentos/dissertacao/cap04.tex [36 </home/elton/Documentos/dissertacao/fig/e_xi-eps-converted-to.pdf>]
 Overfull \hbox (4.58951pt too wide) in paragraph at lines 13--15
 []\T1/phv/m/n/12 (-20) Existem duas for-mas de de-fi-nir vo-lu-mes de con-trole em ma-lhas não-estruturadas: 
  []
 
-[38
+[37
 
-] [39] [40]
+] [38] [39]
 Package epstopdf Info: Source file: <fig/geometrias.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 80894 bytes
@@ -3663,7 +3611,7 @@ Package epstopdf Info: Source file: <fig/geometrias.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/geometrias-eps-converted-to.pdf fig/geometrias.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
-<fig/geometrias-eps-converted-to.pdf, id=751, 308.15125pt x 151.56625pt>
+<fig/geometrias-eps-converted-to.pdf, id=747, 308.15125pt x 151.56625pt>
 File: fig/geometrias-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/geometrias-eps-converted-to.pdf>
 Package pdftex.def Info: fig/geometrias-eps-converted-to.pdf  used on input line 116.
@@ -3677,12 +3625,12 @@ Package epstopdf Info: Source file: <fig/face-i.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/face-i-eps-converted-to.pdf fig/face-i.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
-<fig/face-i-eps-converted-to.pdf, id=754, 154.5775pt x 208.78pt>
+<fig/face-i-eps-converted-to.pdf, id=750, 154.5775pt x 208.78pt>
 File: fig/face-i-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/face-i-eps-converted-to.pdf>
 Package pdftex.def Info: fig/face-i-eps-converted-to.pdf  used on input line 127.
 (pdftex.def)             Requested size: 154.5771pt x 208.77946pt.
- [41 </home/elton/Documentos/dissertacao/fig/geometrias-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/face-i-eps-converted-to.pdf>] [42]
+ [40 </home/elton/Documentos/dissertacao/fig/geometrias-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/face-i-eps-converted-to.pdf>] [41]
 Package epstopdf Info: Source file: <fig/escaleno.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 2331 bytes
@@ -3692,7 +3640,7 @@ Package epstopdf Info: Source file: <fig/escaleno.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/escaleno-eps-converted-to.pdf fig/escaleno.eps>
 (epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
-<fig/escaleno-eps-converted-to.pdf, id=811, 129.48375pt x 33.12375pt>
+<fig/escaleno-eps-converted-to.pdf, id=806, 129.48375pt x 33.12375pt>
 File: fig/escaleno-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/escaleno-eps-converted-to.pdf>
 Package pdftex.def Info: fig/escaleno-eps-converted-to.pdf  used on input line 177.
@@ -3706,7 +3654,7 @@ Package epstopdf Info: Source file: <fig/equilatero.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/equilatero-eps-converted-to.pdf fig/equilatero.eps>
 (epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
-<fig/equilatero-eps-converted-to.pdf, id=812, 129.48375pt x 129.48375pt>
+<fig/equilatero-eps-converted-to.pdf, id=807, 129.48375pt x 129.48375pt>
 File: fig/equilatero-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/equilatero-eps-converted-to.pdf>
 Package pdftex.def Info: fig/equilatero-eps-converted-to.pdf  used on input line 183.
@@ -3725,7 +3673,7 @@ Package epstopdf Info: Source file: <fig/variacao_brusca.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/variacao_brusca-eps-converted-to.pdf fig/variacao_brusca.eps>
 (epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
-<fig/variacao_brusca-eps-converted-to.pdf, id=813, 209.78375pt x 129.48375pt>
+<fig/variacao_brusca-eps-converted-to.pdf, id=808, 209.78375pt x 129.48375pt>
 File: fig/variacao_brusca-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/variacao_brusca-eps-converted-to.pdf>
 Package pdftex.def Info: fig/variacao_brusca-eps-converted-to.pdf  used on input line 190.
@@ -3739,7 +3687,7 @@ Package epstopdf Info: Source file: <fig/variacao_suave.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/variacao_suave-eps-converted-to.pdf fig/variacao_suave.eps>
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
-<fig/variacao_suave-eps-converted-to.pdf, id=814, 209.78375pt x 129.48375pt>
+<fig/variacao_suave-eps-converted-to.pdf, id=809, 209.78375pt x 129.48375pt>
 File: fig/variacao_suave-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/variacao_suave-eps-converted-to.pdf>
 Package pdftex.def Info: fig/variacao_suave-eps-converted-to.pdf  used on input line 196.
@@ -3749,10 +3697,7 @@ Overfull \hbox (2.54399pt too wide) in paragraph at lines 188--200
 []$[]$ $[]$ 
  []
 
-) (/home/elton/Documentos/dissertacao/cap05.tex [43 </home/elton/Documentos/dissertacao/fig/escaleno-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/equilatero-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/variacao_brusca-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/variacao_suave-eps-converted-to.pdf>]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 9.
- [44
+) (/home/elton/Documentos/dissertacao/cap05.tex [42 </home/elton/Documentos/dissertacao/fig/escaleno-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/equilatero-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/variacao_brusca-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/variacao_suave-eps-converted-to.pdf>] [43
 
 ]
 Package epstopdf Info: Source file: <fig/voronoi_tessellation.eps>
@@ -3764,40 +3709,40 @@ Package epstopdf Info: Source file: <fig/voronoi_tessellation.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/voronoi_tessellation-eps-converted-to.pdf fig/voronoi_tessellation.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<fig/voronoi_tessellation-eps-converted-to.pdf, id=845, 194.7275pt x 85.31876pt>
+<fig/voronoi_tessellation-eps-converted-to.pdf, id=840, 194.7275pt x 85.31876pt>
 File: fig/voronoi_tessellation-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/voronoi_tessellation-eps-converted-to.pdf>
 Package pdftex.def Info: fig/voronoi_tessellation-eps-converted-to.pdf  used on input line 39.
 (pdftex.def)             Requested size: 194.727pt x 85.31853pt.
 
 
-LaTeX Warning: Reference `fig:laplacian_smoothing' on page 45 undefined on input line 52.
+LaTeX Warning: Reference `fig:laplacian_smoothing' on page 44 undefined on input line 52.
 
-[45 </home/elton/Documentos/dissertacao/fig/voronoi_tessellation-eps-converted-to.pdf>]
+[44 </home/elton/Documentos/dissertacao/fig/voronoi_tessellation-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `fig:energia-mola' on page 46 undefined on input line 72.
+LaTeX Warning: Reference `fig:energia-mola' on page 45 undefined on input line 72.
 
-[46] [47] [48]
-<fig/contorno-mola-torcao.png, id=875, 199.49532pt x 197.98969pt>
+[45] [46] [47]
+<fig/contorno-mola-torcao.png, id=869, 199.49532pt x 197.98969pt>
 File: fig/contorno-mola-torcao.png Graphic file (type png)
 <use fig/contorno-mola-torcao.png>
 Package pdftex.def Info: fig/contorno-mola-torcao.png  used on input line 142.
 (pdftex.def)             Requested size: 199.49481pt x 197.9892pt.
 
 
-LaTeX Warning: Reference `fig:energia-mola' on page 49 undefined on input line 147.
+LaTeX Warning: Reference `fig:energia-mola' on page 48 undefined on input line 147.
 
-[49 </home/elton/Documentos/dissertacao/fig/contorno-mola-torcao.png>]
+[48 </home/elton/Documentos/dissertacao/fig/contorno-mola-torcao.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 163.
 
-<fig/angle-based.png, id=883, 276.28218pt x 248.42813pt>
+<fig/angle-based.png, id=878, 276.28218pt x 248.42813pt>
 File: fig/angle-based.png Graphic file (type png)
 <use fig/angle-based.png>
 Package pdftex.def Info: fig/angle-based.png  used on input line 165.
 (pdftex.def)             Requested size: 276.2815pt x 248.42752pt.
-[50 </home/elton/Documentos/dissertacao/fig/angle-based.png>]) (/home/elton/Documentos/dissertacao/cap06.tex [51] [52
+[49 </home/elton/Documentos/dissertacao/fig/angle-based.png>]) (/home/elton/Documentos/dissertacao/cap06.tex [50] [51
 
 ]
 Package epstopdf Info: Source file: <fig/difusao-cruzada-a.eps>
@@ -3809,7 +3754,7 @@ Package epstopdf Info: Source file: <fig/difusao-cruzada-a.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/difusao-cruzada-a-eps-converted-to.pdf fig/difusao-cruzada-a.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<fig/difusao-cruzada-a-eps-converted-to.pdf, id=908, 276.03125pt x 203.76125pt>
+<fig/difusao-cruzada-a-eps-converted-to.pdf, id=903, 276.03125pt x 203.76125pt>
 File: fig/difusao-cruzada-a-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/difusao-cruzada-a-eps-converted-to.pdf>
 Package pdftex.def Info: fig/difusao-cruzada-a-eps-converted-to.pdf  used on input line 57.
@@ -3823,7 +3768,7 @@ Package epstopdf Info: Source file: <fig/difusao-cruzada-b.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/difusao-cruzada-b-eps-converted-to.pdf fig/difusao-cruzada-b.eps>
 (epstopdf)             \includegraphics on input line 63.
 Package epstopdf Info: Output file is already uptodate.
-<fig/difusao-cruzada-b-eps-converted-to.pdf, id=909, 177.66376pt x 201.75375pt>
+<fig/difusao-cruzada-b-eps-converted-to.pdf, id=904, 177.66376pt x 201.75375pt>
 File: fig/difusao-cruzada-b-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/difusao-cruzada-b-eps-converted-to.pdf>
 Package pdftex.def Info: fig/difusao-cruzada-b-eps-converted-to.pdf  used on input line 63.
@@ -3842,12 +3787,12 @@ Package epstopdf Info: Source file: <fig/difusao-cruzada-c.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/difusao-cruzada-c-eps-converted-to.pdf fig/difusao-cruzada-c.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
-<fig/difusao-cruzada-c-eps-converted-to.pdf, id=910, 189.70876pt x 198.7425pt>
+<fig/difusao-cruzada-c-eps-converted-to.pdf, id=905, 189.70876pt x 198.7425pt>
 File: fig/difusao-cruzada-c-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/difusao-cruzada-c-eps-converted-to.pdf>
 Package pdftex.def Info: fig/difusao-cruzada-c-eps-converted-to.pdf  used on input line 70.
 (pdftex.def)             Requested size: 182.00069pt x 190.67235pt.
-[53 </home/elton/Documentos/dissertacao/fig/difusao-cruzada-a-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/difusao-cruzada-b-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/difusao-cruzada-c-eps-converted-to.pdf>] [54] [55] [56] [57] [58] [59]
+[52 </home/elton/Documentos/dissertacao/fig/difusao-cruzada-a-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/difusao-cruzada-b-eps-converted-to.pdf> </home/elton/Documentos/dissertacao/fig/difusao-cruzada-c-eps-converted-to.pdf>] [53] [54] [55] [56] [57] [58]
 Package epstopdf Info: Source file: <fig/contorno-1.eps>
 (epstopdf)                    date: 2020-03-23 11:24:33
 (epstopdf)                    size: 50176 bytes
@@ -3857,7 +3802,7 @@ Package epstopdf Info: Source file: <fig/contorno-1.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/contorno-1-eps-converted-to.pdf fig/contorno-1.eps>
 (epstopdf)             \includegraphics on input line 349.
 Package epstopdf Info: Output file is already uptodate.
-<fig/contorno-1-eps-converted-to.pdf, id=1069, 143.53625pt x 153.57375pt>
+<fig/contorno-1-eps-converted-to.pdf, id=1063, 143.53625pt x 153.57375pt>
 File: fig/contorno-1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/contorno-1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/contorno-1-eps-converted-to.pdf  used on input line 349.
@@ -3876,101 +3821,86 @@ Package epstopdf Info: Source file: <fig/contorno-2.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/contorno-2-eps-converted-to.pdf fig/contorno-2.eps>
 (epstopdf)             \includegraphics on input line 360.
 Package epstopdf Info: Output file is already uptodate.
-<fig/contorno-2-eps-converted-to.pdf, id=1070, 294.09875pt x 177.66376pt>
+<fig/contorno-2-eps-converted-to.pdf, id=1064, 294.09875pt x 177.66376pt>
 File: fig/contorno-2-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/contorno-2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/contorno-2-eps-converted-to.pdf  used on input line 360.
 (pdftex.def)             Requested size: 294.09802pt x 177.66331pt.
-[60 </home/elton/Documentos/dissertacao/fig/contorno-1-eps-converted-to.pdf>]) (/home/elton/Documentos/dissertacao/cap07.tex [61 </home/elton/Documentos/dissertacao/fig/contorno-2-eps-converted-to.pdf>] [62
+[59 </home/elton/Documentos/dissertacao/fig/contorno-1-eps-converted-to.pdf>]) (/home/elton/Documentos/dissertacao/cap07.tex [60 </home/elton/Documentos/dissertacao/fig/contorno-2-eps-converted-to.pdf>] [61
 
-] [63] [64] [65]) (/home/elton/Documentos/dissertacao/cap08.tex [66] [67] [68
+] [62] [63] [64]) (/home/elton/Documentos/dissertacao/cap08.tex [65] [66] [67
 
-] [69]
+] [68]
 
-LaTeX Warning: Reference `Difus\IeC {\~a}o de calor 2D em regime permanente' on page 70 undefined on input line 110.
+LaTeX Warning: Reference `Difus\IeC {\~a}o de calor 2D em regime permanente' on page 69 undefined on input line 110.
 
-) [70] [71
+) [69] [70
 
-] (/home/elton/Documentos/dissertacao/cap09.tex [72
+] (/home/elton/Documentos/dissertacao/cap09.tex [71
 
 ]
-<fig/malha_inicial.png, id=1196, 1084.05pt x 722.7pt>
+<fig/malha_inicial.png, id=1190, 1084.05pt x 722.7pt>
 File: fig/malha_inicial.png Graphic file (type png)
 <use fig/malha_inicial.png>
 Package pdftex.def Info: fig/malha_inicial.png  used on input line 27.
 (pdftex.def)             Requested size: 455.0pt x 303.33344pt.
- [73 </home/elton/Documentos/dissertacao/fig/malha_inicial.png>]
-<fig/malha-ruim.png, id=1203, 1084.05pt x 722.7pt>
+ [72 </home/elton/Documentos/dissertacao/fig/malha_inicial.png>]
+<fig/malha-ruim.png, id=1198, 1084.05pt x 722.7pt>
 File: fig/malha-ruim.png Graphic file (type png)
 <use fig/malha-ruim.png>
 Package pdftex.def Info: fig/malha-ruim.png  used on input line 57.
 (pdftex.def)             Requested size: 455.0pt x 303.33344pt.
- [74 </home/elton/Documentos/dissertacao/fig/malha-ruim.png>]
-<fig/malha-cpt.png, id=1210, 1084.05pt x 722.7pt>
+ [73 </home/elton/Documentos/dissertacao/fig/malha-ruim.png>]
+<fig/malha-cpt.png, id=1205, 1084.05pt x 722.7pt>
 File: fig/malha-cpt.png Graphic file (type png)
 <use fig/malha-cpt.png>
 Package pdftex.def Info: fig/malha-cpt.png  used on input line 89.
 (pdftex.def)             Requested size: 455.0pt x 303.33344pt.
- [75 </home/elton/Documentos/dissertacao/fig/malha-cpt.png>]
-<fig/malha-odt.png, id=1216, 1084.05pt x 722.7pt>
+ [74 </home/elton/Documentos/dissertacao/fig/malha-cpt.png>]
+<fig/malha-odt.png, id=1211, 1084.05pt x 722.7pt>
 File: fig/malha-odt.png Graphic file (type png)
 <use fig/malha-odt.png>
 Package pdftex.def Info: fig/malha-odt.png  used on input line 119.
 (pdftex.def)             Requested size: 455.0pt x 303.33344pt.
- [76 </home/elton/Documentos/dissertacao/fig/malha-odt.png>]
-<fig/malha-cvt.png, id=1222, 1084.05pt x 722.7pt>
+ [75 </home/elton/Documentos/dissertacao/fig/malha-odt.png>]
+<fig/malha-cvt.png, id=1217, 1084.05pt x 722.7pt>
 File: fig/malha-cvt.png Graphic file (type png)
 <use fig/malha-cvt.png>
 Package pdftex.def Info: fig/malha-cvt.png  used on input line 149.
 (pdftex.def)             Requested size: 455.0pt x 303.33344pt.
- [77 </home/elton/Documentos/dissertacao/fig/malha-cvt.png>]
-<fig/malha-angulos.png, id=1228, 1084.05pt x 722.7pt>
+ [76 </home/elton/Documentos/dissertacao/fig/malha-cvt.png>]
+<fig/malha-angulos.png, id=1223, 1084.05pt x 722.7pt>
 File: fig/malha-angulos.png Graphic file (type png)
 <use fig/malha-angulos.png>
 Package pdftex.def Info: fig/malha-angulos.png  used on input line 179.
 (pdftex.def)             Requested size: 455.0pt x 303.33344pt.
- [78 </home/elton/Documentos/dissertacao/fig/malha-angulos.png>]
-<fig/malha-gurobi.png, id=1235, 1084.05pt x 722.7pt>
+ [77 </home/elton/Documentos/dissertacao/fig/malha-angulos.png>]
+<fig/malha-gurobi.png, id=1229, 1084.05pt x 722.7pt>
 File: fig/malha-gurobi.png Graphic file (type png)
 <use fig/malha-gurobi.png>
 Package pdftex.def Info: fig/malha-gurobi.png  used on input line 209.
 (pdftex.def)             Requested size: 455.0pt x 303.33344pt.
- [79 </home/elton/Documentos/dissertacao/fig/malha-gurobi.png>]
-<fig/malha-ga.png, id=1241, 1084.05pt x 722.7pt>
+ [78 </home/elton/Documentos/dissertacao/fig/malha-gurobi.png>]
+<fig/malha-ga.png, id=1236, 1084.05pt x 722.7pt>
 File: fig/malha-ga.png Graphic file (type png)
 <use fig/malha-ga.png>
 Package pdftex.def Info: fig/malha-ga.png  used on input line 239.
 (pdftex.def)             Requested size: 455.0pt x 303.33344pt.
-) (/home/elton/Documentos/dissertacao/cap10.tex [80 </home/elton/Documentos/dissertacao/fig/malha-ga.png>]) [81
+) (/home/elton/Documentos/dissertacao/cap10.tex [79 </home/elton/Documentos/dissertacao/fig/malha-ga.png>]) [80
 
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 157.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [82
+] [81
 
 ] 
 AED: lastpage setting LastPage
-[83]
+[82]
 \tf@lof=\write9
 \openout9 = `main.lof'.
 
 \tf@lot=\write10
 \openout10 = `main.lot'.
 
-\tf@sig=\write11
-\openout11 = `main.sig'.
-
-\tf@sbl=\write12
-\openout12 = `main.sbl'.
-
-\tf@toc=\write13
-\openout13 = `main.toc'.
+\tf@toc=\write11
+\openout11 = `main.toc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
@@ -3995,18 +3925,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 245.
  ) 
 Here is how much of TeX's memory you used:
- 47469 strings out of 492982
- 861236 string characters out of 6134896
- 1582288 words of memory out of 5000000
- 49637 multiletter control sequences out of 15000+600000
- 572737 words of font info for 222 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 46369 strings out of 494830
+ 843846 string characters out of 6178379
+ 1525939 words of memory out of 5000000
+ 48331 multiletter control sequences out of 15000+600000
+ 572473 words of font info for 222 fonts, out of 8000000 for 9000
+ 61 hyphenation exceptions out of 8191
  71i,17n,94p,10433b,2299s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /home/elton/Documentos/dissertacao/main.pdf (84 pages, 1616158 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on /home/elton/Documentos/dissertacao/main.pdf (83 pages, 1583071 bytes).
 PDF statistics:
- 1654 PDF objects out of 1728 (max. 8388607)
- 1419 compressed objects within 15 object streams
- 366 named destinations out of 1000 (max. 500000)
- 30568 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1632 PDF objects out of 1728 (max. 8388607)
+ 1400 compressed objects within 14 object streams
+ 362 named destinations out of 1000 (max. 500000)
+ 30056 words of extra memory for PDF output out of 35830 (max. 10000000)
 

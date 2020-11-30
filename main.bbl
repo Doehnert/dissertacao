@@ -42,9 +42,6 @@
       \field{labeltitlesource}{title}
       \field{title}{{An Overview of Genetic Algorithms : Part 1 , Fundamentals}}
       \field{year}{1993}
-      \verb{file}
-      \verb :C$\backslash$:/Users/elton/Desktop/dissertacao/artigos/ga{\_}overview1.pdf:pdf
-      \endverb
     \endentry
     \entry{Chen2011}{article}{}
       \name{author}{2}{}{%
@@ -86,18 +83,6 @@
       \field{year}{2011}
       \field{pages}{967\bibrangedash 984}
       \range{pages}{18}
-      \verb{doi}
-      \verb 10.1016/J.CMA.2010.11.007
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/elton/Desktop/dissertacao/artigos/Chen.L$\backslash$;Holst.M2010.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0045782510003117?via{\%}3Dihub
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0045782510003117?via%7B%5C%%7D3Dihub
-      \endverb
     \endentry
     \entry{DeJong1975}{article}{}
       \name{author}{1}{}{%
@@ -165,9 +150,6 @@
       \field{year}{1999}
       \field{pages}{637\bibrangedash 676}
       \range{pages}{40}
-      \verb{file}
-      \verb :C$\backslash$:/Users/elton/Desktop/dissertacao/artigos/centroidal voronoi tessellations.pdf:pdf
-      \endverb
       \keyw{1,5202,52b55,62h30,6502,65d30,65u05,65y25,68u05,68u10,Voronoi tessellations,ams subject classifications,centroids,clustering,data compression,given an open set,grid generation,introduction,k,pii,r n,s0036144599352836,the set,v i,vector quantization,voronoi tessellations,$\omega$}
     \endentry
     \entry{Eiben2012}{incollection}{}
@@ -206,9 +188,6 @@
       \field{abstract}{An abstract is not available.}
       \field{title}{{Genetic algorithms with multi-parent recombination}}
       \field{year}{2012}
-      \verb{doi}
-      \verb 10.1007/3-540-58484-6_252
-      \endverb
     \endentry
     \entry{Freitag1997OnCL}{inproceedings}{}
       \name{author}{1}{}{%
@@ -264,12 +243,6 @@
       \field{journaltitle}{undefined}
       \field{title}{{Genetic synthesis of neural network architecture}}
       \field{year}{1991}
-      \verb{urlraw}
-      \verb https://www.semanticscholar.org/paper/Genetic-synthesis-of-neural-network-architecture-Harp-Samad/a6366ed30cb0277df7133aba29a6600d7c7a2b0d
-      \endverb
-      \verb{url}
-      \verb https://www.semanticscholar.org/paper/Genetic-synthesis-of-neural-network-architecture-Harp-Samad/a6366ed30cb0277df7133aba29a6600d7c7a2b0d
-      \endverb
     \endentry
     \entry{Holland1992}{misc}{}
       \name{author}{1}{}{%
@@ -294,15 +267,6 @@
       \field{labeltitlesource}{title}
       \field{title}{{Adaptation in natural and artificial systems}}
       \field{year}{1992}
-      \verb{file}
-      \verb :C$\backslash$:/Users/elton/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Holland - 1992 - Adaptation in natural and artificial systems.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.semanticscholar.org/paper/Adaptation-in-natural-and-artificial-systems-Holland/1e21c514f89375098dec5b947aa5f6bcdd0377c5
-      \endverb
-      \verb{url}
-      \verb https://www.semanticscholar.org/paper/Adaptation-in-natural-and-artificial-systems-Holland/1e21c514f89375098dec5b947aa5f6bcdd0377c5
-      \endverb
     \endentry
     \entry{Jasak1996}{article}{}
       \name{author}{1}{}{%
@@ -329,9 +293,6 @@
       \field{title}{{Error Analysis and Estimation for the Finite Volume Method with Applications to Fluid Flows}}
       \field{volume}{M}
       \field{year}{1996}
-      \verb{file}
-      \verb :C$\backslash$:/Users/elton/Google Drive/dissertacao/artigos/Jasak{\_}PhD{\_}1996.pdf:pdf
-      \endverb
     \endentry
     \entry{doi:10.1080/10407791003685155}{article}{}
       \name{author}{2}{}{%
@@ -370,18 +331,6 @@
       \field{year}{2010}
       \field{pages}{414\bibrangedash 439}
       \range{pages}{26}
-      \verb{doi}
-      \verb 10.1080/10407791003685155
-      \endverb
-      \verb{file}
-      \verb :C$\backslash$:/Users/elton/Desktop/dinamica dos fluidos computacional/prova2/Juretic{\_}Gosman{\_}2010.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1080/10407791003685155
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1080/10407791003685155
-      \endverb
     \endentry
     \entry{Juretic2004}{article}{}
       \name{author}{1}{}{%
@@ -407,9 +356,6 @@
       \field{title}{{Error Analysis in Finite Volume CFD}}
       \field{volume}{C}
       \field{year}{2004}
-      \verb{file}
-      \verb :C$\backslash$:/Users/elton/Desktop/dissertacao/livros/Error Analysis in Finite Volume.pdf:pdf
-      \endverb
     \endentry
     \entry{Kumar2010}{article}{}
       \name{author}{4}{}{%
@@ -534,9 +480,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{A Genetic Algorithm Approach for Optimizing Unstructured Meshes}}
-      \verb{file}
-      \verb :C$\backslash$:/Users/elton/Desktop/dissertacao/artigos/A Genetic Algorithm Approach for Optimizing.pdf:pdf
-      \endverb
       \keyw{genetic algorithms,mesh generation,unstructured meshes}
     \endentry
     \entry{Shewchuk1992}{article}{}
@@ -564,9 +507,6 @@
       \field{year}{1992}
       \field{pages}{259\bibrangedash 299}
       \range{pages}{41}
-      \verb{file}
-      \verb :C$\backslash$:/Users/elton/Desktop/dissertacao/livros/umg.pdf:pdf
-      \endverb
     \endentry
     \entry{Versteeg2007}{book}{}
       \name{author}{2}{}{%
@@ -600,15 +540,6 @@
       \field{title}{{An introduction to computational fluid dynamics}}
       \field{volume}{M}
       \field{year}{2007}
-      \verb{file}
-      \verb :C$\backslash$:/Users/elton/Desktop/dinamica dos fluidos computacional/Versteeg{\_}Malalasekera{\_}2ed.pdf:pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://www.mie.utoronto.ca/labs/mussl/cfd20.pdf
-      \endverb
-      \verb{url}
-      \verb http://www.mie.utoronto.ca/labs/mussl/cfd20.pdf
-      \endverb
     \endentry
     \entry{winslow1966numerical}{article}{}
       \name{author}{1}{}{%
@@ -670,9 +601,6 @@
       \field{labeltitlesource}{title}
       \field{number}{412}
       \field{title}{{An angle-based approach to two-dimensional mesh smoothing}}
-      \verb{file}
-      \verb :C$\backslash$:/Users/elton/Desktop/dissertacao/artigos/angle based approach to smoothing.pdf:pdf
-      \endverb
       \keyw{average angle,laplacian,mesh smoothing,optimization-based,quadrilateral,triangular}
     \endentry
   \enddatalist

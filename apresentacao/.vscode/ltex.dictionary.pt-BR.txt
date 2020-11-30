@@ -1,0 +1,2 @@
+circuncírculo
+Delaunay
