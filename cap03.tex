@@ -11,14 +11,14 @@ Neste caso:
 
 \begin{equation}
     \frac{\partial f}{\partial x} = \frac{\partial f}{\partial \xi}\frac{\partial \xi}{\partial x}+\frac{\partial f}{\partial \eta}\frac{\partial \eta}{\partial x}
-    \label{eq:2.1}
+    \label{eq:3.1}
 \end{equation}
 \begin{equation}
     \frac{\partial f}{\partial y} = \frac{\partial f}{\partial \xi}\frac{\partial \xi}{\partial y}+\frac{\partial f}{\partial \eta}\frac{\partial \eta}{\partial y}
-    \label{eq:2.2}
+    \label{eq:3.2}
 \end{equation}
 
-Fazendo $f=x$ na equação \ref{eq:2.1} e $f=y$ na equação \ref{eq:2.2}, obtém-se:
+Fazendo $f=x$ na equação \ref{eq:3.1} e $f=y$ na equação \ref{eq:3.2}, obtém-se:
 \begin{equation*}
     1 = x_\xi \xi_x + x_\eta \eta_x\\
     0 = y_\xi \xi_x + y_\eta \eta_x
@@ -26,22 +26,22 @@ Fazendo $f=x$ na equação \ref{eq:2.1} e $f=y$ na equação \ref{eq:2.2}, obté
 
 Resolvendo o sistema anterior encontra-se:
 \begin{equation}
-    \label{eq:2.3}
+    \label{eq:3.3}
     \xi_x = y_\eta J
 \end{equation}
 \begin{equation}
-    \label{eq:2.4}
+    \label{eq:3.4}
     \eta_x = -y_\xi J
 \end{equation}
 
 \begin{equation}
     J = (x_\xi y_\eta - x_\eta y_\xi)^(-1)
-    \label{eq:2.5}
+    \label{eq:3.5}
 \end{equation}
 
-Onde na equação \ref{eq:2.5} $J$  é o jacobiano da transformação do sistema de coordenadas.
+Onde na equação \ref{eq:3.5} $J$  é o jacobiano da transformação do sistema de coordenadas.
 
-Agora, fazendo-se $f=x$ em \ref{eq:2.2} e $f=y$ em \ref{eq:2.2}, tem-se:
+Agora, fazendo-se $f=x$ em \ref{eq:3.2} e $f=y$ em \ref{eq:3.2}, tem-se:
 \begin{equation*}
     0 = x_xi \xi_y + x_\eta \eta_y
     1 = y_\xi \xi_y + y_\eta \eta_y
@@ -49,17 +49,17 @@ Agora, fazendo-se $f=x$ em \ref{eq:2.2} e $f=y$ em \ref{eq:2.2}, tem-se:
 
 Ao se resolver o sistema anterior, obtém-se:
 \begin{equation}
-    \label{eq:2.6}
+    \label{eq:3.6}
     \xi_y = -x_\eta J
 \end{equation}
 \begin{equation}
-    \label{eq:2.7}
+    \label{eq:3.7}
     \eta_y = x_\xi J
 \end{equation}
 
 A matriz jacobiana da transformação de coordenadas é definida por:
 \begin{equation}
-    \label{eq:2.8}
+    \label{eq:3.8}
     J =
     \begin{bmatrix}
         \xi_x & \xi_y\\
@@ -76,12 +76,12 @@ $\xi_x=\frac{\partial \xi}{\partial x}$ é necessário conhecer a variação $\p
 
 Desde modo, para se contornar esta dificuldade, utilizam-se as métricas da transformação inversa $(x_\xi, x_\eta, y_\xi, y_\eta)$, uma vez que no espaço transformado $(\xi, \eta)$ todas as coordenadas são conhecidas a priori.
 
-As relações entre as métricas da transformação direta e inversa são dadas pelas equações \ref{eq:2.3} e \ref{eq:2.4}, \ref{eq:2.6} e \ref{eq:2.7}.
+As relações entre as métricas da transformação direta e inversa são dadas pelas equações \ref{eq:3.3} e \ref{eq:3.4}, \ref{eq:3.6} e \ref{eq:3.7}.
 
 O jacobiano da transformação inversa é dado por:
 
 \begin{equation}
-    \label{eq:2.9}
+    \label{eq:3.9}
     J^{-1} =
     \begin{vmatrix}
         x_\xi & x_\eta\\
@@ -90,19 +90,20 @@ O jacobiano da transformação inversa é dado por:
     = (x|xi y_\eta - x|eta y_xi)
 \end{equation}
 
-Substituindo-se as equações \ref{eq:2.3}, \ref{eq:2.4}, \ref{eq:2.6} e \ref{eq:2.7} na equação \ref{eq:2.9}, prova-se que:
+Substituindo-se as equações \ref{eq:3.3}, \ref{eq:3.4}, \ref{eq:3.6} e \ref{eq:3.7} na equação \ref{eq:3.9}, prova-se que:
 
 \begin{equation}
-    \label{eq:2.10}
+    \label{eq:3.10}
     J = \frac{1}{J^{-1}}
 \end{equation}
 
-Conforme a figura \ref{fig:transformacao} podemos chegar nas seguintes relações:
+Conforme a figura \ref{figura9} podemos chegar nas seguintes relações:
+
 \begin{figure}[]
     \centering
     \includegraphics{fig/transformacao.eps}
-    \label{fig:transformacao}
     \caption{Transformação de Coordenadas}
+    \label{figura9}
 \end{figure}
 
 \begin{equation*}
@@ -124,14 +125,14 @@ Ou seja, $a=y_\xi \Delta \xi$
 Ou, escrito de outro modo:
 
 \begin{equation}
-    \label{eq:2.11}
+    \label{eq:3.11}
     \Delta_\xi = \Delta \xi \sqrt{\gamma}
 \end{equation}
 
 em que:
 
 \begin{equation}
-    \label{eq:2.12}
+    \label{eq:3.12}
     \gamma = x_\xi^2 + y_\xi^2
 \end{equation}
 
@@ -153,14 +154,14 @@ Ou seja, $d=x_\eta \Delta_\eta$
 Ou, escrito de outro modo:
 
 \begin{equation}
-    \label{eq:2.13}
+    \label{eq:3.13}
     \Delta L_\eta = \Delta \eta \sqrt{\alpha}
 \end{equation}
 
 em que:
 
 \begin{equation}
-    \label{eq:2.14}
+    \label{eq:3.14}
     \alpha = x_\eta^2 + y_\eta^2
 \end{equation}
 
@@ -192,20 +193,20 @@ Assim:
     \Delta A = (x_\xi y_\eta - x_\eta y_\xi)\Delta \xi \Delta \eta = J^{-1} \Delta \xi \Delta \eta\\
 \end{equation*}    
 \begin{equation}
-    \label{eq:2.15}
+    \label{eq:3.15}
     \Delta A = \frac{\Delta \xi \Delta \eta}{J}
 \end{equation}
 
 No caso tridimensional, pode-se provar que o volume físico $(\Delta v)$ é dado por:
 \begin{equation}
-    \label{eq:2.16}
+    \label{eq:3.16}
     \Delta v = \frac{\Delta \xi \Delta \eta \Delta \gamma}{J}
 \end{equation}
 
 Sendo o jacobiano dado por:
 
 \begin{equation}
-    \label{eq:2.17}
+    \label{eq:3.17}
     J = [x_\xi(y_\eta z_\gamma - y_\gamma z_\eta) - x_\eta(y_xi z_\gamma - y_\gamma z_\xi) + x_\gamma(y_\xi z_\eta - y_\eta z_\xi)]^{-1}
 \end{equation}
 
@@ -214,7 +215,7 @@ Sendo o jacobiano dado por:
 O Tensor métrico 2D é definido como:
 
 \begin{equation}
-    \label{eq:2.18}
+    \label{eq:3.18}
     [g_{ij}] =
     \begin{vmatrix}
         g_{11} & g_{12}\\
@@ -230,24 +231,24 @@ O Tensor métrico 2D é definido como:
 Em que:
 
 \begin{equation}
-    \label{eq:2.19}
+    \label{eq:3.19}
     \beta = x_\xi x_\eta + y_\xi y_\eta
 \end{equation}
 
 Pode-se mostrar que o determinante do tensor métrico $g$ é dado por:
 
 \begin{equation}
-    \label{eq:2.20}
+    \label{eq:3.20}
     g = \frac{1}{J^2}
 \end{equation}
 
-Das equações \ref{eq:2.20} e \ref{eq:2.18}, tem-se que:
+Das equações \ref{eq:3.20} e \ref{eq:3.18}, tem-se que:
 
 \begin{equation*}
     \alpha \gamma - \beta^2 = \frac{1}{J^2}
 \end{equation*}
 
-E da equação \ref{eq:2.15}:
+E da equação \ref{eq:3.15}:
 
 \begin{equation*}
     J=\frac{\Delta \xi \Delta \eta}{\Delta A}
@@ -293,7 +294,7 @@ Igualando-se as expressões para $\Delta A^2$:
 
 Ou seja:
 \begin{equation}
-    \label{eq:2.21}
+    \label{eq:3.21}
     \beta = \sqrt{\alpha \gamma}\cos{\Theta}
 \end{equation}
 
@@ -305,7 +306,7 @@ São os vetores tangentes às linhas de $\xi$ e $\eta$.
 Conforme a figura \ref{fig:e_xi} tem-se que:
 
 \begin{equation}
-    \label{eq:2.22}
+    \label{eq:3.22}
     \vec{r} = x \hat{i} + y \hat{j}
 \end{equation}
 
@@ -317,21 +318,21 @@ Conforme a figura \ref{fig:e_xi} tem-se que:
 \end{figure}
 
 \begin{equation}
-    \label{eq:2.23}
+    \label{eq:3.23}
     \vec{e_\xi} = \lim_{\Delta \xi \to 0} \frac{\vec{r}(\xi + \Delta \xi) - \vec{r}(\xi)}{\Delta \xi} = \frac{\partial \vec{r}}{\partial \xi}
 \end{equation}
 
 Portanto,
 
 \begin{equation}
-    \label{eq:2.24}
+    \label{eq:3.24}
     \vec{e_\xi} = x_\xi \hat{i} + y_\xi \hat{j}
 \end{equation}
 
 que é tangente à linha de $\eta$ constante e analogamente:
 
 \begin{equation}
-    \label{eq:2.25}
+    \label{eq:3.25}
     \vec{e_\eta} = x_\eta \hat{i} + y_\eta \hat{j}
 \end{equation}
 
@@ -340,17 +341,17 @@ que é tangente à linha de $\xi$ constante.
 Nota-se que, como $\hat{i}$ e $\hat{j}$ são unitários, $\vec{e_\xi}$ e $\vec{e_\eta}$ não o são.
 
 \begin{equation}
-    \label{eq:2.26}
+    \label{eq:3.26}
     \vec{e_\xi} \cdot \vec{e_\xi} = x_\xi^2 + y_\xi^2 = \gamma
 \end{equation}
 
 \begin{equation}
-    \label{eq:2.27}
+    \label{eq:3.27}
     \vec{e_\eta} \cdot \vec{e_\eta} = x_\eta^2 + y_\eta^2 = \alpha
 \end{equation}
 
 \begin{equation}
-    \label{eq:2.28}
+    \label{eq:3.28}
     \vec{e_\xi} \cdot \vec{e_\eta} = x_\xi x_\eta + y_\xi y_\eta = \beta
 \end{equation}
 

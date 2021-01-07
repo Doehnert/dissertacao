@@ -69,7 +69,8 @@ Enquanto a suavização de Laplace é uma maneira iterativa de se achar este est
     E = \sum_{i=1}^k \frac{1}{2} K (||\vec{v_i}||)^2
 \end{equation*}
 
-Este é um problema de otimização, em que a função de custo é esta função quadrática, como mostrado na figura \ref{fig:energia-mola}. Minimizando-se esta função de custo nós podemos obter o mesmo resultado de se usar a suavização de Laplace.
+Este é um problema de otimização, em que a função de custo é esta função quadrática. Minimizando-se esta função de custo nós podemos obter o mesmo resultado de se usar a suavização de Laplace.
+
 
 A suavização de Laplace pode, portanto, ser vista como um tipo de otimização nodal local. A função de custo é a soma dos mínimos quadrados dos comprimentos das arestas compartilhadas pelo mesmo nó:
 
@@ -113,7 +114,7 @@ Algumas funções de custo usadas nesse tipo de suavização são:
 
 \begin{itemize}
     \item Mínimo/Máximo ângulo:\\
-    O mínimo/máximo ângulo é um índice direto para se medir a qualidade da malha. Um elemento com ângulos próximos a 0º ou 180º irá criar dificuldades no processo de análise de elementos finitos. Na suavização baseada em otimização, portanto, ou o menor angulo é maximizado ou o maior angulo é minimizado de modo a se eliminar elementos severaamente distorcidos.
+    O mínimo/máximo ângulo é um índice direto para se medir a qualidade da malha. Um elemento com ângulos próximos a 0º ou 180º irá criar dificuldades no processo de análise de elementos finitos. Na suavização baseada em otimização, portanto, ou o menor angulo é maximizado ou o maior angulo é minimizado de modo a se eliminar elementos severamente distorcidos.
     \item Razão de proporção:\\
     A razão de proporção é a razão entre o raio do círculo circunscrito com o círculo inscrito do elemento de malha. Um triângulo equilateral tem uma razão de proporção de 2.0. Quando um elemento se torna muito distorcido, a razão de proporção aumenta.
     \item Métricas de distorção:\\
@@ -144,7 +145,7 @@ onde $k$ é o número de vértices do polígono, $K$ é a constante de mola e $\
     \label{fig:contorno-mola-torcao}
 \end{figure}
 
-A plotagem do contorno dessa energia é mostrada na figura \ref{fig:contorno-mola-torcao}. É usado o mesmo polígono que a suavização de Laplace conforme a figura \ref{fig:energia-mola}. Comparando-se essas duas plotagens, nós encontramos que a posição de energia mínima é diferente nos dois casos. A suavização baseada em ângulos fornece uma melhor localização em relação ao método de Laplace.
+A plotagem do contorno dessa energia é mostrada na figura \ref{fig:contorno-mola-torcao}. É usado o mesmo polígono que a suavização de Laplace. Comparando-se essas duas plotagens, nós encontramos que a posição de energia mínima é diferente nos dois casos. A suavização baseada em ângulos fornece uma melhor localização em relação ao método de Laplace.
 
 É implementado um método iterativo que irá minimizar a energia potencial do sistema de molas de torção. O algoritmo de suavização baseado em ângulos é resumido nos seguintes cinco passos:
 
@@ -196,6 +197,3 @@ A plotagem do contorno dessa energia é mostrada na figura \ref{fig:contorno-mol
     \end{equation*}
 \end{enumerate}
 
-\section{Suavização Optimal Delaunay Tesselation}
-
-\cite{Chen2011}

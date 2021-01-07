@@ -1,5 +1,7 @@
 \chapter[DIFUSÃO DE CALOR 2D EM REGIME PERMANENTE]{DIFUSÃO DE CALOR 2D EM REGIME PERMANENTE}
 
+\label{dif2d}
+
 Para o estudo da difusão de calor 2D em regime permanente, parte-se das seguintes hipóteses:
 \begin{itemize}
     \item Difusão de calor 2D
@@ -43,8 +45,7 @@ Ou seja,
     \sum_{superficies} \int_{\nabla A_i} \hat{n} \cdot (\vec{\Delta}T)dA = \int_{vc} S^\phi dv
 \end{equation}
 
-A integração de superfície de cada elemento é aproximada pelo produto interno entre o vetor normal (direcionado para fora do volume de controle) à superfície $
-hat{n_i}$ e um vetor de fluxo difusivo $(\vec{\Delta}T)$ que atravessa a superfície do elemento de controle $(\Delta A_i)$. O primeiro termo da equação \ref{eq:8.5} pode ser aproximado empregando-se o método de diferenças centrais ao longo da linha $PA$. Deste modo,
+A integração de superfície de cada elemento é aproximada pelo produto interno entre o vetor normal (direcionado para fora do volume de controle) à superfície $\hat{n_i}$ e um vetor de fluxo difusivo $(\vec{\Delta}T)$ que atravessa a superfície do elemento de controle $(\Delta A_i)$. O primeiro termo da equação \ref{eq:8.5} pode ser aproximado empregando-se o método de diferenças centrais ao longo da linha $PA$. Deste modo,
 
 \begin{equation}
     \label{eq:8.6}
@@ -78,7 +79,7 @@ hat{n_i}$ e um vetor de fluxo difusivo $(\vec{\Delta}T)$ que atravessa a superf�
 
 Na equação \ref{eq:8.6} $\Delta \xi$ é a distância entre os centroides A e P. Nota-se que a diferença central na equação \ref{eq:8.6} só é acurada se a linha que une os pontos A e P e o vetor normal unitário $\hat{n_i}$ estão na mesma direção, ou seja, a aproximação só é correta no caso em que a malha é completamente ortogonal. Normalmente, em malhas não-estruturadas as linhas que conectam os centroides P e A não são paralelas ao vetor normal unitário $\hat{n_i}$. Isto é conhecido como não-ortogonalidade de malha (mesh skewness ou mesh non-orthogonality). O cálculo do fluxo na equação \ref{eq:8.6} deve, desse modo, ser corrigido pela adição de uma contribuição provocada pela não-ortogonalidade. Existem diversos meios de realizar essa correção, mas a forma mais comum é a de introduzir um termo conhecido como difusão cruzada (cross diffusion), que é tratada como termo-fonte na equação discretizada.
 
-Seguindo-se a metodologia proposta por Mathur e Murthy (1997), tem-se que ao termo de difusão cruzada é obtido, introduzindo-se as coordenadas $\xi$ e $\eta$, sendo: $\xi$ definida ao longo da linha que une os pontos A e P, e $\eta$ ao longo da face do volume de controle (ao longo da linha que une os vértices a e b). Desse modo, o gradiente $\vec{\Delta}T$ pode ser expresso por:
+Seguindo-se a metodologia proposta por Mathur e Murthy (1997), tem-se que o termo de difusão cruzada é obtido, introduzindo-se as coordenadas $\xi$ e $\eta$, sendo: $\xi$ definida ao longo da linha que une os pontos A e P, e $\eta$ ao longo da face do volume de controle (ao longo da linha que une os vértices a e b). Desse modo, o gradiente $\vec{\Delta}T$ pode ser expresso por:
 
 \begin{equation}
     \label{eq:8.7}

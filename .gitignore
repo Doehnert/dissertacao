@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/vscode,python,latex
-# Edit at https://www.toptal.com/developers/gitignore?templates=vscode,python,latex
+# Created by https://www.toptal.com/developers/gitignore/api/latex,python,vscode
+# Edit at https://www.toptal.com/developers/gitignore?templates=latex,python,vscode
 
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
@@ -440,4 +440,4 @@ dmypy.json
 !.vscode/extensions.json
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/vscode,python,latex
+# End of https://www.toptal.com/developers/gitignore/api/latex,python,vscode

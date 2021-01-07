@@ -9,6 +9,7 @@ Além de visualizar a malha, é muito útil a informação de maior ângulo, men
 
 \begin{equation}
     2 \frac{r}{R}
+    \label{eq:qualidade}
 \end{equation}
 
 Onde $r$ é o raio da circunferência inscrita e $R$ é o raio da circunferência circunscrita.
@@ -29,6 +30,15 @@ De modo a testar os algoritmos de suavização da malha, esta malha inicial foi 
     \label{fig:malha-inicial}
 \end{figure}
 
+Na tabela \ref{tab:angulos-malha-inicial} a seguir, temos os seguintes resultados:
+
+\begin{enumerate}
+    \item Maior: Maior ângulo interno dentre todas as triangulações criadas;
+    \item Menor: Menor ângulo interno dentre todas as triangulações criadas;
+    \item Média: A média entre os ângulos internos de todas as triangulações, como a soma dos ângulos internos de um triângulo é sempre 180 graus, essa média é sempre 60;
+    \item Desvio Padrão: O valor do desvio padrão entre os valores dos ângulos internos, quanto menor esse valor mais próximos são os valores dos ângulos e portanto mais equiláteros são os triângulos.
+\end{enumerate}
+
 \begin{table}[hb]
  \centering
  \par\caption{Ângulos da Malha Inicial}
@@ -39,7 +49,16 @@ De modo a testar os algoritmos de suavização da malha, esta malha inicial foi 
  \label{tab:angulos-malha-inicial}
 \end{table}
 
-\begin{table}[hb]
+Já na tabela \ref{tab:qualidades-malha-inicial} temos os seguintes resultados:
+
+\begin{enumerate}
+    \item Maior: O maior valor encontrado entre os triângulos gerados para a equação \ref{eq:qualidade};
+    \item Menor: O menor valor encontrado entre os triângulos gerados para a equação \ref{eq:qualidade};
+    \item Média: A média da qualidade de todos os volumes;
+    \item Desvio padrão: O desvio padrão da qualidade das malhas;
+\end{enumerate}
+
+\begin{table}[h!]
  \centering
  \par\caption{Qualidades da Malha Inicial}
 \begin{tabular}{c|c|c|c}
@@ -59,6 +78,8 @@ De modo a testar os algoritmos de suavização da malha, esta malha inicial foi 
     \label{fig:malha-ruim}
 \end{figure}
 
+Essa malha foi propositalmente distorcida de modo a se poder comparar os algoritmos de suavização. Como pode ser visto na tabela \ref{tab:angulos-malha-distorcida} o maior ângulo encontrado aumentou e o menor diminuiu. A média das qualidade de malha, que é usada como métrica da qualidade, diminuiu de valor.
+
 \begin{table}[hb]
 \centering
 \par\caption{Ângulos da Malha Distorcida}
@@ -68,6 +89,8 @@ Maior&menor&média&desvio padrão\\\hline\hline
 \end{tabular}
 \label{tab:angulos-malha-distorcida}
 \end{table}
+
+
 
 \begin{table}[hb]
 \centering
@@ -90,6 +113,8 @@ Em seguida, executou-se os algoritmos de melhoramento da malha com apenas uma it
     \caption{Melhoramento CPT}
     \label{fig:malha-cpt}
 \end{figure}
+
+Pode-se observar que a média da qualidade aumentou de valor com essa suavização.
 
 \begin{table}[hb]
 \centering
@@ -121,6 +146,8 @@ Maior&menor&média&desvio padrão\\\hline\hline
     \label{fig:malha-odt}
 \end{figure}
 
+Esse algoritmo também apresentou um valor de média de qualidade superior em relação a malha original.
+
 \begin{table}[hb]
 \centering
 \par\caption{Ângulos da Malha ODT}
@@ -150,6 +177,8 @@ Maior&menor&média&desvio padrão\\\hline\hline
     \caption{Melhoramento CVT}
     \label{fig:malha-cvt}
 \end{figure}
+
+O CVT apresentou valores semelhantes aos outros algoritmos para a malha usada.
 
 \begin{table}[hb]
 \centering
@@ -181,6 +210,8 @@ Maior&menor&média&desvio padrão\\\hline\hline
     \label{fig:malha-angulos}
 \end{figure}
 
+O algoritmo ABT resultou em uma qualidade inferior com relação aos outros métodos.
+
 \begin{table}[hb]
 \centering
 \par\caption{Ângulos da Malha Ângulos}
@@ -211,6 +242,8 @@ Maior&menor&média&desvio padrão\\\hline\hline
     \label{fig:malha-gurobi}
 \end{figure}
 
+O método de suavização baseado em otimização usando-se o Gurobi resultou um valor de qualidade ligeiramente inferior, no entanto, tal resultado pode ser atribuído ao fato do modelo linear adotado usar como meta a minimização de todos os ângulos internos dos triângulos. Também deve-se levar em consideração que para uma malha maior o tempo computacional aumentaria bastante em relação aos outros métodos vistos até agora.
+
 \begin{table}[hb]
 \centering
 \par\caption{Ângulos da Malha Gurobi}
@@ -240,6 +273,8 @@ Maior&menor&média&desvio padrão\\\hline\hline
     \caption{Melhoramento GA}
     \label{fig:malha-ga}
 \end{figure}
+
+O método de suavização baseado no algoritmo genético resultou em um bom valor para a qualidade da malha, no entanto, foi inferior aos outros métodos e teve um tempo computacional maior.
 
 \begin{table}[hb]
 \centering

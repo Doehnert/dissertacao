@@ -1,22 +1,24 @@
-[0] Config.pm:302> INFO - This is Biber 2.9
-[0] Config.pm:305> INFO - Logfile is 'main.blg'
-[24] biber:313> INFO - === ter nov 10, 2020, 15:26:21
-[40] Biber.pm:371> INFO - Reading 'main.bcf'
-[87] Biber.pm:857> INFO - Found 23 citekeys in bib section 0
-[97] Biber.pm:3981> INFO - Processing section 0
-[105] Biber.pm:4154> INFO - Looking for bibtex format file 'referencias.bib' for section 0
-[108] bibtex.pm:1468> INFO - LaTeX decoding ...
-[130] bibtex.pm:1294> INFO - Found BibTeX data source 'referencias.bib'
-[163] Utils.pm:169> WARN - Name "arthur {Nagle, R. Kent, B. Saff, Edward, David Snider}" has too many commas: skipping name
-[163] Utils.pm:169> WARN - ISBN '10: 0-321-74773-7' in entry 'NagleR.KentB.SaffEdwardDavidSnider2012' is invalid - run biber with '--validate_datamodel' for details.
-[184] Utils.pm:169> WARN - month field 'feb' in entry 'Chen2011' is not an integer - this will probably not sort properly.
-[205] Utils.pm:169> WARN - I didn't find a database entry for 'baliga1980new' (section 0)
-[205] Utils.pm:169> WARN - I didn't find a database entry for 'baliga1983solution' (section 0)
-[205] Utils.pm:169> WARN - I didn't find a database entry for 'eiser1985trying' (section 0)
-[231] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[231] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[231] Biber.pm:3809> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[231] Biber.pm:3815> INFO - No sort tailoring available for locale 'pt-BR'
-[245] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[256] bbl.pm:720> INFO - Output to main.bbl
-[256] Biber.pm:110> INFO - WARNINGS: 6
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[64] biber:322> INFO - === qui jan  7, 2021, 16:26:32
+[77] Biber.pm:415> INFO - Reading 'main.bcf'
+[135] Biber.pm:943> INFO - Found 23 citekeys in bib section 0
+[146] Biber.pm:4256> INFO - Processing section 0
+[146] Utils.pm:75> INFO - Globbing data source 'referencias.bib'
+[146] Utils.pm:91> INFO - Globbed data source 'referencias.bib' to referencias.bib
+[155] Biber.pm:4455> INFO - Looking for bibtex format file 'referencias.bib' for section 0
+[156] bibtex.pm:1653> INFO - LaTeX decoding ...
+[185] bibtex.pm:1471> INFO - Found BibTeX data source 'referencias.bib'
+[235] Utils.pm:309> ERROR - Name "arthur {Nagle, R. Kent, B. Saff, Edward, David Snider}" has too many commas, skipping entry 'NagleR.KentB.SaffEdwardDavidSnider2012'
+[236] Utils.pm:293> WARN - Entry with key 'NagleR.KentB.SaffEdwardDavidSnider2012' in section '0' is cited and found but not created (likely due to sourcemap)
+[275] Utils.pm:293> WARN - I didn't find a database entry for 'baliga1980new' (section 0)
+[275] Utils.pm:293> WARN - I didn't find a database entry for 'baliga1983solution' (section 0)
+[275] Utils.pm:293> WARN - I didn't find a database entry for 'eiser1985trying' (section 0)
+[302] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[302] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[302] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[302] Biber.pm:4090> INFO - No sort tailoring available for locale 'pt-BR'
+[317] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[330] bbl.pm:755> INFO - Output to main.bbl
+[330] Biber.pm:128> INFO - WARNINGS: 4
+[330] Biber.pm:132> INFO - ERRORS: 1

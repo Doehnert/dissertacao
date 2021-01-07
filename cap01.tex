@@ -1,7 +1,7 @@
 \chapter[INTRODUÇÃO]{INTRODUÇÃO}
 %---------------------------------------------------------------------------------------
 
-A simulação numérica de problemas na engenharia possui uma grande importância tanto para o meio acadêmico quanto para a indústria favorecendo o desenvolvimento de novas tecnologias. Dado esse interesse, novas técnicas para aumentar a acurácia das simulações numéricas são de grande importância.
+A simulação  numérica de problemas na engenharia possui uma grande importância tanto para o meio acadêmico quanto para a indústria favorecendo o desenvolvimento de novas tecnologias. Dado esse interesse, novas técnicas para aumentar a acurácia das simulações numéricas são de grande importância. \cite{Du1999}
 
 Esse trabalho verifica o erro de discretização que ocorre nas soluções do FVM usando-se uma malha não estruturada triangular comparando a solução com a analítica e suavizando a malha com vários algoritmos diferentes.
 \criarsigla{FVM}{Método dos Volumes Finitos}
@@ -25,7 +25,7 @@ Malhas cartesianas são exemplos de um método estruturado. Como característica
 
 Os métodos em CFD para geometrias complexas podem ser classificados em malhas não-ortogonais (malhas curvilíneas) estruturadas e em malhas não-estruturadas.
 
-Malhas não-ortogonais estruturadas (ou malhas coincidentes com o corpo / com a fronteira do domínio) são baseadas no mapeamento do "domínio de escoamento" sobre o "domínio computacional" com um formato simples, nota-se contudo, que encontrar um mapeamento viável pode se tornar complicado para geometrias complexas. Neste caso, pode-se recorrer à subdivisão do domínio em diferentes subregiões ou blocos, cada qual apresentando uma malha em separado que deverá ser unida corretamente aos seus vizinhos. Tem-se neste caso as malhas estruturadas por blocos. sdf.
+Malhas não-ortogonais estruturadas (ou malhas coincidentes com o corpo / com a fronteira do domínio) são baseadas no mapeamento do "domínio de escoamento" sobre o "domínio computacional" com um formato simples, nota-se contudo, que encontrar um mapeamento viável pode se tornar complicado para geometrias complexas. Neste caso, pode-se recorrer à subdivisão do domínio em diferentes subregiões ou blocos, cada qual apresentando uma malha em separado que deverá ser unida corretamente aos seus vizinhos. Tem-se neste caso as malhas estruturadas por blocos.
 
 Uma generalização da técnica de malhas estruturadas por blocos é o caso de malhas não-estruturadas, para as quais cada bloco é formado por um único elemento (ou célula). Malhas não-estruturadas garantem uma flexibilidade geométrica ilimitada e são empregadas para escoamentos em geometrias complexas, sendo atualmente a mais empregada técnica em CFD industrial.
 
@@ -56,8 +56,22 @@ A geração de malhas não estruturadas é mostrada no capítulo \ref{MALHAS NAO
 
 \section{OBJETIVOS}
 
-Comparar a acurácia da solução numérica em relação a solução analítica para um problema de transmissão de calor 2D em uma malha em formato 'L' sendo essa malha suavizada usando-se diferentes técnicas, dessa forma comparando-se os métodos de suavização com relação a acurácia da solução analítica e também com relação a um parâmetro de qualidade das malhas que será discutido posteriormente.
+Comparar a acurácia da solução numérica em relação à solução analítica para um problema de transmissão de calor 2D em uma malha em formato 'L' sendo essa malha suavizada usando-se diferentes técnicas, dessa forma comparando-se os métodos de suavização com relação à acurácia da solução analítica e também com relação a um parâmetro de qualidade das malhas que será discutido posteriormente.
 Também desenvolver um método de suavização de malhas baseado no algoritmo genético.
+
+\subsection{Objetivo Principal}
+
+Melhorar a acurácia da solução numérica de um problema de transmissão de calor 2D através da suavização de uma malha não estruturada.
+
+\subsection*{Passos executados}
+
+\begin{enumerate}
+    \item Criação da malha não estruturada usando-se a triangulação de Delaunay;
+    \item Piorar a qualidade dessa malha manualmente mudando-se os seus vértices;
+    \item Executar vários algoritmos de suavização nessa malha;
+    \item Comparar os resultados obtidos.
+\end{enumerate}
+
 
 \section{IMPORTÂNCIA DO TRABALHO}
 
@@ -88,7 +102,7 @@ O trabalho finaliza com as conclusões da pesquisa no capítulo 10.
 % \item para inserir s\'imbolo: 
 %     \verb|\criarsimbolo{$ \Gamma $}{Letra grega Gama}|
   
-$ \Gamma $ \criarsimbolo{$ \Gamma $}{Letra grega Gama}
+% $ \Gamma $ \criarsimbolo{$ \Gamma $}{Letra grega Gama}
 
 % \end{itemize}
 
@@ -204,7 +218,7 @@ Uma malha deve satisfazer requisitos que são um pouco contraditórios: ela deve
 Pode-se dizer que o formato correto incluem elementos que são quase equilaterais e equiangulares excluindo elementos que sejam longos e finos, como por exemplo do formato de uma agulha. No entanto, algumas aplicações requerem elementos anisotrópicos que sejam longos e finos para modelar fenômenos físicos que requerem anisotropia como o fluxo de ar laminar sobre a asa de um avião.
 
 \subsection{Malhas}
-Malhas são categorizadas de acordo com a sua dimensionalidade e escolha de elementos. Malhas triangulares, malhas tetraédricas, malhas quadrilaterais e malhas hexaédricas são nomeadas de acordo com o formato de seus elementos. Os elementos de duas dimensões (triângulos e quadriláteros) servem tanto nos modelos com domínio em duas dimensões quanto em malhas de superfície embutidas em três dimensões, que são prevalente na computação gráfica.
+Malhas são categorizadas de acordo com a sua dimensionalidade e escolha de elementos. Malhas triangulares, malhas tetraédricas, malhas quadrilaterais e malhas hexaédricas são nomeadas de acordo com o formato de seus elementos. Os elementos de duas dimensões (triângulos e quadriláteros) servem tanto nos modelos com domínio em duas dimensões quanto em malhas de superfície embutidas em três dimensões, que são prevalentes na computação gráfica.
 
 Elementos quadriláteros são polígonos de quatro lados; seus lados não precisam ser paralelos. Elementos hexaédricos são poliedros parecidos com tijolos, no entanto suas faces não precisam ser paralelas ou mesmo planas. Malhas mais simples (triangulares e tetraédrica) são muito mais fáceis de serem geradas, no entanto para aplicações práticas, malhas quadrilaterais e hexaédricas oferecem maior acurácia na interpolação e aproximações.
 
@@ -234,7 +248,7 @@ O objetivo da geração de malhas é criar elementos que se conformam com o form
 Nas malhas, tem-se que as fronteiras existem de modo a se poder aplicar as condições de contorno para a equação diferencial parcial e para permitir a descontinuidade nas propriedades físicas, como por exemplo diferenças na condutividade de calor. Uma fronteira, deve ser representada pela união de duas faces na malha. Elementos não podem cruzar essa fronteira, e no local onde dois materiais se encontram, suas malhas devem ter faces equivalentes. Esse requisito faz com que a geração de malhas seja mais difícil se o domínio possuir ângulos pequenos.
 
 \subsection{Elementos desejados}
-Um bom elemento de malha deve seguir várias restrições de modo a produzir um bom resultado numérico. Entre essas restrições está o formato dos elementos, que no caso de elemntos triangulares deve ser o mais equilátero possível de modo a diminuir erros de interpolação.
+Um bom elemento de malha deve seguir várias restrições de modo a produzir um bom resultado numérico. Entre essas restrições está o formato dos elementos, que no caso de elementos triangulares deve ser o mais equilátero possível de modo a diminuir erros de interpolação.
 
 A triangulação de Delaunay para um conjunto de pontos discretos P em um plano é uma triangularização que faz com que nenhum ponto em P esteja dentro do circuncirculo de qualquer triangulo formado pelo algoritmo.
 
