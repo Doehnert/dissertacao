@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.2)  7 JAN 2021 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.2)  14 JAN 2021 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1708,7 +1708,7 @@ l.11
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 11.
 
-<fig/semicilindro.png, id=311, 694.84593pt x 209.28188pt>
+<fig/semicilindro.png, id=320, 694.84593pt x 209.28188pt>
 File: fig/semicilindro.png Graphic file (type png)
 <use fig/semicilindro.png>
 Package pdftex.def Info: fig/semicilindro.png  used on input line 13.
@@ -1738,7 +1738,7 @@ Package epstopdf Info: Source file: <fig/celula_correta.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/celula_correta-eps-converted-to.pdf fig/celula_correta.eps>
 (epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
-<fig/celula_correta-eps-converted-to.pdf, id=369, 135.50626pt x 103.38625pt>
+<fig/celula_correta-eps-converted-to.pdf, id=378, 135.50626pt x 103.38625pt>
 File: fig/celula_correta-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/celula_correta-eps-converted-to.pdf>
 Package pdftex.def Info: fig/celula_correta-eps-converted-to.pdf  used on input line 233.
@@ -1752,7 +1752,7 @@ Package epstopdf Info: Source file: <fig/celula_errada.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/celula_errada-eps-converted-to.pdf fig/celula_errada.eps>
 (epstopdf)             \includegraphics on input line 241.
 Package epstopdf Info: Output file is already uptodate.
-<fig/celula_errada-eps-converted-to.pdf, id=370, 199.74625pt x 135.50626pt>
+<fig/celula_errada-eps-converted-to.pdf, id=379, 199.74625pt x 135.50626pt>
 File: fig/celula_errada-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/celula_errada-eps-converted-to.pdf>
 Package pdftex.def Info: fig/celula_errada-eps-converted-to.pdf  used on input line 241.
@@ -1775,7 +1775,7 @@ Package epstopdf Info: Source file: <fig/volume_centrado.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/volume_centrado-eps-converted-to.pdf fig/volume_centrado.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
-<fig/volume_centrado-eps-converted-to.pdf, id=401, 161.60374pt x 209.78375pt>
+<fig/volume_centrado-eps-converted-to.pdf, id=410, 161.60374pt x 209.78375pt>
 File: fig/volume_centrado-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/volume_centrado-eps-converted-to.pdf>
 Package pdftex.def Info: fig/volume_centrado-eps-converted-to.pdf  used on input line 36.
@@ -1789,7 +1789,7 @@ Package epstopdf Info: Source file: <fig/volume_vertice.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/volume_vertice-eps-converted-to.pdf fig/volume_vertice.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<fig/volume_vertice-eps-converted-to.pdf, id=402, 161.60374pt x 209.78375pt>
+<fig/volume_vertice-eps-converted-to.pdf, id=411, 161.60374pt x 209.78375pt>
 File: fig/volume_vertice-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/volume_vertice-eps-converted-to.pdf>
 Package pdftex.def Info: fig/volume_vertice-eps-converted-to.pdf  used on input line 42.
@@ -1809,7 +1809,7 @@ Package epstopdf Info: Source file: <fig/figura1.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/figura1-eps-converted-to.pdf fig/figura1.eps>
 (epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
-<fig/figura1-eps-converted-to.pdf, id=460, 193.72375pt x 193.72375pt>
+<fig/figura1-eps-converted-to.pdf, id=469, 193.72375pt x 193.72375pt>
 File: fig/figura1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/figura1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/figura1-eps-converted-to.pdf  used on input line 225.
@@ -1824,7 +1824,7 @@ Package epstopdf Info: Source file: <fig/figura2.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/figura2-eps-converted-to.pdf fig/figura2.eps>
 (epstopdf)             \includegraphics on input line 332.
 Package epstopdf Info: Output file is already uptodate.
-<fig/figura2-eps-converted-to.pdf, id=491, 129.48375pt x 192.72pt>
+<fig/figura2-eps-converted-to.pdf, id=500, 129.48375pt x 192.72pt>
 File: fig/figura2-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/figura2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/figura2-eps-converted-to.pdf  used on input line 332.
@@ -1848,7 +1848,7 @@ Package epstopdf Info: Source file: <fig/nao-ortogo.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/nao-ortogo-eps-converted-to.pdf fig/nao-ortogo.eps>
 (epstopdf)             \includegraphics on input line 405.
 Package epstopdf Info: Output file is already uptodate.
-<fig/nao-ortogo-eps-converted-to.pdf, id=532, 257.96375pt x 201.75375pt>
+<fig/nao-ortogo-eps-converted-to.pdf, id=541, 257.96375pt x 201.75375pt>
 File: fig/nao-ortogo-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/nao-ortogo-eps-converted-to.pdf>
 Package pdftex.def Info: fig/nao-ortogo-eps-converted-to.pdf  used on input line 405.
@@ -1862,7 +1862,7 @@ Package epstopdf Info: Source file: <fig/assimetria.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/assimetria-eps-converted-to.pdf fig/assimetria.eps>
 (epstopdf)             \includegraphics on input line 411.
 Package epstopdf Info: Output file is already uptodate.
-<fig/assimetria-eps-converted-to.pdf, id=533, 450.68375pt x 322.20375pt>
+<fig/assimetria-eps-converted-to.pdf, id=542, 450.68375pt x 322.20375pt>
 File: fig/assimetria-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/assimetria-eps-converted-to.pdf>
 Package pdftex.def Info: fig/assimetria-eps-converted-to.pdf  used on input line 411.
@@ -1885,7 +1885,7 @@ Package epstopdf Info: Source file: <fig/non-orthogonality.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/non-orthogonality-eps-converted-to.pdf fig/non-orthogonality.eps>
 (epstopdf)             \includegraphics on input line 430.
 Package epstopdf Info: Output file is already uptodate.
-<fig/non-orthogonality-eps-converted-to.pdf, id=536, 299.1175pt x 129.48375pt>
+<fig/non-orthogonality-eps-converted-to.pdf, id=545, 299.1175pt x 129.48375pt>
 File: fig/non-orthogonality-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/non-orthogonality-eps-converted-to.pdf>
 Package pdftex.def Info: fig/non-orthogonality-eps-converted-to.pdf  used on input line 430.
@@ -1916,7 +1916,7 @@ Package epstopdf Info: Source file: <fig/transformacao.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/transformacao-eps-converted-to.pdf fig/transformacao.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
-<fig/transformacao-eps-converted-to.pdf, id=626, 344.28625pt x 187.70125pt>
+<fig/transformacao-eps-converted-to.pdf, id=635, 344.28625pt x 187.70125pt>
 File: fig/transformacao-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/transformacao-eps-converted-to.pdf>
 Package pdftex.def Info: fig/transformacao-eps-converted-to.pdf  used on input line 104.
@@ -1935,7 +1935,7 @@ Package epstopdf Info: Source file: <fig/area.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/area-eps-converted-to.pdf fig/area.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
-<fig/area-eps-converted-to.pdf, id=655, 193.72375pt x 84.315pt>
+<fig/area-eps-converted-to.pdf, id=664, 193.72375pt x 84.315pt>
 File: fig/area-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/area-eps-converted-to.pdf>
 Package pdftex.def Info: fig/area-eps-converted-to.pdf  used on input line 172.
@@ -1958,7 +1958,7 @@ Package epstopdf Info: Source file: <fig/e_xi.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/e_xi-eps-converted-to.pdf fig/e_xi.eps>
 (epstopdf)             \includegraphics on input line 315.
 Package epstopdf Info: Output file is already uptodate.
-<fig/e_xi-eps-converted-to.pdf, id=696, 305.14pt x 82.3075pt>
+<fig/e_xi-eps-converted-to.pdf, id=705, 305.14pt x 82.3075pt>
 File: fig/e_xi-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/e_xi-eps-converted-to.pdf>
 Package pdftex.def Info: fig/e_xi-eps-converted-to.pdf  used on input line 315.
@@ -1980,7 +1980,7 @@ Package epstopdf Info: Source file: <fig/geometrias.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/geometrias-eps-converted-to.pdf fig/geometrias.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
-<fig/geometrias-eps-converted-to.pdf, id=752, 308.15125pt x 151.56625pt>
+<fig/geometrias-eps-converted-to.pdf, id=761, 308.15125pt x 151.56625pt>
 File: fig/geometrias-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/geometrias-eps-converted-to.pdf>
 Package pdftex.def Info: fig/geometrias-eps-converted-to.pdf  used on input line 116.
@@ -1994,7 +1994,7 @@ Package epstopdf Info: Source file: <fig/face-i.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/face-i-eps-converted-to.pdf fig/face-i.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
-<fig/face-i-eps-converted-to.pdf, id=755, 154.5775pt x 208.78pt>
+<fig/face-i-eps-converted-to.pdf, id=764, 154.5775pt x 208.78pt>
 File: fig/face-i-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/face-i-eps-converted-to.pdf>
 Package pdftex.def Info: fig/face-i-eps-converted-to.pdf  used on input line 127.
@@ -2009,7 +2009,7 @@ Package epstopdf Info: Source file: <fig/escaleno.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/escaleno-eps-converted-to.pdf fig/escaleno.eps>
 (epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
-<fig/escaleno-eps-converted-to.pdf, id=811, 129.48375pt x 33.12375pt>
+<fig/escaleno-eps-converted-to.pdf, id=820, 129.48375pt x 33.12375pt>
 File: fig/escaleno-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/escaleno-eps-converted-to.pdf>
 Package pdftex.def Info: fig/escaleno-eps-converted-to.pdf  used on input line 177.
@@ -2023,7 +2023,7 @@ Package epstopdf Info: Source file: <fig/equilatero.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/equilatero-eps-converted-to.pdf fig/equilatero.eps>
 (epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
-<fig/equilatero-eps-converted-to.pdf, id=812, 129.48375pt x 129.48375pt>
+<fig/equilatero-eps-converted-to.pdf, id=821, 129.48375pt x 129.48375pt>
 File: fig/equilatero-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/equilatero-eps-converted-to.pdf>
 Package pdftex.def Info: fig/equilatero-eps-converted-to.pdf  used on input line 183.
@@ -2042,7 +2042,7 @@ Package epstopdf Info: Source file: <fig/variacao_brusca.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/variacao_brusca-eps-converted-to.pdf fig/variacao_brusca.eps>
 (epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
-<fig/variacao_brusca-eps-converted-to.pdf, id=813, 209.78375pt x 129.48375pt>
+<fig/variacao_brusca-eps-converted-to.pdf, id=822, 209.78375pt x 129.48375pt>
 File: fig/variacao_brusca-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/variacao_brusca-eps-converted-to.pdf>
 Package pdftex.def Info: fig/variacao_brusca-eps-converted-to.pdf  used on input line 190.
@@ -2056,7 +2056,7 @@ Package epstopdf Info: Source file: <fig/variacao_suave.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/variacao_suave-eps-converted-to.pdf fig/variacao_suave.eps>
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
-<fig/variacao_suave-eps-converted-to.pdf, id=814, 209.78375pt x 129.48375pt>
+<fig/variacao_suave-eps-converted-to.pdf, id=823, 209.78375pt x 129.48375pt>
 File: fig/variacao_suave-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/variacao_suave-eps-converted-to.pdf>
 Package pdftex.def Info: fig/variacao_suave-eps-converted-to.pdf  used on input line 196.
@@ -2081,7 +2081,7 @@ Package epstopdf Info: Source file: <fig/voronoi_tessellation.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/voronoi_tessellation-eps-converted-to.pdf fig/voronoi_tessellation.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<fig/voronoi_tessellation-eps-converted-to.pdf, id=845, 194.7275pt x 85.31876pt>
+<fig/voronoi_tessellation-eps-converted-to.pdf, id=854, 194.7275pt x 85.31876pt>
 File: fig/voronoi_tessellation-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/voronoi_tessellation-eps-converted-to.pdf>
 Package pdftex.def Info: fig/voronoi_tessellation-eps-converted-to.pdf  used on input line 39.
@@ -2091,7 +2091,7 @@ Package pdftex.def Info: fig/voronoi_tessellation-eps-converted-to.pdf  used on 
 LaTeX Warning: Reference `fig:laplacian_smoothing' on page 43 undefined on input line 52.
 
 [43 </home/elton/Documentos/dissertacao/fig/voronoi_tessellation-eps-converted-to.pdf>] [44] [45] [46]
-<fig/contorno-mola-torcao.png, id=874, 199.49532pt x 197.98969pt>
+<fig/contorno-mola-torcao.png, id=883, 199.49532pt x 197.98969pt>
 File: fig/contorno-mola-torcao.png Graphic file (type png)
 <use fig/contorno-mola-torcao.png>
 Package pdftex.def Info: fig/contorno-mola-torcao.png  used on input line 143.
@@ -2101,7 +2101,7 @@ Package pdftex.def Info: fig/contorno-mola-torcao.png  used on input line 143.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 164.
 
-<fig/angle-based.png, id=882, 276.28218pt x 248.42813pt>
+<fig/angle-based.png, id=891, 276.28218pt x 248.42813pt>
 File: fig/angle-based.png Graphic file (type png)
 <use fig/angle-based.png>
 Package pdftex.def Info: fig/angle-based.png  used on input line 166.
@@ -2118,7 +2118,7 @@ Package epstopdf Info: Source file: <fig/difusao-cruzada-a.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/difusao-cruzada-a-eps-converted-to.pdf fig/difusao-cruzada-a.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
-<fig/difusao-cruzada-a-eps-converted-to.pdf, id=905, 276.03125pt x 203.76125pt>
+<fig/difusao-cruzada-a-eps-converted-to.pdf, id=914, 276.03125pt x 203.76125pt>
 File: fig/difusao-cruzada-a-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/difusao-cruzada-a-eps-converted-to.pdf>
 Package pdftex.def Info: fig/difusao-cruzada-a-eps-converted-to.pdf  used on input line 58.
@@ -2132,7 +2132,7 @@ Package epstopdf Info: Source file: <fig/difusao-cruzada-b.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/difusao-cruzada-b-eps-converted-to.pdf fig/difusao-cruzada-b.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
-<fig/difusao-cruzada-b-eps-converted-to.pdf, id=906, 177.66376pt x 201.75375pt>
+<fig/difusao-cruzada-b-eps-converted-to.pdf, id=915, 177.66376pt x 201.75375pt>
 File: fig/difusao-cruzada-b-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/difusao-cruzada-b-eps-converted-to.pdf>
 Package pdftex.def Info: fig/difusao-cruzada-b-eps-converted-to.pdf  used on input line 64.
@@ -2151,7 +2151,7 @@ Package epstopdf Info: Source file: <fig/difusao-cruzada-c.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/difusao-cruzada-c-eps-converted-to.pdf fig/difusao-cruzada-c.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
-<fig/difusao-cruzada-c-eps-converted-to.pdf, id=907, 189.70876pt x 198.7425pt>
+<fig/difusao-cruzada-c-eps-converted-to.pdf, id=916, 189.70876pt x 198.7425pt>
 File: fig/difusao-cruzada-c-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/difusao-cruzada-c-eps-converted-to.pdf>
 Package pdftex.def Info: fig/difusao-cruzada-c-eps-converted-to.pdf  used on input line 71.
@@ -2166,7 +2166,7 @@ Package epstopdf Info: Source file: <fig/contorno-1.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/contorno-1-eps-converted-to.pdf fig/contorno-1.eps>
 (epstopdf)             \includegraphics on input line 350.
 Package epstopdf Info: Output file is already uptodate.
-<fig/contorno-1-eps-converted-to.pdf, id=1066, 143.53625pt x 153.57375pt>
+<fig/contorno-1-eps-converted-to.pdf, id=1075, 143.53625pt x 153.57375pt>
 File: fig/contorno-1-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/contorno-1-eps-converted-to.pdf>
 Package pdftex.def Info: fig/contorno-1-eps-converted-to.pdf  used on input line 350.
@@ -2185,7 +2185,7 @@ Package epstopdf Info: Source file: <fig/contorno-2.eps>
 (epstopdf)             Command: <repstopdf --outfile=fig/contorno-2-eps-converted-to.pdf fig/contorno-2.eps>
 (epstopdf)             \includegraphics on input line 361.
 Package epstopdf Info: Output file is already uptodate.
-<fig/contorno-2-eps-converted-to.pdf, id=1067, 294.09875pt x 177.66376pt>
+<fig/contorno-2-eps-converted-to.pdf, id=1076, 294.09875pt x 177.66376pt>
 File: fig/contorno-2-eps-converted-to.pdf Graphic file (type pdf)
 <use fig/contorno-2-eps-converted-to.pdf>
 Package pdftex.def Info: fig/contorno-2-eps-converted-to.pdf  used on input line 361.
@@ -2194,65 +2194,65 @@ Package pdftex.def Info: fig/contorno-2-eps-converted-to.pdf  used on input line
 
 ] [61] [62] [63]) (/home/elton/Documentos/dissertacao/cap08.tex [64] [65] [66
 
-] [67]) [68] [69] [70
+] [67] [68]) [69] [70
 
 ] (/home/elton/Documentos/dissertacao/cap09.tex [71
 
 ]
-<fig/malha_inicial.png, id=1199, 1084.05pt x 722.7pt>
+<fig/malha_inicial.png, id=1208, 1084.05pt x 722.7pt>
 File: fig/malha_inicial.png Graphic file (type png)
 <use fig/malha_inicial.png>
 Package pdftex.def Info: fig/malha_inicial.png  used on input line 28.
 (pdftex.def)             Requested size: 455.0pt x 303.33344pt.
  [72 </home/elton/Documentos/dissertacao/fig/malha_inicial.png>] [73]
-<fig/malha-ruim.png, id=1223, 1084.05pt x 722.7pt>
+<fig/malha-ruim.png, id=1232, 1084.05pt x 722.7pt>
 File: fig/malha-ruim.png Graphic file (type png)
 <use fig/malha-ruim.png>
 Package pdftex.def Info: fig/malha-ruim.png  used on input line 76.
 (pdftex.def)             Requested size: 455.0pt x 303.33344pt.
  [74 </home/elton/Documentos/dissertacao/fig/malha-ruim.png>]
-<fig/malha-cpt.png, id=1231, 1084.05pt x 722.7pt>
+<fig/malha-cpt.png, id=1240, 717.27975pt x 575.44987pt>
 File: fig/malha-cpt.png Graphic file (type png)
 <use fig/malha-cpt.png>
 Package pdftex.def Info: fig/malha-cpt.png  used on input line 112.
-(pdftex.def)             Requested size: 455.0pt x 303.33344pt.
+(pdftex.def)             Requested size: 455.0pt x 365.03781pt.
  [75 </home/elton/Documentos/dissertacao/fig/malha-cpt.png>]
-<fig/malha-odt.png, id=1237, 1084.05pt x 722.7pt>
+<fig/malha-odt.png, id=1246, 717.27975pt x 575.44987pt>
 File: fig/malha-odt.png Graphic file (type png)
 <use fig/malha-odt.png>
 Package pdftex.def Info: fig/malha-odt.png  used on input line 144.
-(pdftex.def)             Requested size: 455.0pt x 303.33344pt.
+(pdftex.def)             Requested size: 455.0pt x 365.03781pt.
  [76 </home/elton/Documentos/dissertacao/fig/malha-odt.png>]
-<fig/malha-cvt.png, id=1243, 1084.05pt x 722.7pt>
+<fig/malha-cvt.png, id=1252, 709.14937pt x 575.44987pt>
 File: fig/malha-cvt.png Graphic file (type png)
 <use fig/malha-cvt.png>
 Package pdftex.def Info: fig/malha-cvt.png  used on input line 176.
-(pdftex.def)             Requested size: 455.0pt x 303.33344pt.
+(pdftex.def)             Requested size: 455.0pt x 369.22618pt.
  [77 </home/elton/Documentos/dissertacao/fig/malha-cvt.png>]
-<fig/malha-angulos.png, id=1249, 1084.05pt x 722.7pt>
+<fig/malha-angulos.png, id=1258, 709.14937pt x 575.44987pt>
 File: fig/malha-angulos.png Graphic file (type png)
 <use fig/malha-angulos.png>
 Package pdftex.def Info: fig/malha-angulos.png  used on input line 208.
-(pdftex.def)             Requested size: 455.0pt x 303.33344pt.
+(pdftex.def)             Requested size: 455.0pt x 369.22618pt.
  [78 </home/elton/Documentos/dissertacao/fig/malha-angulos.png>]
-<fig/malha-gurobi.png, id=1256, 1084.05pt x 722.7pt>
+<fig/malha-gurobi.png, id=1265, 721.79663pt x 575.44987pt>
 File: fig/malha-gurobi.png Graphic file (type png)
 <use fig/malha-gurobi.png>
 Package pdftex.def Info: fig/malha-gurobi.png  used on input line 240.
-(pdftex.def)             Requested size: 455.0pt x 303.33344pt.
+(pdftex.def)             Requested size: 455.0pt x 362.74606pt.
  [79 </home/elton/Documentos/dissertacao/fig/malha-gurobi.png>]
-<fig/malha-ga.png, id=1262, 1084.05pt x 722.7pt>
+<fig/malha-ga.png, id=1272, 709.14937pt x 575.44987pt>
 File: fig/malha-ga.png Graphic file (type png)
 <use fig/malha-ga.png>
 Package pdftex.def Info: fig/malha-ga.png  used on input line 272.
-(pdftex.def)             Requested size: 455.0pt x 303.33344pt.
-) (/home/elton/Documentos/dissertacao/cap10.tex [80 </home/elton/Documentos/dissertacao/fig/malha-ga.png>]) [81
+(pdftex.def)             Requested size: 455.0pt x 369.22618pt.
+ [80 </home/elton/Documentos/dissertacao/fig/malha-ga.png>]) (/home/elton/Documentos/dissertacao/cap10.tex [81]) [82
 
-] [82
+] [83
 
 ] 
 AED: lastpage setting LastPage
-[83]
+[84]
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
@@ -2282,18 +2282,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 245.
  ) 
 Here is how much of TeX's memory you used:
- 40551 strings out of 481239
- 735539 string characters out of 5920377
- 1704662 words of memory out of 5000000
- 54365 multiletter control sequences out of 15000+600000
+ 40560 strings out of 481239
+ 735659 string characters out of 5920377
+ 1705024 words of memory out of 5000000
+ 54369 multiletter control sequences out of 15000+600000
  573462 words of font info for 222 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,17n,117p,2045b,4163s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /home/elton/Documentos/dissertacao/main.pdf (84 pages, 1584653 bytes).
+Output written on /home/elton/Documentos/dissertacao/main.pdf (85 pages, 1321118 bytes).
 PDF statistics:
- 1659 PDF objects out of 1728 (max. 8388607)
- 1425 compressed objects within 15 object streams
- 377 named destinations out of 1000 (max. 500000)
- 29536 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1682 PDF objects out of 1728 (max. 8388607)
+ 1447 compressed objects within 15 object streams
+ 382 named destinations out of 1000 (max. 500000)
+ 29552 words of extra memory for PDF output out of 29859 (max. 10000000)
 

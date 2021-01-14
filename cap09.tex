@@ -121,7 +121,7 @@ Pode-se observar que a média da qualidade aumentou de valor com essa suavizaç�
 \par\caption{Ângulos da Malha CPT}
 \begin{tabular}{c|c|c|c}
 Maior&menor&média&desvio padrão\\\hline\hline
-125.476562&18.434949&60.000000&16.412226\\\hline
+121.713423&28.467019&60.000000&16.206878\\\hline
 \end{tabular}
 \label{tab:angulos-malha-cpt}
 \end{table}
@@ -131,7 +131,7 @@ Maior&menor&média&desvio padrão\\\hline\hline
 \par\caption{Qualidades da Malha CPT}
 \begin{tabular}{c|c|c|c}
 Maior&menor&média&desvio padrão\\\hline\hline
-0.997240&0.376030&0.889689&0.126673\\\hline
+0.999109&0.582970&0.919103&0.086327	\\\hline
 \end{tabular}
 \label{tab:qualidades-malha-cpt}
 \end{table}
@@ -153,7 +153,7 @@ Esse algoritmo também apresentou um valor de média de qualidade superior em re
 \par\caption{Ângulos da Malha ODT}
 \begin{tabular}{c|c|c|c}
 Maior&menor&média&desvio padrão\\\hline\hline
-123.086976&19.672726&60.000000&16.668335\\\hline
+92.339656&36.765310&60.000000&14.499022\\\hline
 \end{tabular}
 \label{tab:angulos-malha-odt}
 \end{table}
@@ -163,7 +163,7 @@ Maior&menor&média&desvio padrão\\\hline\hline
 \par\caption{Qualidades da Malha ODT}
 \begin{tabular}{c|c|c|c}
 Maior&menor&média&desvio padrão\\\hline\hline
-0.992361&0.417613&0.885554&0.119807\\\hline
+0.997704&0.823047&0.926443&0.046574\\\hline
 \end{tabular}
 \label{tab:qualidades-malha-odt}
 \end{table}
@@ -185,7 +185,7 @@ O CVT apresentou valores semelhantes aos outros algoritmos para a malha usada.
 \par\caption{Ângulos da Malha CVT}
 \begin{tabular}{c|c|c|c}
 Maior&menor&média&desvio padrão\\\hline\hline
-122.171970&22.444618&60.000000&18.811931\\\hline
+98.568632&36.794950	&60.000000&17.275253\\\hline
 \end{tabular}
 \label{tab:angulos-malha-cvt}
 \end{table}
@@ -195,7 +195,7 @@ Maior&menor&média&desvio padrão\\\hline\hline
 \par\caption{Qualidades da Malha CVT}
 \begin{tabular}{c|c|c|c}
 Maior&menor&média&desvio padrão\\\hline\hline
-0.999421&0.436461&0.865904&0.116918\\\hline
+0.990750&0.787629&0.907101&0.059118\\\hline
 \end{tabular}
 \label{tab:qualidades-malha-cvt}
 \end{table}
@@ -217,7 +217,7 @@ O algoritmo ABT resultou em uma qualidade inferior com relação aos outros mét
 \par\caption{Ângulos da Malha Ângulos}
 \begin{tabular}{c|c|c|c}
 Maior&menor&média&desvio padrão\\\hline\hline
-143.247344&15.367140&60.000000&26.037994\\\hline
+90.003446	&44.996564&60.000000&21.268508\\\hline
 \end{tabular}
 \label{tab:angulos-malha-angulos}
 \end{table}
@@ -227,7 +227,7 @@ Maior&menor&média&desvio padrão\\\hline\hline
 \par\caption{Qualidades da Malha Ângulos}
 \begin{tabular}{c|c|c|c}
 Maior&menor&média&desvio padrão\\\hline\hline
-0.972793&0.188339&0.758870&0.141551\\\hline
+0.866070&0.865999&0.866027	&0.000013\\\hline
 \end{tabular}
 \label{tab:qualidades-malha-angulos}
 \end{table}
@@ -249,7 +249,7 @@ O método de suavização baseado em otimização usando-se o Gurobi resultou um
 \par\caption{Ângulos da Malha Gurobi}
 \begin{tabular}{c|c|c|c}
 Maior&menor&média&desvio padrão\\\hline\hline
-118.072487&30.541971&60.000000&24.045397\\\hline
+118.072487	&30.541971&60.000000&24.045397\\\hline
 \end{tabular}
 \label{tab:angulos-malha-gurobi}
 \end{table}
@@ -259,7 +259,7 @@ Maior&menor&média&desvio padrão\\\hline\hline
 \par\caption{Qualidades da Malha Gurobi}
 \begin{tabular}{c|c|c|c}
 Maior&menor&média&desvio padrão\\\hline\hline
-0.973601&0.488795&0.790714&0.134577\\\hline
+0.977771&0.618590&0.831586&0.098368\\\hline
 \end{tabular}
 \label{tab:qualidades-malha-gurobi}
 \end{table}
@@ -274,14 +274,14 @@ Maior&menor&média&desvio padrão\\\hline\hline
     \label{fig:malha-ga}
 \end{figure}
 
-O método de suavização baseado no algoritmo genético resultou em um bom valor para a qualidade da malha, no entanto, foi inferior aos outros métodos e teve um tempo computacional maior.
+O método de suavização baseado no algoritmo genético resultou em um bom valor para a qualidade da malha, no entanto, a média da qualidade dos seus volumes foi inferior aos outros métodos.
 
 \begin{table}[hb]
 \centering
 \par\caption{Ângulos da Malha GA}
 \begin{tabular}{c|c|c|c}
 Maior&menor&média&desvio padrão\\\hline\hline
-100.102771&35.502815&60.000000&21.548683\\\hline
+103.651693&36.916308&60.000000&21.561762\\\hline
 \end{tabular}
 \label{tab:angulos-malha-ga}
 \end{table}
@@ -291,7 +291,43 @@ Maior&menor&média&desvio padrão\\\hline\hline
 \par\caption{Qualidades da Malha GA}
 \begin{tabular}{c|c|c|c}
 Maior&menor&média&desvio padrão\\\hline\hline
-0.915087&0.715044&0.824170&0.041392\\\hline
+0.924401&0.751680&0.862425&0.033582\\\hline
 \end{tabular}
 \label{tab:qualidades-malha-ga}
+\end{table}
+
+\section{Comparação entre os algorítmos}
+
+Na tabela \ref{tab:comparacao-analitico} está o valor da média das diferenças entre o valor analítico e numérico para todos os algorítmos usados no trabalho em ordem crescente, ou seja, por essa métrica o algorítmo de melhoramento por ângulos e o genético foram os melhores.
+
+\begin{table}
+    \centering
+    \par\caption{Comparação entre as médias das diferenças em relação ao valor analítico}
+    \begin{tabular}{c|c}
+        Algoritmo&diferença\\\hline\hline
+        Ângulos  &  0.054529 \\\hline
+        Genético &  0.054563 \\\hline
+        Gurobi   &  0.056215 \\\hline
+        CPT      &  0.060670 \\\hline
+        ODT      &  0.060929 \\\hline
+        CVT      &  0.062826 \\\hline
+    \end{tabular}
+    \label{tab:comparacao-analitico}
+\end{table}
+
+Já na tabela \ref{tab:comparacao-qualidade} temos a métrica da média das qualidades conforme foi definido. Nesse caso o melhor algoritmo foi o ODT.
+
+\begin{table}
+    \centering
+    \par\caption{Comparação entre as médias qualidades dos volumes de controle}
+    \begin{tabular}{c|c}
+        Algoritmo&diferença\\\hline\hline
+        ODT      &  0.926443 \\\hline
+        CPT      &  0.919103 \\\hline
+        CVT      &  0.907101 \\\hline
+        Ângulos  &  0.866027 \\\hline
+        Genético &  0.860447 \\\hline
+        Gurobi   &  0.831586 \\\hline
+    \end{tabular}
+    \label{tab:comparacao-qualidade}
 \end{table}

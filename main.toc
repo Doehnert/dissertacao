@@ -178,9 +178,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.3.1}Classe Volume}{67}{subsection.8.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.1.1}Malha}{68}{subsubsection.8.3.1.1}%
+\contentsline {subsection}{\numberline {8.3.2}Malha}{68}{subsection.8.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {8.3.1.2}Programa Principal}{69}{subsubsection.8.3.1.2}%
+\contentsline {subsection}{\numberline {8.3.3}Programa Principal}{69}{subsection.8.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.4}Algoritmo Genético}{69}{subsection.8.3.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\partnumberline {II}Resultados}{70}{part.2}%
 \defcounter {refsection}{0}\relax 
@@ -208,12 +210,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {9.1.8}Genetic Algorithm Based Tesselation}{80}{subsection.9.1.8}%
 \defcounter {refsection}{0}\relax 
+\addvspace {2\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Comparação entre os algorítmos}{80}{section.9.2}%
+\defcounter {refsection}{0}\relax 
 \addvspace {-5\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\chapternumberline {10}\bfseries \MakeTextUppercase {CONCLUSÕES}}{81}{chapter.10}%
+\contentsline {chapter}{\chapternumberline {10}\bfseries \MakeTextUppercase {CONCLUSÕES}}{82}{chapter.10}%
 \defcounter {refsection}{0}\relax 
 \vspace {\cftbeforepartskip }
 \defcounter {refsection}{0}\relax 
 \addvspace {-5\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {}{REFER\^ENCIAS}}{82}{chapter*.54}%
+\contentsline {chapter}{\numberline {}{REFER\^ENCIAS}}{83}{chapter*.56}%

@@ -1,21 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Beamer Presentation
-% LaTeX Template
-% Version 1.0 (10/11/12)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND THEMES
-%----------------------------------------------------------------------------------------
-
-\documentclass{beamer}
+\documentclass[brazil]{beamer}
 
 \mode<presentation> {
 
@@ -24,32 +7,32 @@
 % of all the themes, uncomment each in turn to see what they look like.
 
 %\usetheme{default}
-\usetheme{AnnArbor}
-%\usetheme{Antibes}
-%\usetheme{Bergen}
-%\usetheme{Berkeley}
-%\usetheme{Berlin}
-%\usetheme{Boadilla}
-%\usetheme{CambridgeUS}
-%\usetheme{Copenhagen}
-%\usetheme{Darmstadt}
-%\usetheme{Dresden}
-%\usetheme{Frankfurt}
-%\usetheme{Goettingen}
-%\usetheme{Hannover}
-%\usetheme{Ilmenau}
-%\usetheme{JuanLesPins}
+% \usetheme{AnnArbor}
+% \usetheme{Antibes}
+% \usetheme{Bergen}
+% \usetheme{Berkeley}
+% \usetheme{Berlin}
+% \usetheme{Boadilla}
+% \usetheme{CambridgeUS}
+% \usetheme{Copenhagen}
+% \usetheme{Darmstadt}
+% \usetheme{Dresden}
+% \usetheme{Frankfurt}
+% \usetheme{Goettingen}
+% \usetheme{Hannover}
+% \usetheme{Ilmenau}
+% \usetheme{JuanLesPins}
 % \usetheme{Luebeck}
 % \usetheme{Madrid}
-%\usetheme{Malmoe}
+% \usetheme{Malmoe}
 %\usetheme{Marburg}
 %\usetheme{Montpellier}
 %\usetheme{PaloAlto}
 %\usetheme{Pittsburgh}
-%\usetheme{Rochester}
-%\usetheme{Singapore}
-%\usetheme{Szeged}
-%\usetheme{Warsaw}
+\usetheme{Rochester}
+% \usetheme{Singapore}
+% \usetheme{Szeged}
+% \usetheme{Warsaw}
 
 % As well as themes, the Beamer class has a number of color themes
 % for any slide theme. Uncomment each of these in turn to see how it
@@ -76,10 +59,20 @@
 %\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
 }
 
+%encoding
+%--------------------------------------
+\usepackage[T1]{fontenc} % codificaÃ§Ã£o da fonte em 8-bits
+\usepackage[utf8]{inputenc} % acentuaÃ§Ã£o direta
+
+\usepackage[brazil]{babel}
+
+
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\usepackage{caption}
+\usepackage{subcaption}
+
+
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
@@ -99,12 +92,13 @@ Universidade Federal do Paraná \\ % Your institution for the title page
 
 \begin{document}
 
+
 \begin{frame}
   \titlepage % Print the title page as the first slide
 \end{frame}
 
 \begin{frame}
-  \frametitle{Overview} % Table of contents slide, comment this block out to remove it
+  \frametitle{Sumário} % Table of contents slide, comment this block out to remove it
   \tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
 \end{frame}
 
@@ -122,6 +116,48 @@ Universidade Federal do Paraná \\ % Your institution for the title page
 
   Além disso, é proposto o uso de uma heurística baseada no algoritmo genético para o problema da suavização de uma malha.
 \end{frame}
+
+\section{Volumes Finitos}
+\begin{frame}
+  \frametitle{Volumes Finitos}
+
+  \begin{definition}
+    O método dos volumes finitos é um método de discretização adequado para a simulação numérica de fenômenos que envolvem alguma lei de conservação.
+  \end{definition}
+
+  \begin{block}{Uso com malhas não estruturadas}
+    Opera em células com qualquer formato, o que facilita seu uso com malhas não estruturadas.
+  \end{block}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Volumes Finitos}
+
+  No método são definidos volumes de controle que devem cobrir todo o domínio computacional.
+
+  Tais volumes de controle podem ser:
+
+  \begin{figure}[ht]
+    \begin{subfigure}{.4\textwidth}
+        \centering
+        \includegraphics[width=.4\linewidth]{fig/volume_centrado.eps}
+        \caption{Volume Centrado}
+        \label{fig:volume_centrado}        
+    \end{subfigure}
+    \begin{subfigure}{.4\textwidth}
+        \centering
+        \includegraphics[width=.4\linewidth]{fig/volume_vertice.eps}
+        \caption[]{Volume Baseado no vértice}
+        \label{fig:volume_vertice}        
+    \end{subfigure}
+
+    \caption{Criação de Volumes de Controle}
+    \label{fig:volume-controle}
+  \end{figure}
+
+\end{frame}
+
 
 \section{Malhas não estruturadas}
 \begin{frame}
@@ -363,7 +399,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
 \begin{frame}
   \frametitle{Algoritmo de suavização}
 
-  O algorítmo tem como objetivo mover a posição de todos os nós internos da malha. Desse modo o algoritmo é aplicado sequencialmente a cada nó interno. Para cada nó é definido uma população de indivíduos cujo genótipo é um par de números, o primeiro para a posição da coordenada x e outro para a y. Tais membros são inicialmente gerados aleatoriamente. No total cada geração possui 100 indivíduos e é calculado 50 gerações.
+  O algorítmo tem como objetivo mover a posição de todos os nós internos da malha. Desse modo o algoritmo é aplicado sequencialmente a cada nó interno. Para cada nó é definido uma população de indivíduos cujo genótipo é um par de números, o primeiro para a posição da coordenada x e outro para a y. Tais membros são inicialmente gerados aleatoriamente. No total cada geração possui 300 indivíduos e é calculado 40 gerações.
 
 \end{frame}
 
@@ -376,7 +412,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
     SQ_i = \frac{4\sqrt{3}A_i}{\sum_{i=1}^3 l_i^2}
   \end{equation}
 
-  Essa equação terá um valor maior quanto mais equilátero for o triangulo da malha. Desse modo cada indivíduo tem um genótipo definido como um par de valores (coordenadas x e y) e o seu fenótipo é dado por essa equação que define a média da qualidade dos volumes que compartilham esse vértice.
+  Essa equação é calculada para todos os volumes que incluem o vértice e então somados, esse valor será maior quanto mais equilátero for o triangulo da malha. Desse modo cada indivíduo tem um genótipo definido como um par de valores (coordenadas x e y) e o seu fenótipo é dado por essa equação que define a média da qualidade dos volumes que compartilham esse vértice.
 \end{frame}
 
 \section{Resultados da pesquisa}
@@ -466,7 +502,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
   \frametitle{Optimal Delaunay Tesselation}
 
   \begin{figure}
-    \includegraphics[width=0.6\linewidth]{malha-odt.png}
+    \includegraphics[width=0.6\linewidth]{fig/malha-odt.png}
   \end{figure}
 
 \end{frame}
@@ -478,7 +514,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
     \par\caption{Ângulos da Malha ODT}
     \begin{tabular}{c|c|c|c}
       Maior      & menor     & média     & desvio padrão \\\hline\hline
-      123.086976 & 19.672726 & 60.000000 & 16.668335     \\\hline
+      92.339656&36.765310&60.000000&14.499022\\\hline
     \end{tabular}
     \label{tab:angulos-malha-odt}
   \end{table}
@@ -488,7 +524,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
     \par\caption{Qualidades da Malha ODT}
     \begin{tabular}{c|c|c|c}
       Maior    & menor    & média    & desvio padrão \\\hline\hline
-      0.992361 & 0.417613 & 0.885554 & 0.119807      \\\hline
+      0.997704&0.823047&0.926443&0.046574\\\hline
     \end{tabular}
     \label{tab:qualidades-malha-odt}
   \end{table}
@@ -499,7 +535,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
   \frametitle{Centroidal Voronoi Tesselation}
 
   \begin{figure}
-    \includegraphics[width=0.6\linewidth]{malha-cvt.png}
+    \includegraphics[width=0.6\linewidth]{fig/malha-cvt.png}
   \end{figure}
 
 \end{frame}
@@ -511,7 +547,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
     \par\caption{Ângulos da Malha CVT}
     \begin{tabular}{c|c|c|c}
       Maior      & menor     & média     & desvio padrão \\\hline\hline
-      122.171970 & 22.444618 & 60.000000 & 18.811931     \\\hline
+      98.568632&36.794950	&60.000000&17.275253\\\hline
     \end{tabular}
     \label{tab:angulos-malha-cvt}
   \end{table}
@@ -521,7 +557,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
     \par\caption{Qualidades da Malha CVT}
     \begin{tabular}{c|c|c|c}
       Maior    & menor    & média    & desvio padrão \\\hline\hline
-      0.999421 & 0.436461 & 0.865904 & 0.116918      \\\hline
+      0.990750&0.787629&0.907101&0.059118\\\hline
     \end{tabular}
     \label{tab:qualidades-malha-cvt}
   \end{table}
@@ -532,7 +568,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
   \frametitle{Angle Based Tesselation}
 
   \begin{figure}
-    \includegraphics[width=0.6\linewidth]{malha-angulos.png}
+    \includegraphics[width=0.6\linewidth]{fig/malha-angulos.png}
   \end{figure}
 
 \end{frame}
@@ -544,7 +580,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
     \par\caption{Ângulos da Malha Ângulos}
     \begin{tabular}{c|c|c|c}
       Maior      & menor     & média     & desvio padrão \\\hline\hline
-      143.247344 & 15.367140 & 60.000000 & 26.037994     \\\hline
+      90.003446	&44.996564&60.000000&21.268508\\\hline
     \end{tabular}
     \label{tab:angulos-malha-angulos}
   \end{table}
@@ -554,7 +590,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
     \par\caption{Qualidades da Malha Ângulos}
     \begin{tabular}{c|c|c|c}
       Maior    & menor    & média    & desvio padrão \\\hline\hline
-      0.972793 & 0.188339 & 0.758870 & 0.141551      \\\hline
+      0.866070&0.865999&0.866027	&0.000013\\\hline
     \end{tabular}
     \label{tab:qualidades-malha-angulos}
   \end{table}
@@ -567,10 +603,8 @@ Universidade Federal do Paraná \\ % Your institution for the title page
   Para a otimização usando-se o Gurobi, foi definido como função objetivo a ser minimizada a distância total dos nós internos para os nós vizinhos.
 
   \begin{figure}
-    \includegraphics[width=0.6\linewidth]{malha-gurobi.png}
+    \includegraphics[width=0.6\linewidth]{fig/malha-gurobi.png}
   \end{figure}
-
-
 
 \end{frame}
 \begin{frame}
@@ -581,7 +615,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
     \par\caption{Ângulos da Malha Gurobi}
     \begin{tabular}{c|c|c|c}
       Maior      & menor     & média     & desvio padrão \\\hline\hline
-      118.072487 & 30.541971 & 60.000000 & 24.045397     \\\hline
+      118.072487	&30.541971&60.000000&24.045397\\\hline
     \end{tabular}
     \label{tab:angulos-malha-gurobi}
   \end{table}
@@ -591,7 +625,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
     \par\caption{Qualidades da Malha Gurobi}
     \begin{tabular}{c|c|c|c}
       Maior    & menor    & média    & desvio padrão \\\hline\hline
-      0.973601 & 0.488795 & 0.790714 & 0.134577      \\\hline
+      0.977771&0.618590&0.831586&0.098368\\\hline
     \end{tabular}
     \label{tab:qualidades-malha-gurobi}
   \end{table}
@@ -602,7 +636,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
   \frametitle{Genetic Algorithm Based Tesselation}
 
   \begin{figure}
-    \includegraphics[width=0.6\linewidth]{malha-ga.png}
+    \includegraphics[width=0.6\linewidth]{fig/malha-ga.png}
   \end{figure}
 
 \end{frame}
@@ -613,7 +647,7 @@ Universidade Federal do Paraná \\ % Your institution for the title page
     \par\caption{Ângulos da Malha GA}
     \begin{tabular}{c|c|c|c}
       Maior      & menor     & média     & desvio padrão \\\hline\hline
-      100.102771 & 35.502815 & 60.000000 & 21.548683     \\\hline
+      103.651693&36.916308&60.000000&21.561762\\\hline
     \end{tabular}
     \label{tab:angulos-malha-ga}
   \end{table}
@@ -623,10 +657,54 @@ Universidade Federal do Paraná \\ % Your institution for the title page
     \par\caption{Qualidades da Malha GA}
     \begin{tabular}{c|c|c|c}
       Maior    & menor    & média    & desvio padrão \\\hline\hline
-      0.915087 & 0.715044 & 0.824170 & 0.041392      \\\hline
+      0.924401&0.751680&0.862425&0.033582\\\hline
     \end{tabular}
     \label{tab:qualidades-malha-ga}
   \end{table}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Comparação entre os métodos}
+
+  Na tabela \ref{tab:comparacao-analitico} está o valor da média das diferenças entre o valor analítico e numérico para todos os algorítmos usados no trabalho em ordem crescente, ou seja, por essa métrica o algorítmo de melhoramento por ângulos e o genético foram os melhores.
+
+\begin{table}
+    \centering
+    \par\caption{Comparação entre as médias das diferenças em relação ao valor analítico}
+    \begin{tabular}{c|c}
+        Algoritmo&diferença\\\hline\hline
+        Ângulos  &  0.054529 \\\hline
+        Genético &  0.054563 \\\hline
+        Gurobi   &  0.056215 \\\hline
+        CPT      &  0.060670 \\\hline
+        ODT      &  0.060929 \\\hline
+        CVT      &  0.062826 \\\hline
+    \end{tabular}
+    \label{tab:comparacao-analitico}
+\end{table}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Comparação entre os métodos}
+
+  Já na tabela \ref{tab:comparacao-qualidade} temos a métrica da média das qualidades conforme foi definido. Nesse caso o melhor algoritmo foi o ODT.
+
+\begin{table}
+    \centering
+    \par\caption{Comparação entre as médias qualidades dos volumes de controle}
+    \begin{tabular}{c|c}
+        Algoritmo&diferença\\\hline\hline
+        ODT      &  0.926443 \\\hline
+        CPT      &  0.919103 \\\hline
+        CVT      &  0.907101 \\\hline
+        Ângulos  &  0.866027 \\\hline
+        Genético &  0.860447 \\\hline
+        Gurobi   &  0.831586 \\\hline
+    \end{tabular}
+    \label{tab:comparacao-qualidade}
+\end{table}
+
 \end{frame}
 
 \section{Conclusão}

@@ -97,7 +97,7 @@ Representa os volumes (triangulações) presentes na malha.
     \end{itemize}
 \end{itemize}
 
-\subsubsection{Malha}
+\subsection{Malha}
 Representa a malha não estruturada triangular gerada.
 
 \begin{itemize}
@@ -116,5 +116,16 @@ Representa a malha não estruturada triangular gerada.
     \end{itemize}
 \end{itemize}
 
-\subsubsection{Programa Principal}
+\subsection{Programa Principal}
 O programa principal tem a função de criar um objeto de malha, chamar a função de suavização de malha e opcionalmente também a função para a solução do problema proposto. Também é feito a comparação com os valores analíticos e plotagem da malha. A qualidade da malha é calculado como a média da qualidade dos seus volumes, sendo que a qualidade de um volume é calculado como $2\frac{r}{R}$ em que $r$ é o raio do círculo inscrito e $R$ o raio do círculo circunscrito.
+
+\subsection{Algoritmo Genético}
+O algoritmo genético evolui a posição de cada nó interno da malha separadamente de modo a se obter a melhor posição de acordo com a soma da função 'fitness' de todos os volumes ao seu redor. Pode-se descrever o algoritmo nos seguintes passos:
+
+\begin{itemize}
+    \item Inicialmente para cada nó é criado uma população de objetos do tipo nó, essa população é de 300 indivíduos;
+    \item É calculado a função 'fitness' para cada indivíduo dessa população;
+    \item Os indivíduos se reproduzem através do 'crossover' de acordo com seu 'fitness';
+    \item Os novos indivíduos gerados podem sofrer mutação com uma probabilidade de 1\%;
+    \item O ciclo é continuado até um total de 40 gerações, esse algoritmo é repetido para cada nó.
+\end{itemize}
