@@ -2,7 +2,7 @@
 \label{MALHAS NAO ESTRUTURADAS}
 \section{Generalidades}
 
-Uma malha não estruturada pode ser considerada um caso limite de uma malha multiblocos na qual cada volume individual é tratado como um bloco. A grande vantagem no uso de malhas não-estruturadas reside no fato de que não existe nenhuma estrutura (implícita) de linhas coordenadas que deva ser imposta à malha, o que permite que a malha seja facilmente concentrada (refinada) onde necessário, sem que haja desperdício de memória computacional. Além disso, os volumes de controle podem apresentar qualquer formato, não havendo restrições quanto ao número de volumes que compartilham um vértice (no caso 2D) ou uma linha (no caso 3D).
+Uma malha não estruturada pode ser considerada um caso limite de uma malha multiblocos na qual cada volume individual é tratado como um bloco. A grande vantagem no uso de malhas não-estruturadas reside no fato de que não existe nenhuma estrutura (implícita) de linhas coordenadas que deva ser imposta à malha, o que permite que a malha seja facilmente concentrada (refinada) onde necessário, sem que haja desperdício de memória computacional. Além disso, os volumes de controle podem apresentar qualquer formato, não havendo restrições quanto ao número de volumes que compartilham um vértice (no caso 2D) ou uma linha (no caso 3D). \cite{Versteeg2007}
 
 Usualmente, são empregados triângulos e quadriláteros no caso de problemas bidimensionais, e tetraedros e hexaedros em problemas tridimensionais. Outros formatos de volumes, no entanto, não são descartados.
 
@@ -109,7 +109,7 @@ e então,
     \sum_{\text{superfícies}} \int_{\Delta A_i} \hat{n_i} \cdot (\rho \phi \vec{u}) dA = \sum_{\text{superfícies}} \int_{\Delta A_i} \hat{n_i} \cdot (\Gamma \vec{\Delta} \phi) dA + \int_{vc} S^\phi dv
 \end{equation}
 
-Para calcular-se as integrais de superfície, são necessárias expressões para os vetores de fluxo $(\rho \phi \vec{u})$ e $(\Gamma \vec{\Delta} \phi)$, assim como para as quantidades geométricas $\hat{n_i}$ e $\Delta A_i$ conforme a figura \ref{fig:geometrias}.
+Para calcular-se as integrais de superfície, são necessárias expressões para os vetores de fluxo $(\rho \phi \vec{u})$ e $(\Gamma \vec{\Delta} \phi)$, assim como para as quantidades geométricas $\hat{n_i}$ e $\Delta A_i$ conforme a Figura \ref{fig:geometrias}.
 
 \begin{figure}[h]
     \centering
@@ -118,9 +118,9 @@ Para calcular-se as integrais de superfície, são necessárias expressões para
     \label{fig:geometrias}
 \end{figure}
 
-Na figura \ref{fig:geometrias}, P é o centroide do volume de controle para o qual a discretização é feita. O ponto A corresponde ao centroide do volume de controle vizinho e $\hat{e_\xi}$ é um vetor unitário (versor) na direção da linha que une os pontos P e A. A face i separa os dois volumes de controle e a-b é uma linha que une os pontos a e b, vértices compartilhados por ambos os volumes. As coordenadas dos pontos a e b são $(x_a, y_a)$ e $(x_b, y_b)$, respectivamente, enquanto $\hat{n}$ e $\hat{e_\eta}$ são, respectivamente, o vetor unitário normal (direcionado para fora do volume) e o vetor unitário tangente à face i.
+Na Figura \ref{fig:geometrias}, P é o centroide do volume de controle para o qual a discretização é feita. O ponto A corresponde ao centroide do volume de controle vizinho e $\hat{e_\xi}$ é um vetor unitário (versor) na direção da linha que une os pontos P e A. A face i separa os dois volumes de controle e a-b é uma linha que une os pontos a e b, vértices compartilhados por ambos os volumes. As coordenadas dos pontos a e b são $(x_a, y_a)$ e $(x_b, y_b)$, respectivamente, enquanto $\hat{n}$ e $\hat{e_\eta}$ são, respectivamente, o vetor unitário normal (direcionado para fora do volume) e o vetor unitário tangente à face i.
 
-Considerando-se a face i, apresentada na figura \ref{face-i} temos:
+Considerando-se a face i, apresentada na Figura \ref{face-i} temos:
 
 \begin{figure}[h]
     \centering
@@ -167,7 +167,7 @@ Depois de bem representada através das superfícies, a fronteira de cálculo de
 
 Para uma malha que utilize elementos triangulares, é desejável que os mesmos sejam o mais próximo possível de triângulos equiláteros, pois isto permite que as funções de interpolação representem bem as variáveis dentro do triângulo. Quando um triângulo se afasta por demais do padrão equilátero, tem-se o equivalente a um elemento com elevada razão de aspecto em malhas com quadriláteros. Neste caso, observa-se uma elevada anisotropia nos coeficientes, o que reduz a taxa de convergência do processo de solução do sistema linear.
 
-Além disso, é necessário que as dimensões do elemento variem de forma suave dentro do domínio e não de forma brusca, de modo a evitar volumes de controle irregulares, no qual o centroide se localiza próximo a duas faces do volume e, portante, não se configura em um ponto representativo de todo o volume de controle. É importante, assim, que a malha apresente certa uniformidade.
+Além disso, é necessário que as dimensões do elemento variem de forma suave dentro do domínio e não de forma brusca, de modo a evitar volumes de controle irregulares, no qual o centroide se localiza próximo a duas faces do volume e, portante, não se conFigura em um ponto representativo de todo o volume de controle. É importante, assim, que a malha apresente certa uniformidade.
 
 Outra propriedade de um gerador deve ser sua capacidade de adequação ao problema físico. Isto deve ser feito externamente ao gerador, pois é necessário que se conheça o comportamento da solução, de modo a se gerar a malha com refinamento em locais onde seja requerido. A forma automática de se executar essa tarefa, denominada adaptabilidade, é um ponto forte do gerador.
 

@@ -172,37 +172,6 @@
       \field{title}{{On combining Laplacian and optimization-based mesh smoothing techniques}}
       \field{year}{1997}
     \endentry
-    \entry{Harp1991}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=f638ec2f8d7a7b9919f6e9a95e49938f}{%
-           family={Harp},
-           familyi={H\bibinitperiod},
-           given={Steven\bibnamedelima A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3d0bbcc63ff7af526a31b12b054f9de9}{%
-           family={Samad},
-           familyi={S\bibinitperiod},
-           given={Tariq},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{dd0168e0f816d8ed8673531f299e2c53}
-      \strng{fullhash}{dd0168e0f816d8ed8673531f299e2c53}
-      \strng{bibnamehash}{dd0168e0f816d8ed8673531f299e2c53}
-      \strng{authorbibnamehash}{dd0168e0f816d8ed8673531f299e2c53}
-      \strng{authornamehash}{dd0168e0f816d8ed8673531f299e2c53}
-      \strng{authorfullhash}{dd0168e0f816d8ed8673531f299e2c53}
-      \field{sortinit}{H}
-      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{undefined}
-      \field{title}{{Genetic synthesis of neural network architecture}}
-      \field{year}{1991}
-    \endentry
     \entry{Holland1992}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d489561d244344393eb26a974d85d1ba}{%
@@ -361,6 +330,40 @@
       \field{year}{2010}
       \keyw{Chromosome,Evolutionary Algorithm,Genetic Algorithm,Mutation,Selection}
     \endentry
+    \entry{Maliska2004}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f9b1647626f6baf4d349449e94ae7269}{%
+           family={Maliska},
+           familyi={M\bibinitperiod},
+           given={C.R.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Livros Tecnicos e Cientificos}%
+      }
+      \strng{namehash}{f9b1647626f6baf4d349449e94ae7269}
+      \strng{fullhash}{f9b1647626f6baf4d349449e94ae7269}
+      \strng{bibnamehash}{f9b1647626f6baf4d349449e94ae7269}
+      \strng{authorbibnamehash}{f9b1647626f6baf4d349449e94ae7269}
+      \strng{authornamehash}{f9b1647626f6baf4d349449e94ae7269}
+      \strng{authorfullhash}{f9b1647626f6baf4d349449e94ae7269}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9788521613961}
+      \field{title}{Transfer{ê}ncia de calor e mec{â}nica dos fluidos computacional}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb https://books.google.com.br/books?id=8i3qAAAACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.com.br/books?id=8i3qAAAACAAJ
+      \endverb
+    \endentry
     \entry{book}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=895b4703576e6a82932b8dfd5d6a2a6d}{%
@@ -411,6 +414,31 @@
       \field{number}{May}
       \field{title}{{SamirMuzaferijaPhDthesis ADAPTIVE FINITE VOLUME METHOD FOR FLOW PREDICTION USING UNSTRUCTURED MESHES AND MULTIGRID APPROACH by Samir Muzaferija Theses submitted for the degree of Doctor of Philosophy of the University of London and for the Diploma of Impe}}
       \field{year}{2014}
+    \endentry
+    \entry{NagleR.KentB.SaffEdwardDavidSnider2012}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b135450f136992cba331a46c8778994d}{%
+           family={{Nagle and R. Kent and B. Saff and Edward and David Snider}},
+           familyi={N\bibinitperiod},
+           prefix={arthur},
+           prefixi={a\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{b135450f136992cba331a46c8778994d}
+      \strng{fullhash}{b135450f136992cba331a46c8778994d}
+      \strng{bibnamehash}{b135450f136992cba331a46c8778994d}
+      \strng{authorbibnamehash}{b135450f136992cba331a46c8778994d}
+      \strng{authornamehash}{b135450f136992cba331a46c8778994d}
+      \strng{authorfullhash}{b135450f136992cba331a46c8778994d}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{10: 0-321-74773-7}
+      \field{title}{{Fundamentals of Differential Equations EIGHTH EDITION}}
+      \field{year}{2012}
     \endentry
     \entry{Salama}{article}{}
       \name{author}{2}{}{%
@@ -617,6 +645,7 @@
   \missing{baliga1980new}
   \missing{baliga1983solution}
   \missing{eiser1985trying}
+  \missing{harp1991genetic}
 \endrefsection
 \endinput
 

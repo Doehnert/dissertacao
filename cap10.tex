@@ -1,7 +1,12 @@
 \chapter[CONCLUSÕES]{CONCLUSÕES}
 
-Este trabalho abordou uma comparação entre diversos algoritmos para suavização de malhas não estruturadas e o uso do algoritmo genético como um novo processo adaptativo. Foi apresentado o fundamento teórico que mostra a importância da geração e suavização de malhas para a solução numérica em malhas não estruturadas.
+O problema proposto foi realizar uma comparação dos principais métodos de suavização de malha existentes e a criação de um novo método de suavização baseado no algoritmo genético. Para se fazer essa comparação, criou-se uma aplicação capaz de gerar uma malha triangular em formato 'L' e resolver um problema de difusão de calor com o método dos volumes finitos sendo que essa malha é do tipo não estruturada. Antes de se resolver o problema a malha passou por um outro passo do algoritmo responsável pela sua suavização, ou seja, refazer as triangulações da malha de modo a torná-las mais equiláteras e assim, diminuir os erros numéricos.
 
-O algoritmo criado para comparar os resultados usa o paradigma de orientação a objetos, o que permite uma melhor organização do código computacional. As classes e suas estruturas são apresentadas no capítulo 9.
+Resolveu-se o problema da suavização de malha com o algoritmo genético, esse algoritmo possui parâmetros arbitrários que são o tamanho da população, o número de gerações totais e a probabilidade de mutação. Esse algoritmo foi capaz de melhorar a malha distorcida e produziu um resultado comparável com os demais, no entanto, apresentou um tempo computacional muito maior.
 
-O algoritmo genético melhorou a solução inicial, no entanto, teve um desempenho inferior tanto nos resultados gerados quanto no custo computacional em relação a outros métodos conhecidos.
+De modo a ser feita a comparação entre os diferentes algoritmos de suavização, definiu-se dois tipos de métrica, o primeiro é a média das diferenças do resultado numérico em relação ao resultado analítico para todos os volumes da malha, conforme apresentado na Tabela \ref{tab:comparacao-analitico}, a segunda métrica é a média das qualidades dos volumes de controle da malha como mostrado na Tabela \ref{tab:comparacao-qualidade}.
+
+Este trabalho abordou uma comparação entre diversos algoritmos para suavização de malhas não estruturadas e o uso do algoritmo genético como um novo processo adaptativo capaz de realizar a suavização de uma malha não estruturada. Foi apresentado o fundamento teórico que mostra a importância da geração e suavização de malhas para a solução numérica em malhas não estruturadas.
+
+Comparando o algoritmo genético com os demais através dessas métricas tem-se que a média das diferenças em relação ao valor analítico foram muito pequenas, o que indica que em geral as soluções numéricas feitas nessa malha tiveram uma grande acurácia numérica, já a métrica da comparação entre as médias das qualidades dos volumes de controle apresentou um valor um pouco inferior aos métodos mais usados.
+

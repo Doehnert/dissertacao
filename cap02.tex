@@ -26,8 +26,8 @@ Os elementos são sempre definidos em função da malha criada pelo gerador de m
 Os volumes de controle são criados tendo-se por base os elementos criados. Existem duas classes básicas de métodos de determinação dos volumes de controle, baseadas na relatividade geométrica entre volumes e elementos:
 
 \begin{itemize}
-    \item Volumes centrado ou célula centrada (cell-centered): as informações (variáveis de interesse) são determinadas no centro (geométrico) do volume de controle, que coincide com o elemento de malha. Esta é a construção clássica de volumes finitos, em que os pontos de integração se localizam no centro das faces como na figura \ref{fig:volume_centrado}
-    \item Volume de controle baseado no vértice (vertex-based control volumes): o volume de controle é construído com seu centro coincidente a um nó da malha, ou seja, a um vértice do elemento de malha. Cada volume de controle é constituído por partes (subvolumes de controle) dos elementos vizinhos, aos quais pertence o nó empregado como centro do volume, onde são armazanadas as informações. Uma metodologia para geração dos volumes, conhecida como método das medianas, consiste em ligar os centroides dos elementos aos pontos médios de suas faces como na figura \ref{fig:volume_vertice}
+    \item Volumes centrado ou célula centrada (cell-centered): as informações (variáveis de interesse) são determinadas no centro (geométrico) do volume de controle, que coincide com o elemento de malha. Esta é a construção clássica de volumes finitos, em que os pontos de integração se localizam no centro das faces como na Figura \ref{fig:volume_centrado}
+    \item Volume de controle baseado no vértice (vertex-based control volumes): o volume de controle é construído com seu centro coincidente a um nó da malha, ou seja, a um vértice do elemento de malha. Cada volume de controle é constituído por partes (subvolumes de controle) dos elementos vizinhos, aos quais pertence o nó empregado como centro do volume, onde são armazanadas as informações. Uma metodologia para geração dos volumes, conhecida como método das medianas, consiste em ligar os centroides dos elementos aos pontos médios de suas faces como na Figura \ref{fig:volume_vertice}
 \end{itemize}
 
 \begin{figure}[ht]
@@ -215,14 +215,14 @@ No contexto da resolução desse método computacionalmente, temos que os volume
 
 Nota-se que não é feita nenhuma consideração com relação ao formato ou tamanho do volume de controle.
 
-De modo a continuar com a discretização da equação, deve-se aproximar o gradiente de $\phi$ em termos dos valores de $\phi$ no centro da célula, para isso usa-se a seguir um exemplo de um pedaço de uma malha como na figura \ref{fig:fig1}.
+De modo a continuar com a discretização da equação, deve-se aproximar o gradiente de $\phi$ em termos dos valores de $\phi$ no centro da célula, para isso usa-se a seguir um exemplo de um pedaço de uma malha como na Figura \ref{fig:fig1}.
 
-Considerando a malha da figura \ref{fig:fig1}, tem-se que a equação expandida fica como:
+Considerando a malha da Figura \ref{fig:fig1}, tem-se que a equação expandida fica como:
 
 \begin{figure}
     \centering
     \caption{Grade para o FVM}
-    \includegraphics{fig/figura1}
+    \includegraphics{fig/Figura1}
     \label{fig:fig1}    
 \end{figure}
 
@@ -325,11 +325,11 @@ Cujos coeficientes são:
     b_P =& S_{\phi,0} \Delta x \Delta y
 \end{eqnarray}
 
-Se for considerado uma condição de contorno de Dirichlet, teremos, conforme a figura  \ref{fig:fig2} onde $w$ é conhecido:
+Se for considerado uma condição de contorno de Dirichlet, teremos, conforme a Figura  \ref{fig:fig2} onde $w$ é conhecido:
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.4\linewidth]{fig/figura2.eps}
+    \includegraphics[width=0.4\linewidth]{fig/Figura2.eps}
     \caption{Condições de contorno}
     \label{fig:fig2}
 \end{figure}
@@ -389,8 +389,8 @@ Nese trabalho é considerado apenas as malhas 2D com o formato de célula triang
 Conforme foi mostrado, a partir da equação \ref{eq:2.29}, as derivadas dessa equação são aproximadas usando-se a geometria da malha, no caso com uma célula quadrada. Logo tem-se que o formato da célula influencia na acurácia da solução. A partir da geometria da malha, pode-se gerar as seguintes propriedades:
 
 \begin{itemize}
-    \item \textbf{Não Ortogonalidade:} Conforme a figura \ref{nao-ortogo} pode-se definir a não Ortogonalidade como o angulo $\theta$ entre o vetor $\vec{d}=\vec{PA}$ e o vetor normal a face ab $\hat{n}$. Esse angulo deve ser o menor possível. A razão será discutida posteriormente.
-    \item \textbf{Assimetria de malha:} Quando o vetor d não intercepta a face ab no seu centro, a célula de malha é definida como assimétria conforme a figura \ref{fig:assimetria}. O grau de assimetria pode ser definido como $\Psi = \frac{|m|}{|d|}$
+    \item \textbf{Não Ortogonalidade:} Conforme a Figura \ref{nao-ortogo} pode-se definir a não Ortogonalidade como o angulo $\theta$ entre o vetor $\vec{d}=\vec{PA}$ e o vetor normal a face ab $\hat{n}$. Esse angulo deve ser o menor possível. A razão será discutida posteriormente.
+    \item \textbf{Assimetria de malha:} Quando o vetor d não intercepta a face ab no seu centro, a célula de malha é definida como assimétria conforme a Figura \ref{fig:assimetria}. O grau de assimetria pode ser definido como $\Psi = \frac{|m|}{|d|}$
     \item \textbf{Uniformidade:}  Uma malha é uniforme quando o vetor $\vec{d}$ intercepta a face no meio entre os nós $P$ e $A$. A uniformidade pode ser medida como:
     \begin{equation*}
         f_x = \frac{|x_{fi}-x_N|}{|d|}
@@ -423,7 +423,7 @@ A partir da equação \ref{eq:2.29} considerando-se o termo de difusão, aplican
     \int_{V_P} \nabla \cdot (\rho \Gamma_\phi \nabla\phi)dV = \sum_f \vec{S} \cdot (\rho \Gamma_\phi \nabla \phi)_f = \sum (\rho \Gamma_\phi)_f (\vec{S} \cdot \nabla \phi)_f
 \end{equation}
 
-Onde o vetor $\vec{S}$ está na figura \ref{fig:non-orthogonality}
+Onde o vetor $\vec{S}$ está na Figura \ref{fig:non-orthogonality}
 
 \begin{figure}[]
     \centering
@@ -432,7 +432,7 @@ Onde o vetor $\vec{S}$ está na figura \ref{fig:non-orthogonality}
     \label{fig:non-orthogonality}
 \end{figure}
 
-% O termo $(\rho \Gamma_\phi)_f$ é interpolado nas faces usando-se a equação \ref{eq:2.49}. Onde $\phi_{f_i}$ e $(\nabla \phi)_{f_i}$ são os valores de $\phi$ e $\nabla \phi$ no ponto onde o vetor $\vec{d}$ intercepta a face conforme a figura \ref{fig:assimetria}.
+% O termo $(\rho \Gamma_\phi)_f$ é interpolado nas faces usando-se a equação \ref{eq:2.49}. Onde $\phi_{f_i}$ e $(\nabla \phi)_{f_i}$ são os valores de $\phi$ e $\nabla \phi$ no ponto onde o vetor $\vec{d}$ intercepta a face conforme a Figura \ref{fig:assimetria}.
 
 % \begin{equation}
 %     \phi_f = \phi_{f_i} = \vec{m} \cdot (\nabla \phi)_{f_i}

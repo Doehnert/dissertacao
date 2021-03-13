@@ -107,7 +107,7 @@ O vetor unitário normal $\hat{n}$, bem como os vetores unitários nas direçõe
 
 Uma observação que deve ser feita a respeito da equação \ref{eq:8.6} é a que ela é uma aproximação real de $\partial T/\partial \xi$ apenas no caso de uma malha ortogonal, ou seja, quando $\partial T/\partial \xi = \partial T/\partial n$. Caso contrário, para malhas não-ortogonais, $\partial T/\partial \xi$ pode ser muito diferente de $\partial T/\partial n$.
 
-Observa-se nas figuras \ref{fig:8.1-b} e \ref{fig:8.1-c} que $\partial T/\partial \xi$ corresponde ao comprimento da projeção do vetor $\vec{\Delta}T$ na direção de $\xi$. Empregando a equação \ref{eq:8.7}, pode-se representar também $\vec{\Delta}T$ como a soma de $(\partial T/\partial n)\hat{n}$ e $(\partial T/\partial \eta)\hat{e_\eta}$, conforme a figura \ref{fig:8.1-c}.
+Observa-se nas Figuras \ref{fig:8.1-b} e \ref{fig:8.1-c} que $\partial T/\partial \xi$ corresponde ao comprimento da projeção do vetor $\vec{\Delta}T$ na direção de $\xi$. Empregando a equação \ref{eq:8.7}, pode-se representar também $\vec{\Delta}T$ como a soma de $(\partial T/\partial n)\hat{n}$ e $(\partial T/\partial \eta)\hat{e_\eta}$, conforme a Figura \ref{fig:8.1-c}.
 
 Para se obter uma melhor estimativa do fluxo normal $\hat{n} \cdot \vec{\Delta}T = \partial T/\partial n$, examina-se a relação entre a projeção de $\vec{\Delta}T$ na direção $\xi$ que é $(\partial T/\partial \xi)$ e as projeções nessa direção de duas componentes de $\vec{\Delta}T$ que são: $(\partial T/\partial n)\hat{n} \cdot \hat{e_\xi}$ e $(\partial T/\partial \eta)\hat{e_\eta} \cdot \hat{e_\xi}$.
 
@@ -160,7 +160,7 @@ Na literatura, tem-se que $\partial T/\partial \xi$ e $\partial T/\partial \eta$
     \hat{n} \cdot \vec{\nabla}T \Delta A_i = \frac{\Delta A_i}{\cos{\Theta}} \frac{T_A - T_P}{\Delta \xi} + \Delta A_i \tan{\Theta} \frac{T_b - T_a}{\Delta \eta}
 \end{equation}
 
-Da figura \ref{fig:8.1}, observa-se que:
+Da Figura \ref{fig:8.1}, observa-se que:
 
 \begin{equation}
     \label{eq:8.18}
@@ -343,7 +343,7 @@ A aplicação das condições de contorno pode ser realizada com o auxílio, por
 
 \subsection{Volume espelhado}
 
-Também chamado de volume simétrico, neste caso, apesar do vetor normal à superfície de controle que separa os volumes A e P ser paralelo à linha que une A a P, nota-se que há um desalinhamento entre o ponto médio da face (m) e a linha $\bar{AP}$. Neste caso, existe um erro de discretização relacionado ao fato de a linha $\bar{PA}$ não interceptar o ponto médio $m$ da face $ab$. Esse erro cresce com o aumento da não-ortogonalidade da malha, bem como com o aumento da razão de aspecto da malha como pode ser visto na figura \ref{contorno-1}.
+Também chamado de volume simétrico, neste caso, apesar do vetor normal à superfície de controle que separa os volumes A e P ser paralelo à linha que une A a P, nota-se que há um desalinhamento entre o ponto médio da face (m) e a linha $\bar{AP}$. Neste caso, existe um erro de discretização relacionado ao fato de a linha $\bar{PA}$ não interceptar o ponto médio $m$ da face $ab$. Esse erro cresce com o aumento da não-ortogonalidade da malha, bem como com o aumento da razão de aspecto da malha como pode ser visto na Figura \ref{contorno-1}.
 
 \begin{figure}[h]
     \centering

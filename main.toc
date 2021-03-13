@@ -108,13 +108,13 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {2\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Suavização baseada em otimização}{45}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Suavização baseada em otimização}{46}{section.5.3}%
 \defcounter {refsection}{0}\relax 
 \addvspace {2\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Suavização baseada na otimização de ângulos}{46}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Suavização baseada na otimização de ângulos}{47}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Algoritmo}{46}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.1}Algoritmo}{47}{subsection.5.4.1}%
 \defcounter {refsection}{0}\relax 
 \addvspace {-5\p@ }
 \defcounter {refsection}{0}\relax 
@@ -222,4 +222,4 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {-5\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {}{REFER\^ENCIAS}}{83}{chapter*.56}%
+\contentsline {chapter}{\numberline {}{REFER\^ENCIAS}}{83}{chapter*.57}%

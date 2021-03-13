@@ -32,7 +32,7 @@ Dado $k$ pontos $z_i$, $i=1,...,k$ podemos definir as suas regiões de Voronoi a
     z_i = z_i^*, i=1,...,k
 \end{equation}
 
-Ou seja, os pontos $z_i$ que servem como as sementes (ou geradores) das regiões de Voronoi $\hat{V_i}$ são também os centros de massa dessas regiões. Chama-se tal tesselação como "centroidal Voronoi tessellation". A diferença entre uma tesselação de Voronoi e uma tesselação de Voronoi centrada pode ser visualizada na figura \ref{fig:voronoi_tessellation}.
+Ou seja, os pontos $z_i$ que servem como as sementes (ou geradores) das regiões de Voronoi $\hat{V_i}$ são também os centros de massa dessas regiões. Chama-se tal tesselação como "centroidal Voronoi tessellation". A diferença entre uma tesselação de Voronoi e uma tesselação de Voronoi centrada pode ser visualizada na Figura \ref{fig:voronoi_tessellation}.
 
 \begin{figure}
     \centering
@@ -47,9 +47,16 @@ Ou seja, os pontos $z_i$ que servem como as sementes (ou geradores) das regiões
 
 \section{Suavização de Laplace}
 
-A suavização de Laplace é o método mais comum e direto para suavisar uma malha. Ele apenas move cada nó para o centróide do polígono formado pelos nós adjacentes. Ele é um algoritmo de suavização local porque, em cada passo, o movimento do nó é calculado usando-se a localização dos seus nós adjacentes apenasa. Normalmente realiza-se a iteração apenas algumas vezes porque a qualidade da malha não é melhorada com novas iterações; de fato a qualidade pode, muitas vezes, piorar. \cite{Zhou}
+A suavização de Laplace é o método mais comum e direto para suavisar uma malha. Ele apenas move cada nó para o centróide do polígono formado pelos nós adjacentes. Ele é um algoritmo de suavização local porque, em cada passo, o movimento do nó é calculado usando-se a localização dos seus nós adjacentes apenas. Normalmente realiza-se a iteração apenas algumas vezes porque a qualidade da malha não é melhorada com novas iterações; de fato a qualidade pode, muitas vezes, piorar. \cite{Zhou}
 
-Na suavização de Laplace nós podemos considerar a malha como um sistema de molas como mostrado na figura \ref{fig:laplacian_smoothing}. Cada aresta conectando ao nó central com os seus nós vizinhos podem ser vistos como um sistema linear de molas com um tamanho inicial de zero. Seja $\vec{v_i}$ o vetor do nó central com o i-ésimo nó vizinho:
+Na suavização de Laplace nós podemos considerar a malha como um sistema de molas como mostrado na Figura \ref{fig:laplacian_smoothing}. Cada aresta conectando ao nó central com os seus nós vizinhos podem ser vistos como um sistema linear de molas com um tamanho inicial de zero. Seja $\vec{v_i}$ o vetor do nó central com o i-ésimo nó vizinho:
+
+\begin{figure}
+    \centering
+    \includegraphics{fig/laplacian-smoothing.png}
+    \caption{Suavização laplaciana}
+    \label{fig:laplacian_smoothing}
+\end{figure}
 
 \begin{equation*}
     \vec{v_i} = (x_i - x, y_i - y)
@@ -88,22 +95,22 @@ Devido ao custo da função de suavização de Laplace ser o de uma função qua
     x = \frac{1}{k} \sum_{i=1}^k x_i, y = \frac{1}{k} \sum_{i=1}^k y_i
 \end{equation*}
 
-Essa função de curso, no entaanto, não reflete necessariamente a qualidade da malha, e essa é a razão pela qual a suavização de Laplace frequentemente falha em melhorar a qualidade da malha, e em alguns casos, até mesmo gera elementos inválidos.
+Essa função de custo, no entanto, não reflete necessariamente a qualidade da malha, e essa é a razão pela qual a suavização de Laplace frequentemente falha em melhorar a qualidade da malha, e em alguns casos, até mesmo gera elementos inválidos.
 
 Abaixo está listado as vantagens e desvantagens da suavização de Laplace:
 
 Vantagens:
 \begin{itemize}
-    \item Computacionalmente eficiente
-    \item Fácil de ser implementada
+    \item Computacionalmente eficiente;
+    \item Fácil de ser implementada.
 \end{itemize}
 
 Desvantagens:
 \begin{itemize}
-    \item Nem sempre move o nó para a posição ótima de modo a se obter o elemento de melhor qualidade
-    \item Pode gerar elementos invertidos
-    \item Tende a perder a uniformidade de tamanho caso a iteração rode mais que algumas vezes
-    \item Tende a gerar elementos de menor qualidade caso a iteração rode mais que algumas vezes
+    \item Nem sempre move o nó para a posição ótima de modo a se obter o elemento de melhor qualidade;
+    \item Pode gerar elementos invertidos;
+    \item Tende a perder a uniformidade de tamanho caso a iteração rode mais que algumas vezes;
+    \item Tende a gerar elementos de menor qualidade caso a iteração rode mais que algumas vezes.
 \end{itemize}
 
 \section{Suavização baseada em otimização}
@@ -145,12 +152,12 @@ onde $k$ é o número de vértices do polígono, $K$ é a constante de mola e $\
     \label{fig:contorno-mola-torcao}
 \end{figure}
 
-A plotagem do contorno dessa energia é mostrada na figura \ref{fig:contorno-mola-torcao}. É usado o mesmo polígono que a suavização de Laplace. Comparando-se essas duas plotagens, nós encontramos que a posição de energia mínima é diferente nos dois casos. A suavização baseada em ângulos fornece uma melhor localização em relação ao método de Laplace.
+A plotagem do contorno dessa energia é mostrada na Figura \ref{fig:contorno-mola-torcao}. É usado o mesmo polígono que a suavização de Laplace. Comparando-se essas duas plotagens, nós encontramos que a posição de energia mínima é diferente nos dois casos. A suavização baseada em ângulos fornece uma melhor localização em relação ao método de Laplace.
 
 É implementado um método iterativo que irá minimizar a energia potencial do sistema de molas de torção. O algoritmo de suavização baseado em ângulos é resumido nos seguintes cinco passos:
 
 \begin{enumerate}
-    \item Como mostrado na figura \ref{fig:angle-based}, para cada nó $N_i$, existem $k$ pares de ângulos ao redor dele, onde $k$ é o número de nós vizinhos. Os dois ângulos adjacentes são calculados como:
+    \item Como mostrado na Figura \ref{fig:angle-based}, para cada nó $N_i$, existem $k$ pares de ângulos ao redor dele, onde $k$ é o número de nós vizinhos. Os dois ângulos adjacentes são calculados como:
     
     \begin{equation*}
         \alpha_1 = \arccos{\qty(\frac{\vec{v_j} \cdot \vec{v_{j+1}}}{\norm{\vec{v_j}} \norm{\vec{v_{j+1}}} })}

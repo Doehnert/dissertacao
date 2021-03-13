@@ -3,10 +3,10 @@
 
 A simulação  numérica de problemas na engenharia possui uma grande importância tanto para o meio acadêmico quanto para a indústria favorecendo o desenvolvimento de novas tecnologias. Dado esse interesse, novas técnicas para aumentar a acurácia das simulações numéricas são de grande importância. \cite{Du1999}
 
-Esse trabalho verifica o erro de discretização que ocorre nas soluções do FVM usando-se uma malha não estruturada triangular comparando a solução com a analítica e suavizando a malha com vários algoritmos diferentes.
+Esse trabalho verifica o erro de discretização que ocorre nas soluções do FVM (Finit Volume Method) usando-se uma malha não estruturada triangular comparando a solução com a analítica e suavizando a malha com vários algoritmos diferentes.
 \criarsigla{FVM}{Método dos Volumes Finitos}
 
-Muitos problemas de engenharia estão relacionados a geometrias complexas, em que o uso de um sistema de coordenadas cartesianas, cilíndricas ou esféricas não se mostra prático ou adequado. No cálculo numérico do fluxo sobre um semi cilindro, conforme a figura \ref{fig:semicilindro} temos que a fronteira da figura não coincide com as linhas coordenadas da malha estruturada, de modo que essa malha não é adequada para esse problema. \cite{Versteeg2007}
+Muitos problemas de engenharia estão relacionados a geometrias complexas, em que o uso de um sistema de coordenadas cartesianas, cilíndricas ou esféricas não se mostra prático ou adequado. No cálculo numérico do fluxo sobre um semi cilindro, conforme a Figura \ref{fig:semicilindro} observa-se que a fronteira da Figura não coincide com as linhas coordenadas da malha estruturada, de modo que essa malha não é adequada para esse problema. \cite{Versteeg2007}
 
 \begin{figure}[]
 \centering
@@ -23,9 +23,9 @@ Malhas cartesianas são exemplos de um método estruturado. Como característica
     \item os pontos nodais podem ser mapeados dentro de uma matriz, sua localização na malha e na matriz é fornecida por índices (comumente i,j em problemas 2d e i,j,k em problemas 3d).
 \end{itemize}
 
-Os métodos em CFD para geometrias complexas podem ser classificados em malhas não-ortogonais (malhas curvilíneas) estruturadas e em malhas não-estruturadas.
+Os métodos em CFD (Computation Fluid Dynamics) para geometrias complexas podem ser classificados em malhas não-ortogonais (malhas curvilíneas) estruturadas e em malhas não-estruturadas.
 
-Malhas não-ortogonais estruturadas (ou malhas coincidentes com o corpo / com a fronteira do domínio) são baseadas no mapeamento do "domínio de escoamento" sobre o "domínio computacional" com um formato simples, nota-se contudo, que encontrar um mapeamento viável pode se tornar complicado para geometrias complexas. Neste caso, pode-se recorrer à subdivisão do domínio em diferentes subregiões ou blocos, cada qual apresentando uma malha em separado que deverá ser unida corretamente aos seus vizinhos. Tem-se neste caso as malhas estruturadas por blocos.
+Malhas não-ortogonais estruturadas (ou malhas coincidentes com o corpo / com a fronteira do domínio) são baseadas no mapeamento do "domínio de escoamento" \, sobre o "domínio computacional" \, com um formato simples, nota-se contudo, que encontrar um mapeamento viável pode se tornar complicado para geometrias complexas. Neste caso, pode-se recorrer à subdivisão do domínio em diferentes subregiões ou blocos, cada qual apresentando uma malha em separado que deverá ser unida corretamente aos seus vizinhos. Tem-se neste caso as malhas estruturadas por blocos.
 
 Uma generalização da técnica de malhas estruturadas por blocos é o caso de malhas não-estruturadas, para as quais cada bloco é formado por um único elemento (ou célula). Malhas não-estruturadas garantem uma flexibilidade geométrica ilimitada e são empregadas para escoamentos em geometrias complexas, sendo atualmente a mais empregada técnica em CFD industrial.
 
@@ -38,21 +38,11 @@ No caso de uma malha estruturada mas não-ortogonal, tem-se como vantagens uma m
 No caso de uma malha não-estruturada, tem-se como vantagens uma maior versatilidade e adaptabilidade para qualquer complexidade geométrica e uma facilidade de refino local de malha, para pontos de maior interesse (como regiões de recirculação, camadas-limite entre outras). As desvantagens são uma maior complexidade na discretização e a obtenção de matrizes não-diagonais, que devem ser resolvidas usando-se solvers mair gerais e, portanto, menos eficientes.
 
 \section{Acurácia Numérica}
-A acurácia numérica na área de dinâmica de fluídos computacional vem tornando-se muito importante na engenharia \cite{doi:10.1080/10407791003685155}. O método mais usado para resolver problemas de fluxo de fluidos é o método dos volumes finitos (FVM), que será discutido no capítulo 2.
+A acurácia numérica na área de dinâmica de fluídos computacional vem tornando-se muito importante na engenharia \cite{doi:10.1080/10407791003685155}. O método mais usado para resolver problemas de fluxo de fluidos é o método dos volumes finitos (FVM), que será discutido no Capítulo 2.
 
 O erro de discretização é uma classe de erros muito importante no FVM, que é o método usado nesse trabalho. Existem vários trabalhos cujo objetivo é estimar esse erro de discretização \cite{Muzaferija2014} \cite{Jasak1996} Existem várias maneiras de se estimar esse erro de discretização, esse erro pode ser usado para motivar o refinamento da malha de modo a se controlar o valor desse erro.
 
-Existem análises de vários esquemas de discretização que incluem a influência da qualidade da malha na solução devido a vários parâmetros dessa malha.
-
-Esse erro de discretização é também influenciado pelo tipo de células da malha. \cite{doi:10.1080/10407791003685155}
-
-Esse erro afeta os termos de convecção e difusão para diferentes formatos de volumes de controle, nesse trabalho será considerado apenas células triangulares pois são o tipo mais usado por poderem ser geradas com uma triangularização de Delaunay.
-
-O capítulo 2 apresenta o método dos volumes finitos (FVM) e a dedução para o erro de discretização do termo de convecção e difusão.
-
-De modo a se escrever as equações em um novo sistema de coordenadas é apresentado a teoria necessária para tal conversão começando no capítulo de Transformação de Coordenadas e depois, com a malha gerada, no capítulo Difusão de calor 2D em regime permanente.
-
-A geração de malhas não estruturadas é mostrada no capítulo \ref{MALHAS NAO ESTRUTURADAS}.
+Existem análises de vários esquemas de discretização que incluem a influência da qualidade da malha na solução devido a vários parâmetros dessa malha. Esse erro de discretização é também influenciado pelo tipo de células da malha \cite{doi:10.1080/10407791003685155}. Esse erro afeta os termos de convecção e difusão para diferentes formatos de volumes de controle, nesse trabalho será considerado apenas células triangulares pois são o tipo mais usado por poderem ser geradas com uma triangularização de Delaunay. O capítulo 2 apresenta o método dos volumes finitos (FVM) e a dedução para o erro de discretização do termo de convecção e difusão. De modo a se escrever as equações em um novo sistema de coordenadas é apresentado a teoria necessária para tal conversão começando no capítulo de Transformação de Coordenadas e depois, com a malha gerada, no capítulo Difusão de calor 2D em regime permanente. A geração de malhas não estruturadas é mostrada no capítulo \ref{MALHAS NAO ESTRUTURADAS}.
 
 \section{OBJETIVOS}
 
@@ -80,15 +70,15 @@ Raramente um algoritmo de geração de malhas irá ser capaz de definir uma malh
 \section{ORGANIZAÇÃO DO TRABALHO}
 
 Este trabalho está dividido em 10 capítulos, incluindo-se esta introdução.
-O capítulo 2 traz uma revisão da literatura sobre o método dos volumes finitos(FVM), usado na resolução do problema de transmissão de calor 2D, mostra-se as suas vantagens e motivações de uso e a dedução do método.
-O capítulo 3 apresenta a teoria para a transformação de coordenadas do domínio físico $(x,y)$ para o domínio computacional $(\xi,\eta)$.
-O capítulo 4 define as malhas não estruturadas, a motivação para o seu uso e a discretização usando-se o FVM. Também é mostrado a geração de malhas triangulares, foco do trabalho e métodos de triangulação.
-O capítulo 5 é dedicado aos métodos de suavização de malhas não estruturadas com foco em malhas triangulares.
-No capítulo 6 é mostrado a dedução para a equação discretizada da difusão de calor 2D em regime permanente.
-No capítulo 7 é apresentado a teoria de algoritmos genéticos, usada no método desenvolvido para a suavização da malha.
-O capítulo 8 possui o desenvolvimento do projeto.
-O capítulo 9 apresenta uma análise dos resultados gerados.
-O trabalho finaliza com as conclusões da pesquisa no capítulo 10.
+O Capítulo 2 traz uma revisão da literatura sobre o método dos volumes finitos (FVM), usado na resolução do problema de transmissão de calor 2D, mostra-se as suas vantagens e motivações de uso e a dedução do método.
+O Capítulo 3 apresenta a teoria para a transformação de coordenadas do domínio físico $(x,y)$ para o domínio computacional $(\xi,\eta)$.
+O Capítulo 4 define as malhas não estruturadas, a motivação para o seu uso e a discretização usando-se o FVM. Também é mostrado a geração de malhas triangulares, foco do trabalho e métodos de triangulação.
+O Capítulo 5 é dedicado aos métodos de suavização de malhas não estruturadas com foco em malhas triangulares.
+No Capítulo 6 é mostrado a dedução para a equação discretizada da difusão de calor 2D em regime permanente.
+No Capítulo 7 é apresentado a teoria de algoritmos genéticos, usada no método desenvolvido para a suavização da malha.
+O Capítulo 8 possui o desenvolvimento do projeto.
+O Capítulo 9 apresenta uma análise dos resultados gerados.
+O trabalho finaliza com as conclusões da pesquisa no Capítulo 10.
 
 % \cite{ISO5122:1979}
 % \textcite{ISO5122:1979}
@@ -132,41 +122,41 @@ O trabalho finaliza com as conclusões da pesquisa no capítulo 10.
 % {teste1} %3 Label da tabela
 % {\textcite{ISO5122:1979}}%4 Fonte da tabela
 % { Nota de teste } %5 Nota da tabela
-% {testando as figuras e tabelas, fda} %6 Legenda da tabela
+% {testando as Figuras e tabelas, fda} %6 Legenda da tabela
 
 
-% \figura
+% \Figura
 % {TESTE DE FIGURAS 2} %1 Legenda
 % {.55} %2  % da largura da área de texto
-% {fig/figure} %3 localização da figura
-% {\textcite[1]{abntex2modelo}} %4 fonte da figura
+% {fig/figure} %3 localização da Figura
+% {\textcite[1]{abntex2modelo}} %4 fonte da Figura
 % {teste} %5 etiqueta
-% {\url{https://goo.gl/EKFRak} TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2} %6 Nota da figura
-% {} %7 Legenda da figura
+% {\url{https://goo.gl/EKFRak} TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2 TESTE DE FIGURAS 2} %6 Nota da Figura
+% {} %7 Legenda da Figura
 
-% \figura
+% \Figura
 % {TESTE DE FIGURAS 3} % Legenda
 % {.65} % % da largura da área de texto
-% {fig/tipog} % localização da figura
-% {o Autor (2017)} % fonte da figura
+% {fig/tipog} % localização da Figura
+% {o Autor (2017)} % fonte da Figura
 % {tipo1} % etiqueta
 % {}
 % {}
 
-% \figura
+% \Figura
 % {Figura original} % Legenda
 % {.35} % % da largura da área de texto
-% {fig/fig} % localização da figura
-% {\textcite{luminaria01}} % fonte da figura
+% {fig/fig} % localização da Figura
+% {\textcite{luminaria01}} % fonte da Figura
 % {tipo2} % etiqueta
 % {}
 % {}
 
-% \figurac
+% \Figurac
 % {Figura aparada} % Legenda
 % {.35} % % da largura da área de texto
-% {fig/fig} % localização da figura
-% {\textcite{luminaria01}} % fonte da figura
+% {fig/fig} % localização da Figura
+% {\textcite{luminaria01}} % fonte da Figura
 % {tipo3} % etiqueta
 % {notinha}   % Nota
 % {70} % laterais mm
@@ -224,9 +214,9 @@ Elementos quadriláteros são polígonos de quatro lados; seus lados não precis
 
 Algumas aplicações podem usar malhas formadas principalmente de hexágonos em que alguns elementos como tetraedros, pirâmides etc preenchem regiões onde o algoritmo de geração de malhas não consegue produzir bons hexaedros.
 
-Os elementos que formam a malha devem cobrir todo o domínio mas sem sobreporem-se. Para a maior parte das aplicações suas faces devem se interceptar de modo que se dois elementos se interceptam, sua interseção é um vértice ou uma face inteira. (Formalmente, uma malha deve ser um complexo celular.) conforme a figura \ref{fig:celula_correta}.
+Os elementos que formam a malha devem cobrir todo o domínio mas sem sobreporem-se. Para a maior parte das aplicações suas faces devem se interceptar de modo que se dois elementos se interceptam, sua interseção é um vértice ou uma face inteira. (Formalmente, uma malha deve ser um complexo celular.) conforme a Figura \ref{fig:celula_correta}.
 
-O problema da geração da malha se tornaria mais fácil se nós permitíssemos elementos não conformes como a figura \ref{fig:celula_errada}. No entanto esses elementos normalmente pioram a solução numérica dos problemas, logo raramente são usados.
+O problema da geração da malha se tornaria mais fácil se nós permitíssemos elementos não conformes como a Figura \ref{fig:celula_errada}. No entanto esses elementos normalmente pioram a solução numérica dos problemas, logo raramente são usados.
 
 \begin{figure}
     \centering

@@ -1,24 +1,32 @@
 \chapter[RESULTADOS]{RESULTADOS}
 
 \section{Malha em formato 'L'}
-Conforme já especificado, a malha a ser resolvida para o problema de difusão de calor 2D é uma malha em formato 'L'. Tal malha, gerada por uma triangulação de Delaunay em um domínio fechado é apresentada na figura \ref{fig:malha-inicial}.
+Conforme já especificado, a malha a ser resolvida para o problema de difusão de calor 2D é uma malha em formato 'L'. Tal malha, gerada por uma triangulação de Delaunay em um domínio fechado é apresentada na Figura \ref{fig:malha-inicial}.
 
-Nessa malha aparecem em todos as células o valor da solução analítica seguido do valor numérico encontrado. Em vermelho estão os centroides dos volumes 'Reais' e em azul o centroide dos volumes 'Virtuais'
+Nessa malha aparecem em todas as células o valor da solução analítica seguido do valor numérico encontrado. Em vermelho estão os centroides dos volumes 'Reais' e em azul o centroide dos volumes 'Virtuais'.
 
-Além de visualizar a malha, é muito útil a informação de maior ângulo, menor ângulo, desvio padrão do ângulo, média da qualidade da malha, maior qualidade, menor qualidade resultando nas tabelas \ref{tab:angulos-malha-inicial} e \ref{tab:qualidades-malha-inicial}. As qualidades se referem às qualidades de cada volume que constitui a malha, sendo que esta é obtida pela fórmula:
+Além de visualizar a malha, é muito útil a informação de maior ângulo, menor ângulo, desvio padrão do ângulo, média da qualidade da malha, maior qualidade, menor qualidade resultando nas Tabelas \ref{tab:angulos-malha-inicial} e \ref{tab:qualidades-malha-inicial}. As qualidades se referem às qualidades de cada volume que constitui a malha, sendo que esta é obtida pela fórmula:
 
 \begin{equation}
-    2 \frac{r}{R}
+    \frac{4 * \sqrt{3} * A}{a^2 + b^2 + c^2}
+    % 2 \frac{r}{R}
     \label{eq:qualidade}
 \end{equation}
 
-Onde $r$ é o raio da circunferência inscrita e $R$ é o raio da circunferência circunscrita.
-\criarsimbolo{$r$}{raio daa circunferência inscrita}
-\criarsimbolo{$R$}{raio daa circunferência circunscrita}
+Em que:
+\begin{itemize}
+    \item $A$: Área do volume de controle;
+    \item $a$: Primeiro lado do triângulo;
+    \item $b$: Segundo lado do triângulo;
+    \item $c$: Terceito lado do triângulo;
+\end{itemize}
+% Onde $r$ é o raio da circunferência inscrita e $R$ é o raio da circunferência circunscrita.
+% \criarsimbolo{$r$}{raio daa circunferência inscrita}
+% \criarsimbolo{$R$}{raio daa circunferência circunscrita}
 
 A média das qualidades pode ser associada à malha como uma indicação da sua qualidade geral.
 
-De modo a testar os algoritmos de suavização da malha, esta malha inicial foi distorcida, ou seja, seus vértices internos foram propositalmente alterados de posição, resultando na malha \ref{fig:malha-ruim} com as tabelas \ref{tab:angulos-malha-distorcida} e \ref{tab:qualidades-malha-distorcida}.
+De modo a testar os algoritmos de suavização da malha, esta malha inicial foi distorcida, ou seja, seus vértices internos foram propositalmente alterados de posição, resultando na malha \ref{fig:malha-ruim} com as Tabelas \ref{tab:angulos-malha-distorcida} e \ref{tab:qualidades-malha-distorcida}.
 
 \newpage
 \subsection{Malha Inicial}
@@ -30,7 +38,7 @@ De modo a testar os algoritmos de suavização da malha, esta malha inicial foi 
     \label{fig:malha-inicial}
 \end{figure}
 
-Na tabela \ref{tab:angulos-malha-inicial} a seguir, temos os seguintes resultados:
+Na Tabela \ref{tab:angulos-malha-inicial} a seguir, temos os seguintes resultados:
 
 \begin{enumerate}
     \item Maior: Maior ângulo interno dentre todas as triangulações criadas;
@@ -49,7 +57,7 @@ Na tabela \ref{tab:angulos-malha-inicial} a seguir, temos os seguintes resultado
  \label{tab:angulos-malha-inicial}
 \end{table}
 
-Já na tabela \ref{tab:qualidades-malha-inicial} temos os seguintes resultados:
+Já na Tabela \ref{tab:qualidades-malha-inicial} temos os seguintes resultados:
 
 \begin{enumerate}
     \item Maior: O maior valor encontrado entre os triângulos gerados para a equação \ref{eq:qualidade};
@@ -78,7 +86,7 @@ Já na tabela \ref{tab:qualidades-malha-inicial} temos os seguintes resultados:
     \label{fig:malha-ruim}
 \end{figure}
 
-Essa malha foi propositalmente distorcida de modo a se poder comparar os algoritmos de suavização. Como pode ser visto na tabela \ref{tab:angulos-malha-distorcida} o maior ângulo encontrado aumentou e o menor diminuiu. A média das qualidade de malha, que é usada como métrica da qualidade, diminuiu de valor.
+Essa malha foi propositalmente distorcida de modo a se poder comparar os algoritmos de suavização. Como pode ser visto na Tabela \ref{tab:angulos-malha-distorcida} o maior ângulo encontrado aumentou e o menor diminuiu. A média das qualidade de malha, que é usada como métrica da qualidade, diminuiu de valor.
 
 \begin{table}[hb]
 \centering
@@ -105,7 +113,7 @@ Maior&menor&média&desvio padrão\\\hline\hline
 \newpage
 \subsection{Centroidal Path Tesselation}
 
-Em seguida, executou-se os algoritmos de melhoramento da malha com apenas uma iteração, começando pelo método centroidal patch tesselation (CPT) como na figura \ref{fig:malha-cpt}
+Em seguida, executou-se os algoritmos de melhoramento da malha com apenas uma iteração, começando pelo método centroidal patch tesselation (CPT) como na Figura \ref{fig:malha-cpt}
 
 \begin{figure}[ht]
     \centering
@@ -298,7 +306,7 @@ Maior&menor&média&desvio padrão\\\hline\hline
 
 \section{Comparação entre os algorítmos}
 
-Na tabela \ref{tab:comparacao-analitico} está o valor da média das diferenças entre o valor analítico e numérico para todos os algorítmos usados no trabalho em ordem crescente, ou seja, por essa métrica o algorítmo de melhoramento por ângulos e o genético foram os melhores.
+Na Tabela \ref{tab:comparacao-analitico} está o valor da média das diferenças entre o valor analítico e numérico para todos os algorítmos usados no trabalho em ordem crescente, ou seja, por essa métrica o algorítmo de melhoramento por ângulos e o genético foram os melhores.
 
 \begin{table}
     \centering
@@ -315,7 +323,7 @@ Na tabela \ref{tab:comparacao-analitico} está o valor da média das diferenças
     \label{tab:comparacao-analitico}
 \end{table}
 
-Já na tabela \ref{tab:comparacao-qualidade} temos a métrica da média das qualidades conforme foi definido. Nesse caso o melhor algoritmo foi o ODT.
+Já na Tabela \ref{tab:comparacao-qualidade} temos a métrica da média das qualidades conforme foi definido. Nesse caso o melhor algoritmo foi o ODT.
 
 \begin{table}
     \centering

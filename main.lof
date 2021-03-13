@@ -41,38 +41,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {15}{\ignorespaces Tesselação de Voronoi}}{43}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces Energia do sistema de molas de torção\relax }}{47}{figure.caption.23}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Suavização laplaciana\relax }}{44}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces Método de suavização baseado em ângulos\relax }}{48}{figure.caption.24}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Energia do sistema de molas de torção\relax }}{48}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces Esquemas para definição do termo de difusão cruzada\relax }}{51}{figure.caption.25}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces Volume Espelhado\relax }}{58}{figure.caption.26}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {20}{\ignorespaces Volume Antissimétrico\relax }}{59}{figure.caption.27}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Método de suavização baseado em ângulos\relax }}{48}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {19}{\ignorespaces Esquemas para definição do termo de difusão cruzada\relax }}{51}{figure.caption.26}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {20}{\ignorespaces Volume Espelhado\relax }}{58}{figure.caption.27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {21}{\ignorespaces Volume Antissimétrico\relax }}{59}{figure.caption.28}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {21}{\ignorespaces Malha Inicial\relax }}{72}{figure.caption.29}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Malha Inicial\relax }}{72}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {22}{\ignorespaces Malha Inicial após Deformações\relax }}{74}{figure.caption.32}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Malha Inicial após Deformações\relax }}{74}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {23}{\ignorespaces Melhoramento CPT\relax }}{75}{figure.caption.35}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Melhoramento CPT\relax }}{75}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {24}{\ignorespaces Melhoramento ODT\relax }}{76}{figure.caption.38}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Melhoramento ODT\relax }}{76}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {25}{\ignorespaces Melhoramento CVT\relax }}{77}{figure.caption.41}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Melhoramento CVT\relax }}{77}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {26}{\ignorespaces Melhoramento Ângulos\relax }}{78}{figure.caption.44}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Melhoramento Ângulos\relax }}{78}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {27}{\ignorespaces Melhoramento Gurobi\relax }}{79}{figure.caption.47}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Melhoramento Gurobi\relax }}{79}{figure.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {28}{\ignorespaces Melhoramento GA\relax }}{80}{figure.caption.50}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Melhoramento GA\relax }}{80}{figure.caption.51}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
